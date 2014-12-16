@@ -1,0 +1,39 @@
+iauname shortname Dataname bestloc telescope filter
+1HERMES_S250_J003823.6-433707  EL-S01   ElaisS1  ElaisS1_irac1.fits  IRAC  3.6
+1HERMES_S250_J022016.5-060143  XMM01    XMM01    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM01_f110w_drz_sci.ccmap.rot.flip.fits  HST F110W
+1HERMES_S250_J022201.6-033340  XMM02    XMM02    fitscutouts/XMM02_i.fits  Gemini-S i
+1HERMES_S250_J022547.8-041750  XMM03    XMM03    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM03_hstAST_sci.ccmap.rot.flip.fits  HST  F110W
+1HERMES_S250_J021853.1-063325  XMM04    XMM04    fitscutouts/XMM04_i.fits  CFHT  i  
+1HERMES_S250_J023006.0-034152  XMM05    XMM05    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM05_f110w_drz_ast_sci.ccmap.rot.flip.fits  HST F110W
+1HERMES_S250_J021830.5-053124  XMM06    XMM06    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM06_f110w_drz_ast_sci.ccmap.rot.flip.fits  HST  F110W
+# XXX                          XMM09    XMM09    /Volumes/ExternalDrive/
+1HERMES_S250_J022135.1-062617  XMM16    XMM16    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM16_f110w_drz_ast_sci.ccmap.rot.flip.fits       HST F110W 
+1HERMES_S250_J022250.5-032410  XMM101   XMM101   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM101_hst_sci.ccmap.rot.flip.fits       HST F110W 
+1HERMES_S250_J021942.7-052436  XMM102   XMM102   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM102_f110w_drz_sci.ccmap.rot.flip.fits     HST F110W 
+1HERMES_S250_J021918.4-031051  XMM108   XMM108   fitscutouts/XMM108_i.fits  Gemini-S i
+1HERMES_S250_J022944.7-034110  XMM109   XMM109   fitscutouts/XMM109_z.fits  Gemini-S z
+1HERMES_S250_J021841.5-035002  XMM110   XMM110   fitscutouts/XMM110_i.fits   CFHT i
+1HERMES_S250_J022021.7-015328  XMM115   XMM115   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM115_f110w_drz_sci.ccmap.rot.flip.fits     HST F110W 
+1HERMES_S250_J022029.2-064845  XMM119   XMM119   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM119_f110w_drz_sci.ccmap.rot.flip.fits     HST F110W 
+1HERMES_S250_J022205.4-070728  XMM124   XMM124   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/XMM124_hst_sci.ccmap.rot.flip.fits       HST F110W 
+1HERMES_S250_J033317.9-280907  ECDFS02  ECDFS02  /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/CDFS_M0_Ks.fits VIDEO Ks
+1HERMES_S250_J032752.0-290908  CDFS_M0  CDFS_M0  /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ECDFS02_Ks.fits VIDEO Ks
+1HERMES_S250_J033210.8-270535  CDFS_M1  CDFS_M1  /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/cdfsm1_hst_sci.ccmap.rot.flip.fits       HST F110W 
+1HERMES_S250_J045057.5-531654  ADFS01   ADFS01   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ADFS01_hst_sci.ccmap.rot.flip.fits        HST F110W 
+1HERMES_S250_J045026.5-524127  ADFS02   ADFS02   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ADFS02_hst_sci.ccmap.rot.flip.fits        HST F110W 
+1HERMES_S250_J044946.9-525424  ADFS03   ADFS03   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ADFS03_hst_sci.ccmap.rot.flip.fits        HST F110W 
+1HERMES_S250_J044103.8-531240  ADFS04   ADFS04   fitscutouts/ADFS04_i.fits  Gemini-S i
+1HERMES_S250_J043619.3-552425  ADFS05   ADFS05   fitscutouts/ADFS05_i.fits  Gemini-S i
+1HERMES_S250_J043340.5-540337  ADFS06   ADFS06   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ADFS06_hst_sci.ccmap.rot.flip.fits        HST F110W 
+1HERMES_S250_J044153.9-540350  ADFS07   ADFS07   /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/ADFS07_hst_sci.ccmap.rot.flip.fits        HST F110W 
+1HERMES_S250_J043829.7-541831  ADFS_M0  ADFS_M0  /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/adfsm1_hst_sci.ccmap.rot.flip.fits       HST F110W 
+1HERMES_S250_J100144.1+025712  COS01-1  COS01    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/COS01_hst_sci.ccmap.rot.flip.fits   HST F110W  
+1HERMES_S250_J100056.6+022014  COS02    COS02    /Volumes/ExternalDrive/Data/HST/Negrello_Cycle19/almasample/COS02_hst_sci.ccmap.rot.flip.fits   HST F110W
+
+
+
+
+
+
+
+

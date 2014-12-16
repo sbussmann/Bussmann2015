@@ -1,0 +1,6 @@
+target
+CDFS_M1
+COS02
+ElaisS1
+XMM02
+XMM102

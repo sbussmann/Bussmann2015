@@ -1,0 +1,211 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multirow}
+%\usepackage{subfig}
+
+%\input epsf.sty
+%\topmargin   0.25in
+\topmargin -.5cm \textheight 21cm
+
+\oddsidemargin -.125cm
+
+\textwidth 16cm
+
+
+\newcommand{\ra}{\rangle}
+\newcommand{\la}{\langle}
+\newcommand{\T}{\widetilde \Phi_{CFT}}
+\newcommand{\Cn}{{\cal C}_n}
+\newcommand{\vp}{\varphi}
+
+\newcommand{\B}{b'}
+\newcommand{\C}{c'}
+\newcommand{\bB}{\bar b'}
+\newcommand{\bC}{\bar c'}
+\newcommand{\Bu}{B_{\vec u}}
+\newcommand{\VV}{{\cal V}}
+\newcommand{\II}{{\cal I}}
+\newcommand{\HH}{{\cal H}}
+\newcommand{\MM}{{\cal M}}
+\newcommand{\BB}{{\cal B}}
+\newcommand{\CC}{{\cal C}}
+\newcommand{\OO}{{\cal O}}
+\newcommand{\QQ}{{\cal Q}}
+\newcommand{\PP}{{\cal P}}
+\newcommand{\EE}{{\cal E}}
+\newcommand{\LL}{{\cal L}}
+\newcommand{\SSS} {{\cal S}}
+%\newcommand{\lll}{\langle\langle}
+%\newcommand{\rrr}{\rangle\rangle}
+\newcommand{\half}{{1\over 2}}
+\newcommand{\wt}{\widetilde}
+\newcommand{\wh}{\widehat}
+\newcommand{\wc}{\check}
+\newcommand{\wb}{\bar}
+\newcommand{\RR}{{\cal R}}
+\newcommand{\NN}{{\cal N}}
+\newcommand{\TT}{{\cal T}}
+\newcommand{\bet}{\beta'}
+\newcommand{\gam}{\gamma'}
+\newcommand{\WW}{{\cal W}}
+\newcommand{\nl}{\hspace{-.65cm}}
+\newcommand{\bd}{\begin{displaymath}}
+\newcommand{\ed}{\end{displaymath}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ben}{\begin{eqnarray}}
+\newcommand{\een}{\end{eqnarray}}
+\newcommand{\refb}[1]{(\ref{#1})}
+\newcommand{\p}{\partial}
+\newcommand{\sectiono}[1]{\section{#1}}
+\setcounter{equation}{0}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+
+
+
+
+\def\sqr#1#2{{\vcenter{\vbox{\hrule height.#2pt
+         \hbox{\vrule width.#2pt height#1pt \kern#1pt
+            \vrule width.#2pt}
+         \hrule height.#2pt}}}}
+\def\square{\mathop{\mathchoice\sqr66\sqr66\sqr{3.75}4\sqr34\,}\nolimits}
+
+
+\begin{document} 
+\section{Methodology}
+By comparing the statistic of the observed lensed galaxies to the theoretical
+predictions one can constrain the intrinsic luminosity function. Here we make
+use of the observed sub-mm galaxies  located between $z = 1$ and $z = 4$ with
+the  redshift distribution of sources from Simpson et al. 2014 \cite{Simpson:2014lr}, $
+dN/dz \propto \exp\left[-(\ln(z+1)-\ln(1+z_\mu))^2/2\sigma_z^2\right]/\left[(z+1)\sigma_z\sqrt{2\pi}\right]$, where $z_\mu = 2.6$, $\sigma_z = 0.2$ to constrain the intrinsic luminosity function. To this end, we test several theoretical models which include broken power law and Schechter luminosity functions with various parameters and test them against the data. Similar analysis appeared, e.g.  in  Lima et al. 2010a \cite{Lima:2010a}, Lima et al. 2010b \cite{Lima:2010b}, Wardlow et al. (2013) \cite{Wardlow:2013}, etc. 
+
+
+ In the following we first describe our way to model the foreground population, we then discuss the calculation of the lensing statistics, and, finally, we list our choices for the intrinsic luminosity functions. 
+
+
+\subsection{Magnification by an individual lens}
+
+We begin by summarizing the properties of the lenses. We use two ways to model our halos: (1) as a single isothermal sphere (SIS), and (2) a NFW profile (Navarro et al. 1997).  The NFW profile describes the outskirts of halos better whereas the SIS profile is good in describing the inside of a halo since it yields the  observed flat rotational curves. Here we make use of the both profiles to create the total probability distribution function.
+
+In general, the magnification can be calculated as follows 
+\begin{equation}
+\mu(\theta) = \frac{1}{(1-\kappa(\theta))^2-|\gamma(\theta)|^2},
+\end{equation}
+where  $\theta$ is the angular  coordinate in the lens plane, $\kappa$ is the convergence and $\gamma $ the shear, which depend on the properties of the lens and its distance from the source.  
+
+We start with the NFW halos. In this case the convergence and shear are given by 
+\begin{equation}
+\kappa_{NFW}(\theta) = \frac{M_{vir}fc_{200}^2}{2\pi r_{200}^2}\frac{F\left(c_{200}\theta/\theta_{200}\right)}{\Sigma_{cr}}~~~~\textrm{and}~~~~\gamma(\theta) = \frac{M_{vir}f c_{200}^2}{2\pi r_{200}^2}\frac{G\left(c_{200}\theta/\theta_{200}\right)}{\Sigma_{cr}},
+\label{Eq:kappa}\end{equation}
+with  the critical projected density is given by  
+\begin{equation}
+\Sigma_{cr} = \frac{1}{4\pi G(1+z)}\frac{D_A^s)}{D_A^l)D_A^{ls})},
+\end{equation}
+where $D_A^s$, $D_A^l$ and $D_A^{ls}$  are the angular diameter distance between the observer and the source,  the observer and the lens and the lens and the source respectively. In eq.  \ref{Eq:kappa}  F and G are two functions given by Takada and Jian 2003 \cite{Takada:2003}, for which we assumed a truncated NFW profile (truncated at $r_{vir}$).  $M_{vir}$ is the virial mass, $r_{200}$ is the comoving virial radius, $\theta_{200}$ is the angular size on the lens plane which corresponds to  $r_{200}$, $c_{200}$ is the concentration parameter of the dark matter halos calculated as in Diemer and Kravtsov (2014) \cite{Diemer:2014} and  $f = \left[\log(1+c_{200})-c_{200}/(1+c_{200})\right]^{-1}$.
+
+The magnification of SIS can be written as  
+\begin{equation}
+\mu_{SIS}(\theta)= \left(1-\frac{\theta_E}{|\theta|}\right)^{-1},~~~~\textrm{with}~~~~\theta_E = 4\pi\frac{\sigma_V^2}{c^2}\frac{D_{A}(r_{ls})}{D_A(r_s)}.
+\end{equation}
+Here $\sigma_V^2$ is the velocity  dispersion which we take from a simulation by Evrard et al. (2008) \cite{Evrard:2008}. In this simulation the dependence of $\sigma_V^2$ on the halo mass and redshift is provided which allows us to apply our model to high and low redshift galaxies. 
+
+Next for each given source we need to sum up the contributions to the total magnification from different lenses. Here we generate abundances of halos at each redshift using the Sheth-Tormen (1999) \cite{Sheth:1999} formalism which gives the number of halos per unit volume in each mass bin. 
+ 
+
+
+\subsection{Lensing Statistics}
+
+The magnification of a source galaxy by a foreground galaxy depends on the profile of the foreground galaxy, redshifts of the lens and of the source and the impact parameter.  To model the probability distribution of lensing the  procedure is as follows. We first model the differential probability distribution $P(\mu)$ for a particular pair of source which emits light at $z_s$ and lens of mass $M_l$ which deflects the the light ray at $z_l$ where we account for a wide range of impact parameters. We next sum over the distribution of redshift sources and the masses and the redshifts of the  lenses to get the total probability distribution function.
+
+
+Next, we calculate the total probability for lensig with the magnification larger than some $\mu$, $P(>\mu)$ and the probability density for magnification $\mu$, $P(\mu) = -dP(>\mu)/d\mu$. In this we generally follow the approach taken in Lima et al. (2010a) \cite{Lima:2010a}. 
+
+It should be noted that neither SIS nor NFW profiles fully describe the observations with SIS being a better match at small distances from the halo center and NFW better describing the outskirts. To be closer to reality,  we smoothly glue the probability densities $P_{SIS}(\mu)$ and $P_{NFW}(\mu)$ so that the former dominates at large magnifications (small impact parameters) and the latter dominates at small  magnifications (large impact parameters). We make sure that the resulting probability density, $P_{tot}(\mu)$, is normalized to unity. 
+
+We further use this probability density to estimate the effect of lensing on the observed luminosity function. To this end we calculate the mean magnification at given observed flux and compare it to data  \begin{equation}
+ <\mu>(S_{obs}) = \int_0^\infty \mu P(\mu|S_{obs})  d\mu,
+ \end{equation}
+where the probability for lesning with magnification $\mu$ given the observed flux \cite{Lima:2010b} is
+\begin{equation}
+P(\mu|S_{obs}) = \frac{1}{N}\frac{P(\mu)}{\mu}\frac{dn}{dS}\left(\frac{S_{obs}}{\mu}\right), ~~~\textrm{where}~~~N = \frac{dn_{obs}(S_{obs})}{dS_{obs}} = \int  \frac{P(\mu)}{\mu}\frac{dn}{dS}\left(\frac{S_{obs}}{\mu}\right)d\mu.
+\end{equation} 
+Here $ dn_{obs}(S_{obs})/dS_{obs}$ is the observed luminosity function and $dn/dS$ is the intrinsic one which we discuss in the next section.
+
+In addition we calculate the expected fraction of the sources of observed flux $S_{obs}$ lensed with magnification greater than $\mu$
+\begin{equation}
+Fr = \frac{\int_\mu^\infty P(\mu|S_{obs})}{\int_0^\infty P(\mu|S_{obs})}.
+\end{equation}
+
+
+ 
+
+
+
+
+\subsection{Intrinsic luminosity function}
+
+The effects of lensing are expected to be manifested at the bright-luminosity end of the luminosity function. Therefore it is natural to assume that the faint-luminosity end has undergone a negligible amount of lensing.  
+We use the faint-luminosity number counts recently reported by Karim et al. (2013) to normalize our intrinsic luminosity functions. 
+
+We use two functional forms to fit the number counts: 
+\begin{enumerate}
+\item The Shechter function with 
+\begin{equation}
+\frac{dn}{dS} = \frac{n_\star}{S_\star}\left(\frac{S}{S_\star}\right)^{-\alpha}\exp\left(-S/S_\star\right)
+\end{equation}
+with the parameters $n_s = 424$ $mJ^{-1}deg^{-2}$, $S_\star = 8$ [mJy], $\alpha = 1.1$ (from Karim et al. 2013) and $n_s = 424$ $mJ^{-1}deg^{-2}$, $S_\star = 7$ [mJy], $\alpha = 1.9$ (steep).   
+\item The broken power law 
+\begin{equation}
+\frac{dn}{dS} = N_s\left(\frac{S}{S_\star}\right)^{-\beta_1},~~~~\textrm{for}~~~~S<S_\star,
+\end{equation} 
+\begin{displaymath}
+\frac{dn}{dS} = N_s\left(\frac{S}{S_\star}\right)^{-\beta_2},~~~~\textrm{for}~~~~S>S_\star,
+\end{displaymath}
+with the parameters $N_s = 25$ $mJ^{-2}deg^{-2}$, $S_\star = 8$ [mJy], $\beta_1 = 2$ and $\beta_2 = 18$. 
+\end{enumerate}
+
+
+\begin{thebibliography}{9}
+
+
+{\footnotesize
+
+\bibitem{Simpson:2014}
+J. M. Simpson, et al.,
+ApJ, 788 (2014) 125.
+
+
+\bibitem{Lima:2010a}
+M. Lima, B. Jain, M. Devlin, 
+MNRAS, 406 (2010) 2352.
+
+\bibitem{Lima:2010b}
+M. Lima, B. Jain, M. Devlin,  J. Aguirre, 
+ApJL, 717 (2010) 31.
+
+\bibitem{Wardlow:2013}
+J.L.~Wardlow, et al.,
+ApJ 762 (2013). 
+
+\bibitem{Takada:2003}
+M.~Takada, B. Jain,
+MNRAS 344 (2003) 857. 
+
+\bibitem{Diemer:2014}
+B.~Diemer, A. V. Kravtsov,
+arXiv:1407.4730. 
+
+\bibitem{Evrard:2008}
+A.~E. Evrard et al.,
+ApJ 672 (2008) 122.
+
+\bibitem{Sheth:1999}
+R. K. Sheth, G. Tormen, 
+ MNRAS  308 (1999) 119.
+}
+\end{thebibliography} 
+\end{document}
+

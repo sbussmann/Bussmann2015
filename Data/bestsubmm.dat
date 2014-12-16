@@ -1,0 +1,42 @@
+iauname shortname dataname bestloc telescope filter
+HATLAS_J090740.0-004200       SDP9      G9-19      ../../data/HST/Negrello_Cycle18/ID9_f160w_scale0.064_pixfrac0.6_science_registered.fits HST  F160W
+HATLAS_J091043.1-000321       SDP11     G9-21      ../../data/HST/Negrello_Cycle18/ID11_f160w_scale0.064_pixfrac0.6_science_registered.fits HST  F160W
+HATLAS_J090302.9-014127       SDP17     G9-46      ../../data/HST/Negrello_Cycle18/SDP.17_hst_f160w.fits HST  F160W
+HATLAS_J090311.6+003906       SDP81     ID081      ../../data/HST/Negrello_Cycle18/ID81_f160w_scale0.064_pixfrac0.6_science_registered.fits HST  F160W
+HATLAS_J091305.0-005343       SDP130    ID130      ../../data/HST/Negrello_Cycle18/SDP.130_hst_f160w.fits HST  F160W
+HATLAS_J083051.0+013224       G09v1.97  G09v1.97   ../../data/Keck/Fu_2010B/G09v1.97.fits  KeckII-NIRC2  Ks
+# HATLAS_J083051.0+013224       G09v1.97  G09v1.97   ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J083051+013225_side30.fits  HST  F110W
+# HATLAS_J085358.9+015537       G09v1.40  G09v1.40   ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J085359+015537_side30.fits  HST  F110W
+HATLAS_J085358.9+015537       G09v1.40  G09v1.40   ../../data/Keck/Fu_2010B/G09v1.40.fits  KeckII-NIRC2  Ks
+HATLAS_J091840.8+023047       G09v1.326 G09v1.326  ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J091841+023048_side30.fits  HST  F110W
+HATLAS_J084933.4+021443       G09v1.124 G09v1.124  ../../data/HST/Negrello_Cycle19/G09v1.124_hstsnap.sci.fits  HST  F110W
+# HATLAS_J114637.9-001132       G12v2.30  G12v2.30   ../../data/Keck/Fu_2010B/G12v2.30.fits  KeckII-NIRC2  Ks
+HATLAS_J114637.9-001132       G12v2.30  G12v2.30   ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J114638-001132_side30.fits  HST  F110W
+HATLAS_J113526.3-014605       G12v2.43  G12v2.43   ../../data/WHT/PerezFournon/g12v2_43_sky_ks_astro_2mass_rms0p031_20110424.fits  WHT  Ks
+HATLAS_J141351.9-000026       G15v2.235 G15v2.235  ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J141352-000027_side30.fits  HST  F110W
+# HATLAS_J141351.9-000026       G15v2.235 G15v2.235  ../../data/Keck/Fu_2010B/G15v2.235.fits  KeckII-NIRC2  Ks
+HATLAS_J142413.9+022303       G15v2.779 G15-141    ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J142414+022304_side30.fits  HST  F110W
+# HATLAS_J142413.9+022303       G15v2.779 G15-141    ../../data/Keck/Fu_2010B/G15v2.779.fits  KeckII-NIRC2  Ks
+HATLAS_J144556.1-004853       G15v2.481 G15v2.481  ../../data/Keck/Fu_2010B/G15v2.481.fits  KeckII-NIRC2  Ks
+HATLAS_J134429.4+303036       NAv1.56   NA.v1.56   ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J134429+303036_side30.fits  HST  F110W
+HATLAS_J133649.9+291801       NAv1.144  NA.v1.144  sdss/NA.v1.144_sdss_i.fits.gz  SDSS  i
+HATLAS_J132859.3+292327       NAv1.177  NA.v1.177  sdss/NA.v1.177_sdss_i.fits.gz  SDSS  i
+HATLAS_J132630.1+334410       NAv1.195  NA.v1.195  ../../data/HST/Negrello_Cycle19/SMA_SNAPS/HATLAS_J132630+334410_side30.fits  HST  F110W
+HATLAS_J132427.0+284452       NBv1.43   NB.v1.43   ../../data/Keck/Fu_2011B/NB.v1.43_wcs.fits  KeckII-NIRC2  Ks
+HATLAS_J133008.4+245900       NBv1.78   NB.v1.78   ../../data/Keck/Fu_2011B/NB.v1.78K_4as.fits  KeckII-NIRC2  Ks
+HATLAS_J125632.7+233625       NCv1.143  NC.v1.143  sdss/NC.v1.143_sdss_i.fits.gz  SDSS  i
+HATLAS_J125135.4+261457       NCv1.268  NC.v1.268  ../../data/WHT/PerezFournon/nc_v1_268_sky_ks_astro_usnob1_rms0p145_20110424.fits  WHT  Ks
+# 1HERMES_S250_J142825.5+345547 HBootes02 Bootes01   ../../data/HST/Negrello_Cycle19/julie_may30/hst_multdriz_HBootes02_drz_sciAST.fits.gz  HST  F110W
+1HERMES_S250_J142825.5+345547 HBootes02 Bootes01   ../../data/Keck/Fu_2010B/Bootes01.fits  KeckII-NIRC2  Ks
+1HERMES_S250_J143330.8+345439 HBootes01 Bootes02   ../../data/HST/Negrello_Cycle19/jae/HBootes01_f110w_drz_ast.sci.fits  HST  F110W
+1HERMES_S250_J142823.9+352619 HBootes03 Bootes10   ../../data/HST/Negrello_Cycle19/julie_may30/HBootes03_f110w_drz_ast.fits.gz  HST  F110W
+1HERMES_S250_J105750.9+573026 HLock01   Lock01     ../../data/HST/Negrello_Cycle19/julie_may30/Lock01_f110w_drz_AST.fits.gz  HST  F110W
+1HERMES_S250_J103618.3+585456 HLock05   Lock02     ../../data/HST/Negrello_Cycle19/jae/HLock05_f110w_drz.sci.fits  HST*  F110W
+1HERMES_S250_J105712.2+565457 HLock03   Lock03     ../../data/HST/Negrello_Cycle19/julie_may30/HLock03_f110w_drz_ast.fits.gz  HST  F110W
+# 1HERMES-S250-J103826.6+581542 HLock04   Lock10     ../../data/HST/Negrello_Cycle19/jae/HLock04_f110w_drz.sci.fits  HST*  F110W
+1HERMES-S250-J103826.6+581542 HLock04   Lock10 ../../data/Keck/Fu_2010B/lock10_ks.fits  KeckII-NIRC2  Ks
+1HERMES-S250-J022016.5-060143 HXMM01    XMM01      ../../data/Keck/Fu_2011B/XMM01_nirc2_wcs2.fits.gz  KeckII-NIRC2  Ks
+# 1HERMES-S250-J022201.6-033340 HXMM11  XMM02      ../../data/HST/Negrello_Cycle19/jae/HXMM11_f110w_drz.sci.fits  HST*  F110W
+# 1HERMES-S250-J022547.8-041750 HXMM05  XMM03      ../../data/HST/Negrello_Cycle19/jae/HXMM05_f110w_drz.sci.fits  HST*  F110W
+# 1HERMES-S250-J023006.0-034152 HXMM12  XMM05      ../../data/HST/Negrello_Cycle19/jae/HXMM12_f110w_drz.sci.fits  HST*  F110W
+1HERMES-S250-J021830.5-053124 HXMM02    XMM06      ../../data/HST/Negrello_Cycle19/julie_may30/XMM06_f110w_drz_ast.fits.gz  HST  F110W
