@@ -80,17 +80,31 @@ e250 = spirephot['e250']
 e350 = spirephot['e350']
 e500 = spirephot['e500']
 
-# read in SPIRE photometry for all H-ATLAS galaxies
+# read in SPIRE photometry for all HerMES galaxies in fields accessible to ALMA
+hermesloc = '../../HerMESCatalog/'
 atlasloc = '../../HATLASCatalog/'
+fieldnames = ['L1-ECDFS', 'L2-COSMOS', 'L4-UDS', 'L4-VVDS', 'L5-CDFS-SWIRE', \
+        'L6-ADFS', 'L6-ELAIS-S1-SWIRE', 'L6-XMM-LSS-SWIRE']
+s350 = []
+s500 = []
+for i, fieldname in enumerate(fieldnames):
+    tableloc = hermesloc + fieldname + '/' + fieldname + '_xID250_DR2.fits'
+    d1 = Table.read(tableloc)
+    if i == 0:
+        s350 = numpy.array(d1['F350'].data)
+        s500 = numpy.array(d1['F500'].data)
+    else:
+        s350 = numpy.append(s350, numpy.array(d1['F350'].data))
+        s500 = numpy.append(s500, numpy.array(d1['F500'].data))
 g09 = fits.getdata(atlasloc+'G09_Phase1_release_v2_allids.fits.gz', 1)
 g12 = fits.getdata(atlasloc+'G12_Phase1_release_v2_allids.fits.gz', 1)
 g15 = fits.getdata(atlasloc+'G15_Phase1_release_v2_allids.fits.gz', 1)
-ngpaloc = atlasloc+'NGP-h1-v1-v2_madx5_19-Feb-2011-110650_id_ac_names.dat'
-ngpa = Table.read(ngpaloc, format='ascii')
-ngpbloc = atlasloc+'NGP-h5-h7-v5_madx5_19-Feb-2011-104234_id_ac_names.dat'
-ngpb = Table.read(ngpbloc, format='ascii')
-ngpcloc = atlasloc+'NGP-h6-h8-v7_madx5_19-Feb-2011-014156_id_ac_names.dat'
-ngpc = Table.read(ngpcloc, format='ascii')
+#ngpaloc = hermesloc+'NGP-h1-v1-v2_madx5_19-Feb-2011-110650_id_ac_names.dat'
+#ngpa = Table.read(ngpaloc, format='ascii')
+#ngpbloc = hermesloc+'NGP-h5-h7-v5_madx5_19-Feb-2011-104234_id_ac_names.dat'
+#ngpb = Table.read(ngpbloc, format='ascii')
+#ngpcloc = hermesloc+'NGP-h6-h8-v7_madx5_19-Feb-2011-014156_id_ac_names.dat'
+#ngpc = Table.read(ngpcloc, format='ascii')
 
 # read in lensed candidates in GAMA + NGP fields
 mattialoc = '../Data/mattialenses_2013june28.dat'
@@ -114,15 +128,15 @@ hatlas500 = numpy.append(hatlas500, g15['f500_best'])
 eatlas250 = numpy.append(eatlas250, g15['e250_best'])
 eatlas350 = numpy.append(eatlas350, g15['e350_best'])
 eatlas500 = numpy.append(eatlas500, g15['e500_best'])
-hatlasbig250 = numpy.append(hatlas250, ngpa['f250'])
-hatlasbig350 = numpy.append(hatlas350, ngpa['f350'])
-hatlasbig500 = numpy.append(hatlas500, ngpa['f500'])
-hatlasbig250 = numpy.append(hatlasbig250, ngpb['f250'])
-hatlasbig350 = numpy.append(hatlasbig350, ngpb['f350'])
-hatlasbig500 = numpy.append(hatlasbig500, ngpb['f500'])
-hatlasbig250 = numpy.append(hatlasbig250, ngpc['f250'])
-hatlasbig350 = numpy.append(hatlasbig350, ngpc['f350'])
-hatlasbig500 = numpy.append(hatlasbig500, ngpc['f500'])
+#hatlasbig250 = numpy.append(hatlas250, ngpa['f250'])
+#hatlasbig350 = numpy.append(hatlas350, ngpa['f350'])
+#hatlasbig500 = numpy.append(hatlas500, ngpa['f500'])
+#hatlasbig250 = numpy.append(hatlasbig250, ngpb['f250'])
+#hatlasbig350 = numpy.append(hatlasbig350, ngpb['f350'])
+#hatlasbig500 = numpy.append(hatlasbig500, ngpb['f500'])
+#hatlasbig250 = numpy.append(hatlasbig250, ngpc['f250'])
+#hatlasbig350 = numpy.append(hatlasbig350, ngpc['f350'])
+#hatlasbig500 = numpy.append(hatlasbig500, ngpc['f500'])
 #hatlas250 = numpy.append(hatlas250, ngpa['f250'])
 #hatlas350 = numpy.append(hatlas350, ngpa['f350'])
 #hatlas500 = numpy.append(hatlas500, ngpa['f500'])
@@ -141,23 +155,23 @@ hatlasbig500 = numpy.append(hatlasbig500, ngpc['f500'])
 #eatlas250 = numpy.append(eatlas250, ngpc['e250'])
 #eatlas350 = numpy.append(eatlas350, ngpc['e350'])
 #eatlas500 = numpy.append(eatlas500, ngpc['e500'])
-hatlasra = numpy.append(g09['RA_J2000'], g12['RA_J2000'])
-hatlasra = numpy.append(hatlasra, g15['RA_J2000'])
-hatlasbigra = numpy.append(hatlasra, ngpa['ra_new'])
-hatlasbigra = numpy.append(hatlasbigra, ngpb['ra_new'])
-hatlasbigra = numpy.append(hatlasbigra, ngpc['ra_new'])
-hatlasdec = numpy.append(g09['DEC_J2000'], g12['DEC_J2000'])
-hatlasdec = numpy.append(hatlasdec, g15['DEC_J2000'])
-hatlasbigdec = numpy.append(hatlasdec, ngpa['dec_new'])
-hatlasbigdec = numpy.append(hatlasbigdec, ngpb['dec_new'])
-hatlasbigdec = numpy.append(hatlasbigdec, ngpc['dec_new'])
+#hatlasra = numpy.append(g09['RA_J2000'], g12['RA_J2000'])
+#hatlasra = numpy.append(hatlasra, g15['RA_J2000'])
+#hatlasbigra = numpy.append(hatlasra, ngpa['ra_new'])
+#hatlasbigra = numpy.append(hatlasbigra, ngpb['ra_new'])
+#hatlasbigra = numpy.append(hatlasbigra, ngpc['ra_new'])
+#hatlasdec = numpy.append(g09['DEC_J2000'], g12['DEC_J2000'])
+#hatlasdec = numpy.append(hatlasdec, g15['DEC_J2000'])
+#hatlasbigdec = numpy.append(hatlasdec, ngpa['dec_new'])
+#hatlasbigdec = numpy.append(hatlasbigdec, ngpb['dec_new'])
+#hatlasbigdec = numpy.append(hatlasbigdec, ngpc['dec_new'])
 #hatlasdec = numpy.append(hatlasdec, ngpa['dec_new'])
 #hatlasdec = numpy.append(hatlasdec, ngpb['dec_new'])
 #hatlasdec = numpy.append(hatlasdec, ngpc['dec_new'])
-hatlasr = numpy.append(g09['sdss_rmodelmag'], g12['sdss_rmodelmag'])
-hatlasr = numpy.append(hatlasr, g15['sdss_rmodelmag'])
-hatlassep = numpy.append(g09['sdss_sep'], g12['sdss_sep'])
-hatlassep = numpy.append(hatlassep, g15['sdss_sep'])
+#hatlasr = numpy.append(g09['sdss_rmodelmag'], g12['sdss_rmodelmag'])
+#hatlasr = numpy.append(hatlasr, g15['sdss_rmodelmag'])
+#hatlassep = numpy.append(g09['sdss_sep'], g12['sdss_sep'])
+#hatlassep = numpy.append(hatlassep, g15['sdss_sep'])
 
 # replace fluxes in Mattia's lens catalog with those in the most recent H-ATLAS
 # data release
@@ -180,19 +194,24 @@ hatlassep = numpy.append(hatlassep, g15['sdss_sep'])
 #        mattia['f500'][i] = hatlasbig500[match][0] * 1e3
 
 # plot the H-ATLAS galaxies
-good = (hatlas250 > eatlas250) & \
-    (hatlas350 > eatlas350) & \
-    (hatlas500 > eatlas500) 
-yyy = hatlas350[good] / hatlas500[good]
-xxx = hatlas500[good] * 1e3
-mpl.hexbin(xxx, yyy, cmap='gray_r', label='H-ATLAS Phase I Galaxies',
-    xscale='log', bins='log')
-#mpl.plot(xxx, yyy, '.', color='brown')
+#good = (hatlas250 > eatlas250) & \
+#    (hatlas350 > eatlas350) & \
+#    (hatlas500 > eatlas500) 
+#yyy = hatlas350 / hatlas500
+#xxx = hatlas500 * 1e3
+good = (s500 > 5) & (s350 > 5)
+sort500 = numpy.argsort(s500)
+yyy = s350[good] / s500[good]
+xxx = s500[good]# * 1e3
+#good = (s500 > 0) & (s350 > 0)
+mpl.hexbin(xxx, yyy, cmap='gray_r', label='HerMES DR2',
+    xscale='log', bins='log', gridsize=(70, 90))
+#mpl.plot(xxx[good], yyy[good], '.', color='brown')
 
 # plot the lensed candidates
-hgood = (hatlas500 > candidate1) 
-yyy = hatlas350[hgood] / hatlas500[hgood]
-xxx = hatlas500[hgood] * 1e3
+#hgood = (hatlas500 > candidate1) 
+#yyy = hatlas350[hgood] / hatlas500[hgood]
+#xxx = hatlas500[hgood] * 1e3
 #mpl.plot(xxx, yyy, '.', color='brown')
 #mpl.plot(xxx, yyy, ',', color='blue', label='Local Spirals')
 
@@ -203,8 +222,8 @@ yyyup = numpy.round(mattia['f350'][gmattia])
 yyydown = numpy.round(mattia['f500'][gmattia])
 yyy = yyyup / yyydown
 xxx = numpy.round(mattia['f500'][gmattia])
-mpl.plot(xxx, yyy, 'o', mfc='yellow', label='Herschel',
-        markersize=bms/2., zorder=6)
+#mpl.plot(xxx, yyy, 'o', mfc='yellow', label='Herschel',
+#        markersize=bms/2., zorder=6)
 mhihi = mattia['f500'] > 170
 mattiahi = mattia[mhihi]
 
@@ -219,14 +238,14 @@ good = (f250 > e250) & \
     (f500 > e500) 
 yyy = f350[good]/f500[good]
 xxx = f500[good]
-mpl.plot(xxx, yyy, bfmt, color=bcolor, label='SMA Subsample', ms=bms, zorder=5)
+mpl.plot(xxx, yyy, bfmt, color=bcolor, label='Herschel-SMA', ms=bms, zorder=5)
 shihi = f500 > 170
 smahi = spirephot[shihi]
 
 # plot the ALMA sample
 yyy = alma_f350 / alma_f500
 xxx = alma_f500
-mpl.plot(xxx, yyy, afmt, color=acolor, label='ALMA Subsample', ms=ams, zorder=4)
+mpl.plot(xxx, yyy, afmt, color=acolor, label='Herschel-ALMA', ms=ams, zorder=4)
 
 # add representative error bars
 err_rep = numpy.median(e500)
@@ -251,27 +270,27 @@ h13dat['f350'][-2:] = h13dat['f350'][-2:].sum()
 h13dat['f500'][-2:] = h13dat['f500'][-2:].sum()
 xxx = h13dat['f500']
 yyy = h13dat['f350'] / h13dat['f500']
-mpl.plot(xxx, yyy, hfmt, color=hcolor, label='SPT', ms=hms, zorder=7)
+mpl.plot(xxx, yyy, hfmt, color=hcolor, label='SPT-ALMA', ms=hms, zorder=7)
 
 # plot the stacked ALESS SED
 xxx = [18.5]
 yyy = [1.1]
-#mpl.plot(xxx, yyy, 'D', color='magenta', ms=bms, zorder=3)
+mpl.plot(xxx, yyy, 'D', color='magenta', ms=bms, zorder=3, label='ALESS')
 #mpl.text(21, 0.9, 'ALESS', color='white', fontsize='x-small')
 
 # plot the simulated SMGs from Cowley et al. 2014
 cowleycat = ascii.read('../Data/SPIRE_ALMA_Cat_v4.txt')
 xxx = cowleycat['SourceS500']
 yyy = cowleycat['SourceS350'] / cowleycat['SourceS500']
-mpl.plot(xxx, yyy, '.', color='teal', zorder=8, label='Cowley+2014')
+#mpl.plot(xxx, yyy, '.', color='teal', zorder=8, label='Cowley+2014')
 
 
 mpl.semilogx()
 
 xmin = 10
-xmax = 1000.
+xmax = 400.
 ymin = 0.0
-ymax = 7.0
+ymax = 4.0
 mpl.axis([xmin, xmax, ymin, ymax])
 cb = mpl.colorbar(use_gridspec=True)
 cb.set_label('log10(N)')
@@ -281,7 +300,7 @@ mpl.minorticks_on()
 mpl.tick_params(width=1.5, which='both')
 mpl.tick_params(length=2, which='minor')
 mpl.tick_params(length=4, which='major')
-mpl.subplots_adjust(left=0.12, right=0.96, top=0.96, bottom=0.18, wspace=0.39)
+mpl.subplots_adjust(left=0.14, right=0.95, top=0.96, bottom=0.18, wspace=0.39)
 
 mpl.legend(loc='upper right', numpoints=1, handletextpad=0.00, borderpad=0.3,
         labelspacing=0.15, handlelength=1.0)
@@ -294,6 +313,6 @@ mpl.setp(ltext, fontsize='x-small')
 #mpl.tight_layout(pad=0.3)
 
 # rename files to remove '.' from the name
-saveloc = '../Figures/spirecolflux_noaless.pdf'
+saveloc = '../Figures/spirecolflux.pdf'
 savefig(saveloc)
 pdb.set_trace()

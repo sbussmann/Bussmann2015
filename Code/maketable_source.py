@@ -148,8 +148,8 @@ for itarg in range(0, ntarg):
                     crlp = config[parname[0]][parname[1]][parname[2]]
                     off_lens = crlp['Limits'][1]
             dist = dist_lens + off_lens
-            dradeg_lens = dist.mean() / 3600
-            eRA = dist.std() / 15
+            dradeg_lens = dist.mean()# / 3600
+            eRA = dist.std()# / 15
             if ilens == 0:
                 RA0 = dist
 
@@ -190,7 +190,7 @@ for itarg in range(0, ntarg):
                     crlp = config[parname[0]][parname[1]][parname[2]]
                     off_lens = crlp['Limits'][1]
             dist = dist_lens + off_lens
-            ddecdeg_lens = dist.mean() / 3600
+            ddecdeg_lens = dist.mean()# / 3600
             eDec = dist.std()
             if ilens == 0:
                 Dec0 = dist
@@ -335,15 +335,15 @@ for itarg in range(0, ntarg):
             phi_indiv = dist.mean()
             e_phi_indiv = dist.std()
 
-            msg = '{0:15} & ${1:12}\pm{2:5.3f}$ & ${3:12}\pm{4:4.2f}$ & ${5:.3f}\pm{6:.3f}$ & ${7:.3f}\pm{8:0.3f}$ & ${9:3.0f}\pm{10:3.0f}$'
-            msgfmt = msg.format(datanamelens, fullRA, eRA, fullDec, eDec, 
+            msg = '{0:15} & ${1:5.2f}\pm{2:5.2f}$ & ${3:5.2f}\pm{4:5.2f}$ & ${5:.3f}\pm{6:.3f}$ & ${7:.3f}\pm{8:0.3f}$ & ${9:3.0f}\pm{10:3.0f}$'
+            msgfmt = msg.format(datanamelens, dradeg_lens, eRA, ddecdeg_lens, eDec, 
                     einstein_indiv, e_einstein_indiv, q_indiv, e_q_indiv,
                     phi_indiv, e_phi_indiv)
             #msg = '{0:3.0f} {1:3.0f}'
             #msgfmt = msg.format(phi_indiv, e_phi_indiv)            
             #msg = '{0:.2f} {1:.2f}'
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
-            #print(msgfmt)
+            print(msgfmt)
 
         for isource in range(nsource):
 
@@ -592,7 +592,7 @@ for itarg in range(0, ntarg):
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
             #msg = '{0:15} {1:29} {2:.2f} {3:.2f} {4:.2f} {5:.2f} {6:.2f}'
             #msgfmt = msg.format(datanamesource, fullRADec, flux_indiv, e_flux_indiv, pbcorr, remu, e_remu)
-            print(msgfmt)
+            #print(msgfmt)
         
     flux_measure = flux_target.mean()
     flux_error = flux_target.std()
