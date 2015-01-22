@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 NOV 2014 10:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  21 JAN 2015 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,11 +223,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 29.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 29.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 29.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 29.
- (./ms.aux
-
-LaTeX Warning: Label `tab:intrinsic' multiply defined.
-
-)
+ (./ms.aux)
 \openout1 = `ms.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -242,7 +238,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
- (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen115
@@ -305,17 +302,17 @@ e
 ))
 \openout3 = `msNotes.bib'.
 
-LaTeX Font Info:    Try loading font information for U+lasy on input line 81.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 82.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -358,1273 +355,1306 @@ Underfull \hbox (badness 2644) in paragraph at lines 177--181
 File: ../Figures/spirecolflux.pdf Graphic file (type pdf)
 
 <use ../Figures/spirecolflux.pdf>
-Package pdftex.def Info: ../Figures/spirecolflux.pdf used on input line 248.
+Package pdftex.def Info: ../Figures/spirecolflux.pdf used on input line 249.
 (pdftex.def)             Requested size: 245.26653pt x 171.68768pt.
  [2]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 309.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 310.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 309.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 310.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 364--378
-\OT1/cmr/m/n/10 were con-ducted in queue mode dur-ing the 2013B
+Underfull \hbox (badness 4981) in paragraph at lines 365--379
+[]\OT1/cmr/m/n/10 Optical imag-ing ob-ser-va-tions us-ing the Gem-ini
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 364--378
-\OT1/cmr/m/n/10 semester as part of pro-gram GS-2013B-Q-77 (PI:
+Underfull \hbox (badness 10000) in paragraph at lines 365--379
+\OT1/cmr/m/n/10 Multi-Object Spectrograph-South (GMOS-S; Hook
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 364--378
-\OT1/cmr/m/n/10 half of the ALMA sources lie in re-gions with ex-
+Underfull \hbox (badness 2600) in paragraph at lines 365--379
+\OT1/cmr/m/n/10 thanks to the ex-ten-sive Her-MES multi-wavelength
  []
 
 
-Underfull \hbox (badness 4441) in paragraph at lines 364--378
-\OT1/cmr/m/n/10 ADFS05, ADFS06, ADFS07, ADFS[]M0, ElaisS1,
+Underfull \hbox (badness 1454) in paragraph at lines 365--379
+\OT1/cmr/m/n/10 pro-gram. The re-main-ing tar-gets are: HADFS03,
  []
 
-[3 <../Figures/spirecolflux.pdf>] (./table_positions.tex [4])
-Overfull \hbox (6.58241pt too wide) in paragraph at lines 138--393
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--379
+\OT1/cmr/m/n/10 HADFS08, HADFS09, HADFS10, HADFS02,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--379
+\OT1/cmr/m/n/10 HADFS04, HADFS01, HADFS11, HELAISS02,
+ []
+
+[3 <../Figures/spirecolflux.pdf>] (./table_positions.tex
+Overfull \vbox (3.59006pt too high) has occurred while \output is active []
+
+
+[4])
+Overfull \hbox (6.58241pt too wide) in paragraph at lines 138--394
 []$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--393
+Underfull \hbox (badness 10000) in paragraph at lines 138--394
 
  []
 
-<../Figures/overlays/ADFS01_870_250.pdf, id=11918, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS01_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HELAISS02_870_250.pdf, id=11918, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HELAISS02_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS01_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS01_870_250.pdf used on input l
-ine 398.
+<use ../Figures/overlays/HELAISS02_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HELAISS02_870_250.pdf used on inpu
+t line 399.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS02_870_250.pdf, id=11919, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS02_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM02_870_250.pdf, id=11919, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM02_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS02_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS02_870_250.pdf used on input l
-ine 399.
-(pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
-
-<../Figures/overlays/ADFS03_870_250.pdf, id=11920, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS03_870_250.pdf Graphic file (type pdf)
-
-<use ../Figures/overlays/ADFS03_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS03_870_250.pdf used on input l
+<use ../Figures/overlays/HXMM02_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM02_870_250.pdf used on input l
 ine 400.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS04_870_250.pdf, id=11921, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS04_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM31_870_250.pdf, id=11920, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM31_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS04_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS04_870_250.pdf used on input l
+<use ../Figures/overlays/HXMM31_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM31_870_250.pdf used on input l
 ine 401.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS05_870_250.pdf, id=11922, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS05_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM29_870_250.pdf, id=11921, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM29_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS05_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS05_870_250.pdf used on input l
+<use ../Figures/overlays/HXMM29_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM29_870_250.pdf used on input l
 ine 402.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS06_870_250.pdf, id=11923, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS06_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM07_870_250.pdf, id=11922, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM07_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS06_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS06_870_250.pdf used on input l
+<use ../Figures/overlays/HXMM07_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM07_870_250.pdf used on input l
 ine 403.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS07_870_250.pdf, id=11924, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS07_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM20_870_250.pdf, id=11923, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM20_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS07_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS07_870_250.pdf used on input l
+<use ../Figures/overlays/HXMM20_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM20_870_250.pdf used on input l
 ine 404.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ADFS_M0_870_250.pdf, id=11925, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ADFS_M0_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM01_870_250.pdf, id=11924, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM01_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ADFS_M0_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ADFS_M0_870_250.pdf used on input 
-line 405.
+<use ../Figures/overlays/HXMM01_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM01_870_250.pdf used on input l
+ine 405.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/CDFS_M0_870_250.pdf, id=11926, 469.755pt x 397.485pt>
-File: ../Figures/overlays/CDFS_M0_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM04_870_250.pdf, id=11925, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM04_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/CDFS_M0_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/CDFS_M0_870_250.pdf used on input 
-line 406.
+<use ../Figures/overlays/HXMM04_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM04_870_250.pdf used on input l
+ine 406.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/CDFS_M1_870_250.pdf, id=11927, 469.755pt x 397.485pt>
-File: ../Figures/overlays/CDFS_M1_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM09_870_250.pdf, id=11926, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM09_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/CDFS_M1_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/CDFS_M1_870_250.pdf used on input 
-line 407.
+<use ../Figures/overlays/HXMM09_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM09_870_250.pdf used on input l
+ine 407.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ECDFS02_870_250.pdf, id=11928, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ECDFS02_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM03_870_250.pdf, id=11927, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM03_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ECDFS02_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ECDFS02_870_250.pdf used on input 
-line 408.
+<use ../Figures/overlays/HXMM03_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM03_870_250.pdf used on input l
+ine 408.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/COS01_870_250.pdf, id=11929, 469.755pt x 397.485pt>
-File: ../Figures/overlays/COS01_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM11_870_250.pdf, id=11928, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM11_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/COS01_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/COS01_870_250.pdf used on input li
-ne 409.
+<use ../Figures/overlays/HXMM11_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM11_870_250.pdf used on input l
+ine 409.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--411
+<../Figures/overlays/HXMM23_870_250.pdf, id=11929, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM23_870_250.pdf Graphic file (type pdf)
+
+<use ../Figures/overlays/HXMM23_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM23_870_250.pdf used on input l
+ine 410.
+(pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--412
 
  []
 
-<../Figures/overlays/COS02_870_250.pdf, id=11930, 469.755pt x 397.485pt>
-File: ../Figures/overlays/COS02_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM22_870_250.pdf, id=11930, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM22_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/COS02_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/COS02_870_250.pdf used on input li
-ne 426.
+<use ../Figures/overlays/HXMM22_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM22_870_250.pdf used on input l
+ine 427.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/ElaisS1_870_250.pdf, id=11931, 469.755pt x 397.485pt>
-File: ../Figures/overlays/ElaisS1_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM05_870_250.pdf, id=11931, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM05_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/ElaisS1_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/ElaisS1_870_250.pdf used on input 
-line 427.
+<use ../Figures/overlays/HXMM05_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM05_870_250.pdf used on input l
+ine 428.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM01_870_250.pdf, id=11932, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM01_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM30_870_250.pdf, id=11932, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM30_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM01_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM01_870_250.pdf used on input li
-ne 428.
+<use ../Figures/overlays/HXMM30_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM30_870_250.pdf used on input l
+ine 429.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM02_870_250.pdf, id=11933, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM02_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HXMM12_870_250.pdf, id=11933, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HXMM12_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM02_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM02_870_250.pdf used on input li
-ne 429.
+<use ../Figures/overlays/HXMM12_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HXMM12_870_250.pdf used on input l
+ine 430.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM03_870_250.pdf, id=11934, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM03_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HECDFS12_870_500.pdf, id=11934, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HECDFS12_870_500.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM03_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM03_870_250.pdf used on input li
-ne 430.
+<use ../Figures/overlays/HECDFS12_870_500.pdf>
+Package pdftex.def Info: ../Figures/overlays/HECDFS12_870_500.pdf used on input
+ line 431.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM04_870_250.pdf, id=11935, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM04_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HECDFS04_870_500.pdf, id=11935, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HECDFS04_870_500.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM04_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM04_870_250.pdf used on input li
-ne 431.
+<use ../Figures/overlays/HECDFS04_870_500.pdf>
+Package pdftex.def Info: ../Figures/overlays/HECDFS04_870_500.pdf used on input
+ line 432.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM05_870_250.pdf, id=11936, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM05_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HECDFS13_870_250.pdf, id=11936, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HECDFS13_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM05_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM05_870_250.pdf used on input li
-ne 432.
+<use ../Figures/overlays/HECDFS13_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HECDFS13_870_250.pdf used on input
+ line 433.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM06_870_250.pdf, id=11937, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM06_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS04_870_250.pdf, id=11937, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS04_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM06_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM06_870_250.pdf used on input li
-ne 433.
+<use ../Figures/overlays/HADFS04_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS04_870_250.pdf used on input 
+line 434.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM16_870_250.pdf, id=11938, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM16_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS02_870_250.pdf, id=11938, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS02_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM16_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM16_870_250.pdf used on input li
-ne 434.
+<use ../Figures/overlays/HADFS02_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS02_870_250.pdf used on input 
+line 435.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM101_870_250.pdf, id=11939, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM101_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS11_870_500.pdf, id=11939, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS11_870_500.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM101_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM101_870_250.pdf used on input l
-ine 435.
+<use ../Figures/overlays/HADFS11_870_500.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS11_870_500.pdf used on input 
+line 436.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM102_870_250.pdf, id=11940, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM102_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS10_870_250.pdf, id=11940, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS10_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM102_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM102_870_250.pdf used on input l
-ine 436.
+<use ../Figures/overlays/HADFS10_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS10_870_250.pdf used on input 
+line 437.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM108_870_250.pdf, id=11941, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM108_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS01_870_250.pdf, id=11941, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS01_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM108_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM108_870_250.pdf used on input l
-ine 437.
+<use ../Figures/overlays/HADFS01_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS01_870_250.pdf used on input 
+line 438.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--439
+Underfull \hbox (badness 10000) in paragraph at lines 427--440
 
  []
 
-<../Figures/overlays/XMM109_870_250.pdf, id=11942, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM109_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS09_870_250.pdf, id=11942, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS09_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM109_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM109_870_250.pdf used on input l
-ine 449.
+<use ../Figures/overlays/HADFS09_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS09_870_250.pdf used on input 
+line 448.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM110_870_250.pdf, id=11943, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM110_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS08_870_250.pdf, id=11943, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS08_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM110_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM110_870_250.pdf used on input l
-ine 450.
+<use ../Figures/overlays/HADFS08_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS08_870_250.pdf used on input 
+line 449.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM115_870_250.pdf, id=11944, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM115_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HADFS03_870_250.pdf, id=11944, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HADFS03_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM115_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM115_870_250.pdf used on input l
-ine 451.
+<use ../Figures/overlays/HADFS03_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HADFS03_870_250.pdf used on input 
+line 450.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM119_870_250.pdf, id=11945, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM119_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HCOSMOS02_870_250.pdf, id=11945, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HCOSMOS02_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM119_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM119_870_250.pdf used on input l
-ine 452.
+<use ../Figures/overlays/HCOSMOS02_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HCOSMOS02_870_250.pdf used on inpu
+t line 451.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-<../Figures/overlays/XMM124_870_250.pdf, id=11946, 469.755pt x 397.485pt>
-File: ../Figures/overlays/XMM124_870_250.pdf Graphic file (type pdf)
+<../Figures/overlays/HCOSMOS01_870_250.pdf, id=11946, 469.755pt x 397.485pt>
+File: ../Figures/overlays/HCOSMOS01_870_250.pdf Graphic file (type pdf)
 
-<use ../Figures/overlays/XMM124_870_250.pdf>
-Package pdftex.def Info: ../Figures/overlays/XMM124_870_250.pdf used on input l
-ine 453.
+<use ../Figures/overlays/HCOSMOS01_870_250.pdf>
+Package pdftex.def Info: ../Figures/overlays/HCOSMOS01_870_250.pdf used on inpu
+t line 452.
 (pdftex.def)             Requested size: 169.83861pt x 143.70706pt.
 
-Underfull \hbox (badness 1210) in paragraph at lines 465--479
+Underfull \hbox (badness 1210) in paragraph at lines 466--480
 []\OT1/cmr/m/n/10 An in-ter-fer-om-e-ter mea-sures vis-i-bil-i-ties at dis-cret
 e
  []
 
-[5] [6 <../Figures/overlays/ADFS01_870_250.pdf> <../Figures/overlays/ADFS02_870
-_250.pdf
+[5] [6 <../Figures/overlays/HELAISS02_870_250.pdf> <../Figures/overlays/HXMM02_
+870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS02_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM02_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS03_870_250.pdf
+> <../Figures/overlays/HXMM31_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS03_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM31_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS04_870_250.pdf
+> <../Figures/overlays/HXMM29_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS04_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM29_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS05_870_250.pdf
+> <../Figures/overlays/HXMM07_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS05_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM07_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS06_870_250.pdf
+> <../Figures/overlays/HXMM20_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS06_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM20_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS07_870_250.pdf
+> <../Figures/overlays/HXMM01_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS07_870_250.pdf): PDF inc
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM01_870_250.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ADFS_M0_870_250.pdf
+> <../Figures/overlays/HXMM04_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ADFS_M0_870_250.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/CDFS_M0_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM04_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM09_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/CDFS_M0_870_250.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/CDFS_M1_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM09_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM03_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/CDFS_M1_870_250.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/ECDFS02_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM03_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM11_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ECDFS02_870_250.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/COS01_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM11_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM23_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/COS01_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM23_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 538.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 555.
 
-[7 <../Figures/overlays/COS02_870_250.pdf> <../Figures/overlays/ElaisS1_870_250
+[7 <../Figures/overlays/HXMM22_870_250.pdf> <../Figures/overlays/HXMM05_870_250
 .pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/ElaisS1_870_250.pdf): PDF in
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM05_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM30_870_250.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM30_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HXMM12_870_250.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HXMM12_870_250.pdf): PDF inc
+lusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HECDFS12_870_500.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HECDFS12_870_500.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HECDFS04_870_500.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HECDFS04_870_500.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HECDFS13_870_250.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HECDFS13_870_250.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HADFS04_870_250.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS04_870_250.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM01_870_250.pdf
+> <../Figures/overlays/HADFS02_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM01_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM02_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS02_870_250.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HADFS11_870_500.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM02_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM03_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS11_870_500.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HADFS10_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM03_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM04_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS10_870_250.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HADFS01_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM04_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM05_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM05_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM06_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM06_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM16_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM16_870_250.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM101_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM101_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM102_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM102_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM108_870_250.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM108_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS01_870_250.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 538.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 555.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[8 <../Figures/overlays/XMM109_870_250.pdf> <../Figures/overlays/XMM110_870_250
-.pdf
+[8 <../Figures/overlays/HADFS09_870_250.pdf> <../Figures/overlays/HADFS08_870_2
+50.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM110_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM115_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS08_870_250.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HADFS03_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM115_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM119_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HADFS03_870_250.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HCOSMOS02_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM119_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
-> <../Figures/overlays/XMM124_870_250.pdf
+pdfTeX warning: pdflatex (file ../Figures/overlays/HCOSMOS02_870_250.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+> <../Figures/overlays/HCOSMOS01_870_250.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/overlays/XMM124_870_250.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
->] [9] [10]
-<../Figures/modelfit/ADFS01_optical_bestfit.pdf, id=20591, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS01_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS01_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS01_optical_bestfit.pdf used on
- input line 901.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+pdfTeX warning: pdflatex (file ../Figures/overlays/HCOSMOS01_870_250.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] [9]
+Underfull \hbox (badness 4024) in paragraph at lines 794--803
+[]\OT1/cmr/bx/n/10 HECDFS13: \OT1/cmr/m/n/10 This sys-tem is very sim-i-lar to
+ []
 
-<../Figures/modelfit/ADFS01_model_bestfit.pdf, id=20592, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS01_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS01_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS01_model_bestfit.pdf used on i
-nput line 902.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+[10]
+Underfull \hbox (badness 1097) in paragraph at lines 872--885
+\OT1/cmr/m/n/10 (the bright-est of which has al-ready been de-tected;
+ []
 
-<../Figures/modelfit/ADFS01_residual_bestfit.pdf, id=20593, 236.68425pt x 229.4
+
+<../Figures/modelfit/HADFS03_optical_bestfit.pdf, id=21359, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/ADFS01_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS01_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS01_residual_bestfit.pdf used o
-n input line 903.
+File: ../Figures/modelfit/HADFS03_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS03_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS03_optical_bestfit.pdf used o
+n input line 902.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ADFS02_optical_bestfit.pdf, id=20594, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS02_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS02_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS02_optical_bestfit.pdf used on
- input line 904.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS02_model_bestfit.pdf, id=20595, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS02_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS02_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS02_model_bestfit.pdf used on i
-nput line 905.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS02_residual_bestfit.pdf, id=20596, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS02_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS02_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS02_residual_bestfit.pdf used o
-n input line 906.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS03_optical_bestfit.pdf, id=20597, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS03_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS03_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS03_optical_bestfit.pdf used on
- input line 907.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS03_model_bestfit.pdf, id=20598, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS03_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS03_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS03_model_bestfit.pdf used on i
-nput line 908.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS03_residual_bestfit.pdf, id=20599, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS03_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS03_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS03_residual_bestfit.pdf used o
-n input line 909.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS04_optical_bestfit.pdf, id=20600, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS04_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS04_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS04_optical_bestfit.pdf used on
- input line 910.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS04_model_bestfit.pdf, id=20601, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS04_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS04_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS04_model_bestfit.pdf used on i
-nput line 911.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS04_residual_bestfit.pdf, id=20602, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS04_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS04_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS04_residual_bestfit.pdf used o
-n input line 912.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS05_optical_bestfit.pdf, id=20603, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS05_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS05_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS05_optical_bestfit.pdf used on
- input line 913.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS05_model_bestfit.pdf, id=20604, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS05_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS05_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS05_model_bestfit.pdf used on i
-nput line 914.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS05_residual_bestfit.pdf, id=20605, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS05_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS05_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS05_residual_bestfit.pdf used o
-n input line 915.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS06_optical_bestfit.pdf, id=20606, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS06_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS06_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS06_optical_bestfit.pdf used on
- input line 916.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS06_model_bestfit.pdf, id=20607, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS06_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS06_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS06_model_bestfit.pdf used on i
-nput line 917.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS06_residual_bestfit.pdf, id=20608, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS06_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS06_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS06_residual_bestfit.pdf used o
-n input line 918.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS07_optical_bestfit.pdf, id=20609, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/ADFS07_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS07_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS07_optical_bestfit.pdf used on
- input line 919.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS07_model_bestfit.pdf, id=20610, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/ADFS07_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS07_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS07_model_bestfit.pdf used on i
-nput line 920.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS07_residual_bestfit.pdf, id=20611, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS07_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS07_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS07_residual_bestfit.pdf used o
-n input line 921.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS_M0_optical_bestfit.pdf, id=20612, 236.68425pt x 229.4
-5726pt>
-File: ../Figures/modelfit/ADFS_M0_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS_M0_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS_M0_optical_bestfit.pdf used o
-n input line 922.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ADFS_M0_model_bestfit.pdf, id=20613, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS03_model_bestfit.pdf, id=21360, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/ADFS_M0_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS_M0_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS_M0_model_bestfit.pdf used on 
-input line 923.
+File: ../Figures/modelfit/HADFS03_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS03_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS03_model_bestfit.pdf used on 
+input line 903.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ADFS_M0_residual_bestfit.pdf, id=20614, 236.68425pt x 229.
+<../Figures/modelfit/HADFS03_residual_bestfit.pdf, id=21361, 236.68425pt x 229.
 45726pt>
-File: ../Figures/modelfit/ADFS_M0_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ADFS_M0_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ADFS_M0_residual_bestfit.pdf used 
-on input line 924.
+File: ../Figures/modelfit/HADFS03_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS03_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS03_residual_bestfit.pdf used 
+on input line 904.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M0_optical_bestfit.pdf, id=20615, 236.68425pt x 229.4
+<../Figures/modelfit/HADFS08_optical_bestfit.pdf, id=21362, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/CDFS_M0_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M0_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M0_optical_bestfit.pdf used o
-n input line 925.
+File: ../Figures/modelfit/HADFS08_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS08_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS08_optical_bestfit.pdf used o
+n input line 905.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M0_model_bestfit.pdf, id=20616, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS08_model_bestfit.pdf, id=21363, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/CDFS_M0_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M0_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M0_model_bestfit.pdf used on 
-input line 926.
+File: ../Figures/modelfit/HADFS08_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS08_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS08_model_bestfit.pdf used on 
+input line 906.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M0_residual_bestfit.pdf, id=20617, 236.68425pt x 229.
+<../Figures/modelfit/HADFS08_residual_bestfit.pdf, id=21364, 236.68425pt x 229.
 45726pt>
-File: ../Figures/modelfit/CDFS_M0_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M0_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M0_residual_bestfit.pdf used 
-on input line 927.
+File: ../Figures/modelfit/HADFS08_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS08_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS08_residual_bestfit.pdf used 
+on input line 907.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M1_optical_bestfit.pdf, id=20618, 236.68425pt x 229.4
+<../Figures/modelfit/HADFS09_optical_bestfit.pdf, id=21365, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/CDFS_M1_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M1_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M1_optical_bestfit.pdf used o
-n input line 928.
+File: ../Figures/modelfit/HADFS09_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS09_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS09_optical_bestfit.pdf used o
+n input line 908.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M1_model_bestfit.pdf, id=20619, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS09_model_bestfit.pdf, id=21366, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/CDFS_M1_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M1_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M1_model_bestfit.pdf used on 
-input line 929.
+File: ../Figures/modelfit/HADFS09_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS09_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS09_model_bestfit.pdf used on 
+input line 909.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/CDFS_M1_residual_bestfit.pdf, id=20620, 236.68425pt x 229.
+<../Figures/modelfit/HADFS09_residual_bestfit.pdf, id=21367, 236.68425pt x 229.
 45726pt>
-File: ../Figures/modelfit/CDFS_M1_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/CDFS_M1_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/CDFS_M1_residual_bestfit.pdf used 
-on input line 930.
+File: ../Figures/modelfit/HADFS09_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS09_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS09_residual_bestfit.pdf used 
+on input line 910.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ECDFS02_optical_bestfit.pdf, id=20621, 236.68425pt x 229.4
+<../Figures/modelfit/HADFS10_optical_bestfit.pdf, id=21368, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/ECDFS02_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ECDFS02_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ECDFS02_optical_bestfit.pdf used o
-n input line 931.
+File: ../Figures/modelfit/HADFS10_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS10_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS10_optical_bestfit.pdf used o
+n input line 911.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ECDFS02_model_bestfit.pdf, id=20622, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS10_model_bestfit.pdf, id=21369, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/ECDFS02_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ECDFS02_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ECDFS02_model_bestfit.pdf used on 
-input line 932.
+File: ../Figures/modelfit/HADFS10_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS10_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS10_model_bestfit.pdf used on 
+input line 912.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ECDFS02_residual_bestfit.pdf, id=20623, 236.68425pt x 229.
+<../Figures/modelfit/HADFS10_residual_bestfit.pdf, id=21370, 236.68425pt x 229.
 45726pt>
-File: ../Figures/modelfit/ECDFS02_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ECDFS02_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ECDFS02_residual_bestfit.pdf used 
-on input line 933.
+File: ../Figures/modelfit/HADFS10_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS10_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS10_residual_bestfit.pdf used 
+on input line 913.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/COS01_optical_bestfit.pdf, id=20624, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/COS01_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS01_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS01_optical_bestfit.pdf used on 
-input line 934.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/COS01_model_bestfit.pdf, id=20625, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/COS01_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS01_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS01_model_bestfit.pdf used on in
-put line 935.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/COS01_residual_bestfit.pdf, id=20626, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/COS01_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS01_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS01_residual_bestfit.pdf used on
- input line 936.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/COS02_optical_bestfit.pdf, id=20627, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/COS02_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS02_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS02_optical_bestfit.pdf used on 
-input line 937.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/COS02_model_bestfit.pdf, id=20628, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/COS02_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS02_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS02_model_bestfit.pdf used on in
-put line 938.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/COS02_residual_bestfit.pdf, id=20629, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/COS02_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/COS02_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/COS02_residual_bestfit.pdf used on
- input line 939.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/ElaisS1_optical_bestfit.pdf, id=20630, 236.68425pt x 229.4
+<../Figures/modelfit/HADFS02_optical_bestfit.pdf, id=21371, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/ElaisS1_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ElaisS1_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ElaisS1_optical_bestfit.pdf used o
-n input line 940.
+File: ../Figures/modelfit/HADFS02_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS02_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS02_optical_bestfit.pdf used o
+n input line 914.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ElaisS1_model_bestfit.pdf, id=20631, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS02_model_bestfit.pdf, id=21372, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/ElaisS1_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ElaisS1_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ElaisS1_model_bestfit.pdf used on 
-input line 941.
+File: ../Figures/modelfit/HADFS02_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS02_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS02_model_bestfit.pdf used on 
+input line 915.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/ElaisS1_residual_bestfit.pdf, id=20632, 236.68425pt x 229.
+<../Figures/modelfit/HADFS02_residual_bestfit.pdf, id=21373, 236.68425pt x 229.
 45726pt>
-File: ../Figures/modelfit/ElaisS1_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/ElaisS1_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/ElaisS1_residual_bestfit.pdf used 
-on input line 942.
+File: ../Figures/modelfit/HADFS02_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS02_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS02_residual_bestfit.pdf used 
+on input line 916.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM01_optical_bestfit.pdf, id=20633, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS04_optical_bestfit.pdf, id=21374, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HADFS04_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS04_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS04_optical_bestfit.pdf used o
+n input line 917.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HADFS04_model_bestfit.pdf, id=21375, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/XMM01_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM01_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM01_optical_bestfit.pdf used on 
-input line 998.
+File: ../Figures/modelfit/HADFS04_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS04_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS04_model_bestfit.pdf used on 
+input line 918.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM01_model_bestfit.pdf, id=20634, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM01_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM01_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM01_model_bestfit.pdf used on in
-put line 999.
+<../Figures/modelfit/HADFS04_residual_bestfit.pdf, id=21376, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HADFS04_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS04_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS04_residual_bestfit.pdf used 
+on input line 919.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM01_residual_bestfit.pdf, id=20635, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM01_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM01_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM01_residual_bestfit.pdf used on
- input line 1000.
+<../Figures/modelfit/HADFS01_optical_bestfit.pdf, id=21377, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HADFS01_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS01_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS01_optical_bestfit.pdf used o
+n input line 920.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM02_optical_bestfit.pdf, id=20636, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS01_model_bestfit.pdf, id=21378, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/XMM02_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM02_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM02_optical_bestfit.pdf used on 
-input line 1001.
+File: ../Figures/modelfit/HADFS01_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS01_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS01_model_bestfit.pdf used on 
+input line 921.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM02_model_bestfit.pdf, id=20637, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM02_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM02_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM02_model_bestfit.pdf used on in
-put line 1002.
+<../Figures/modelfit/HADFS01_residual_bestfit.pdf, id=21379, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HADFS01_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS01_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS01_residual_bestfit.pdf used 
+on input line 922.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM02_residual_bestfit.pdf, id=20638, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM02_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM02_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM02_residual_bestfit.pdf used on
- input line 1003.
+<../Figures/modelfit/HADFS11_optical_bestfit.pdf, id=21380, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HADFS11_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS11_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS11_optical_bestfit.pdf used o
+n input line 923.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM03_optical_bestfit.pdf, id=20639, 236.68425pt x 229.457
+<../Figures/modelfit/HADFS11_model_bestfit.pdf, id=21381, 236.68425pt x 229.457
 26pt>
-File: ../Figures/modelfit/XMM03_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM03_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM03_optical_bestfit.pdf used on 
-input line 1004.
+File: ../Figures/modelfit/HADFS11_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS11_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS11_model_bestfit.pdf used on 
+input line 924.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM03_model_bestfit.pdf, id=20640, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM03_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM03_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM03_model_bestfit.pdf used on in
-put line 1005.
+<../Figures/modelfit/HADFS11_residual_bestfit.pdf, id=21382, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HADFS11_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HADFS11_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HADFS11_residual_bestfit.pdf used 
+on input line 925.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM03_residual_bestfit.pdf, id=20641, 236.68425pt x 229.45
+<../Figures/modelfit/HECDFS12_optical_bestfit.pdf, id=21383, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HECDFS12_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS12_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS12_optical_bestfit.pdf used 
+on input line 926.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HECDFS12_model_bestfit.pdf, id=21384, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM03_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM03_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM03_residual_bestfit.pdf used on
- input line 1006.
+File: ../Figures/modelfit/HECDFS12_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS12_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS12_model_bestfit.pdf used on
+ input line 927.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM04_optical_bestfit.pdf, id=20642, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/XMM04_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM04_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM04_optical_bestfit.pdf used on 
-input line 1007.
+<../Figures/modelfit/HECDFS12_residual_bestfit.pdf, id=21385, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HECDFS12_residual_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HECDFS12_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS12_residual_bestfit.pdf used
+ on input line 928.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM04_model_bestfit.pdf, id=20643, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM04_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM04_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM04_model_bestfit.pdf used on in
-put line 1008.
+<../Figures/modelfit/HECDFS04_optical_bestfit.pdf, id=21386, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HECDFS04_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS04_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS04_optical_bestfit.pdf used 
+on input line 929.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM04_residual_bestfit.pdf, id=20644, 236.68425pt x 229.45
+<../Figures/modelfit/HECDFS04_model_bestfit.pdf, id=21387, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM04_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM04_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM04_residual_bestfit.pdf used on
- input line 1009.
+File: ../Figures/modelfit/HECDFS04_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS04_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS04_model_bestfit.pdf used on
+ input line 930.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM05_optical_bestfit.pdf, id=20645, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/XMM05_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM05_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM05_optical_bestfit.pdf used on 
-input line 1010.
+<../Figures/modelfit/HECDFS04_residual_bestfit.pdf, id=21388, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HECDFS04_residual_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HECDFS04_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS04_residual_bestfit.pdf used
+ on input line 931.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM05_model_bestfit.pdf, id=20646, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM05_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM05_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM05_model_bestfit.pdf used on in
-put line 1011.
+<../Figures/modelfit/HECDFS13_optical_bestfit.pdf, id=21389, 236.68425pt x 229.
+45726pt>
+File: ../Figures/modelfit/HECDFS13_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS13_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS13_optical_bestfit.pdf used 
+on input line 932.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM05_residual_bestfit.pdf, id=20647, 236.68425pt x 229.45
+<../Figures/modelfit/HECDFS13_model_bestfit.pdf, id=21390, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM05_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM05_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM05_residual_bestfit.pdf used on
- input line 1012.
+File: ../Figures/modelfit/HECDFS13_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HECDFS13_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS13_model_bestfit.pdf used on
+ input line 933.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM06_optical_bestfit.pdf, id=20648, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/XMM06_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM06_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM06_optical_bestfit.pdf used on 
-input line 1013.
+<../Figures/modelfit/HECDFS13_residual_bestfit.pdf, id=21391, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HECDFS13_residual_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HECDFS13_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HECDFS13_residual_bestfit.pdf used
+ on input line 934.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM06_model_bestfit.pdf, id=20649, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM06_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM06_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM06_model_bestfit.pdf used on in
-put line 1014.
+<../Figures/modelfit/HCOSMOS01_optical_bestfit.pdf, id=21392, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HCOSMOS01_optical_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HCOSMOS01_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS01_optical_bestfit.pdf used
+ on input line 935.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM06_residual_bestfit.pdf, id=20650, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM06_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM06_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM06_residual_bestfit.pdf used on
- input line 1015.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM16_optical_bestfit.pdf, id=20651, 236.68425pt x 229.457
-26pt>
-File: ../Figures/modelfit/XMM16_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM16_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM16_optical_bestfit.pdf used on 
-input line 1016.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM16_model_bestfit.pdf, id=20652, 236.68425pt x 229.45726
-pt>
-File: ../Figures/modelfit/XMM16_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM16_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM16_model_bestfit.pdf used on in
-put line 1017.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM16_residual_bestfit.pdf, id=20653, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM16_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM16_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM16_residual_bestfit.pdf used on
- input line 1018.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM101_optical_bestfit.pdf, id=20654, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM101_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM101_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM101_optical_bestfit.pdf used on
- input line 1019.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM101_model_bestfit.pdf, id=20655, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/XMM101_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM101_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM101_model_bestfit.pdf used on i
-nput line 1020.
-(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
-
-<../Figures/modelfit/XMM101_residual_bestfit.pdf, id=20656, 236.68425pt x 229.4
+<../Figures/modelfit/HCOSMOS01_model_bestfit.pdf, id=21393, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM101_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM101_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM101_residual_bestfit.pdf used o
-n input line 1021.
+File: ../Figures/modelfit/HCOSMOS01_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HCOSMOS01_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS01_model_bestfit.pdf used o
+n input line 936.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM102_optical_bestfit.pdf, id=20657, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM102_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM102_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM102_optical_bestfit.pdf used on
- input line 1022.
+<../Figures/modelfit/HCOSMOS01_residual_bestfit.pdf, id=21394, 236.68425pt x 22
+9.45726pt>
+File: ../Figures/modelfit/HCOSMOS01_residual_bestfit.pdf Graphic file (type pdf
+)
+ <use ../Figures/modelfit/HCOSMOS01_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS01_residual_bestfit.pdf use
+d on input line 937.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM102_model_bestfit.pdf, id=20658, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/XMM102_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM102_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM102_model_bestfit.pdf used on i
-nput line 1023.
+<../Figures/modelfit/HCOSMOS02_optical_bestfit.pdf, id=21395, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HCOSMOS02_optical_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HCOSMOS02_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS02_optical_bestfit.pdf used
+ on input line 938.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM102_residual_bestfit.pdf, id=20659, 236.68425pt x 229.4
+<../Figures/modelfit/HCOSMOS02_model_bestfit.pdf, id=21396, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM102_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM102_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM102_residual_bestfit.pdf used o
-n input line 1024.
+File: ../Figures/modelfit/HCOSMOS02_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HCOSMOS02_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS02_model_bestfit.pdf used o
+n input line 939.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM108_optical_bestfit.pdf, id=20660, 236.68425pt x 229.45
-726pt>
-File: ../Figures/modelfit/XMM108_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM108_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM108_optical_bestfit.pdf used on
- input line 1025.
+<../Figures/modelfit/HCOSMOS02_residual_bestfit.pdf, id=21397, 236.68425pt x 22
+9.45726pt>
+File: ../Figures/modelfit/HCOSMOS02_residual_bestfit.pdf Graphic file (type pdf
+)
+ <use ../Figures/modelfit/HCOSMOS02_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HCOSMOS02_residual_bestfit.pdf use
+d on input line 940.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM108_model_bestfit.pdf, id=20661, 236.68425pt x 229.4572
-6pt>
-File: ../Figures/modelfit/XMM108_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM108_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM108_model_bestfit.pdf used on i
-nput line 1026.
+<../Figures/modelfit/HELAISS02_optical_bestfit.pdf, id=21398, 236.68425pt x 229
+.45726pt>
+File: ../Figures/modelfit/HELAISS02_optical_bestfit.pdf Graphic file (type pdf)
+
+ <use ../Figures/modelfit/HELAISS02_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HELAISS02_optical_bestfit.pdf used
+ on input line 941.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM108_residual_bestfit.pdf, id=20662, 236.68425pt x 229.4
+<../Figures/modelfit/HELAISS02_model_bestfit.pdf, id=21399, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM108_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM108_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM108_residual_bestfit.pdf used o
-n input line 1027.
+File: ../Figures/modelfit/HELAISS02_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HELAISS02_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HELAISS02_model_bestfit.pdf used o
+n input line 942.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM109_optical_bestfit.pdf, id=20663, 236.68425pt x 229.45
+<../Figures/modelfit/HELAISS02_residual_bestfit.pdf, id=21400, 236.68425pt x 22
+9.45726pt>
+File: ../Figures/modelfit/HELAISS02_residual_bestfit.pdf Graphic file (type pdf
+)
+ <use ../Figures/modelfit/HELAISS02_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HELAISS02_residual_bestfit.pdf use
+d on input line 943.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM01_optical_bestfit.pdf, id=21401, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM109_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM109_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM109_optical_bestfit.pdf used on
- input line 1028.
+File: ../Figures/modelfit/HXMM01_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM01_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM01_optical_bestfit.pdf used on
+ input line 999.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM109_model_bestfit.pdf, id=20664, 236.68425pt x 229.4572
+<../Figures/modelfit/HXMM01_model_bestfit.pdf, id=21402, 236.68425pt x 229.4572
 6pt>
-File: ../Figures/modelfit/XMM109_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM109_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM109_model_bestfit.pdf used on i
-nput line 1029.
+File: ../Figures/modelfit/HXMM01_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM01_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM01_model_bestfit.pdf used on i
+nput line 1000.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM109_residual_bestfit.pdf, id=20665, 236.68425pt x 229.4
+<../Figures/modelfit/HXMM01_residual_bestfit.pdf, id=21403, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM109_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM109_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM109_residual_bestfit.pdf used o
-n input line 1030.
+File: ../Figures/modelfit/HXMM01_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM01_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM01_residual_bestfit.pdf used o
+n input line 1001.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM110_optical_bestfit.pdf, id=20666, 236.68425pt x 229.45
+<../Figures/modelfit/HXMM11_optical_bestfit.pdf, id=21404, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM110_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM110_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM110_optical_bestfit.pdf used on
- input line 1031.
+File: ../Figures/modelfit/HXMM11_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM11_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM11_optical_bestfit.pdf used on
+ input line 1002.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM110_model_bestfit.pdf, id=20667, 236.68425pt x 229.4572
+<../Figures/modelfit/HXMM11_model_bestfit.pdf, id=21405, 236.68425pt x 229.4572
 6pt>
-File: ../Figures/modelfit/XMM110_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM110_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM110_model_bestfit.pdf used on i
-nput line 1032.
+File: ../Figures/modelfit/HXMM11_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM11_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM11_model_bestfit.pdf used on i
+nput line 1003.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM110_residual_bestfit.pdf, id=20668, 236.68425pt x 229.4
+<../Figures/modelfit/HXMM11_residual_bestfit.pdf, id=21406, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM110_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM110_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM110_residual_bestfit.pdf used o
-n input line 1033.
+File: ../Figures/modelfit/HXMM11_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM11_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM11_residual_bestfit.pdf used o
+n input line 1004.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM115_optical_bestfit.pdf, id=20669, 236.68425pt x 229.45
+<../Figures/modelfit/HXMM05_optical_bestfit.pdf, id=21407, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM115_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM115_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM115_optical_bestfit.pdf used on
- input line 1034.
+File: ../Figures/modelfit/HXMM05_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM05_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM05_optical_bestfit.pdf used on
+ input line 1005.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM115_model_bestfit.pdf, id=20670, 236.68425pt x 229.4572
+<../Figures/modelfit/HXMM05_model_bestfit.pdf, id=21408, 236.68425pt x 229.4572
 6pt>
-File: ../Figures/modelfit/XMM115_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM115_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM115_model_bestfit.pdf used on i
-nput line 1035.
+File: ../Figures/modelfit/HXMM05_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM05_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM05_model_bestfit.pdf used on i
+nput line 1006.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM115_residual_bestfit.pdf, id=20671, 236.68425pt x 229.4
+<../Figures/modelfit/HXMM05_residual_bestfit.pdf, id=21409, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM115_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM115_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM115_residual_bestfit.pdf used o
-n input line 1036.
+File: ../Figures/modelfit/HXMM05_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM05_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM05_residual_bestfit.pdf used o
+n input line 1007.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM119_optical_bestfit.pdf, id=20672, 236.68425pt x 229.45
+<../Figures/modelfit/HXMM29_optical_bestfit.pdf, id=21410, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM119_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM119_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM119_optical_bestfit.pdf used on
- input line 1037.
+File: ../Figures/modelfit/HXMM29_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM29_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM29_optical_bestfit.pdf used on
+ input line 1008.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM119_model_bestfit.pdf, id=20673, 236.68425pt x 229.4572
+<../Figures/modelfit/HXMM29_model_bestfit.pdf, id=21411, 236.68425pt x 229.4572
 6pt>
-File: ../Figures/modelfit/XMM119_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM119_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM119_model_bestfit.pdf used on i
-nput line 1038.
+File: ../Figures/modelfit/HXMM29_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM29_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM29_model_bestfit.pdf used on i
+nput line 1009.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM119_residual_bestfit.pdf, id=20674, 236.68425pt x 229.4
+<../Figures/modelfit/HXMM29_residual_bestfit.pdf, id=21412, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM119_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM119_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM119_residual_bestfit.pdf used o
-n input line 1039.
+File: ../Figures/modelfit/HXMM29_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM29_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM29_residual_bestfit.pdf used o
+n input line 1010.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM124_optical_bestfit.pdf, id=20675, 236.68425pt x 229.45
+<../Figures/modelfit/HXMM12_optical_bestfit.pdf, id=21413, 236.68425pt x 229.45
 726pt>
-File: ../Figures/modelfit/XMM124_optical_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM124_optical_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM124_optical_bestfit.pdf used on
- input line 1040.
+File: ../Figures/modelfit/HXMM12_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM12_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM12_optical_bestfit.pdf used on
+ input line 1011.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM124_model_bestfit.pdf, id=20676, 236.68425pt x 229.4572
+<../Figures/modelfit/HXMM12_model_bestfit.pdf, id=21414, 236.68425pt x 229.4572
 6pt>
-File: ../Figures/modelfit/XMM124_model_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM124_model_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM124_model_bestfit.pdf used on i
-nput line 1041.
+File: ../Figures/modelfit/HXMM12_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM12_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM12_model_bestfit.pdf used on i
+nput line 1012.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-<../Figures/modelfit/XMM124_residual_bestfit.pdf, id=20677, 236.68425pt x 229.4
+<../Figures/modelfit/HXMM12_residual_bestfit.pdf, id=21415, 236.68425pt x 229.4
 5726pt>
-File: ../Figures/modelfit/XMM124_residual_bestfit.pdf Graphic file (type pdf)
- <use ../Figures/modelfit/XMM124_residual_bestfit.pdf>
-Package pdftex.def Info: ../Figures/modelfit/XMM124_residual_bestfit.pdf used o
-n input line 1042.
+File: ../Figures/modelfit/HXMM12_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM12_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM12_residual_bestfit.pdf used o
+n input line 1013.
 (pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-(./table_lenses.tex) (./table_intrinsic.tex [11] [12 <../Figures/modelfit/ADFS0
-1_optical_bestfit.pdf> <../Figures/modelfit/ADFS01_model_bestfit.pdf
+<../Figures/modelfit/HXMM02_optical_bestfit.pdf, id=21416, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM02_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM02_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM02_optical_bestfit.pdf used on
+ input line 1014.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS01_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS01_residual_bestfit.pdf
+<../Figures/modelfit/HXMM02_model_bestfit.pdf, id=21417, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM02_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM02_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM02_model_bestfit.pdf used on i
+nput line 1015.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS01_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS02_optical_bestfit.pdf
+<../Figures/modelfit/HXMM02_residual_bestfit.pdf, id=21418, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM02_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM02_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM02_residual_bestfit.pdf used o
+n input line 1016.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS02_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS02_model_bestfit.pdf
+<../Figures/modelfit/HXMM03_optical_bestfit.pdf, id=21419, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM03_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM03_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM03_optical_bestfit.pdf used on
+ input line 1017.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS02_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS02_residual_bestfit.pdf
+<../Figures/modelfit/HXMM03_model_bestfit.pdf, id=21420, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM03_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM03_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM03_model_bestfit.pdf used on i
+nput line 1018.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS02_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS03_optical_bestfit.pdf
+<../Figures/modelfit/HXMM03_residual_bestfit.pdf, id=21421, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM03_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM03_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM03_residual_bestfit.pdf used o
+n input line 1019.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS03_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS03_model_bestfit.pdf
+<../Figures/modelfit/HXMM22_optical_bestfit.pdf, id=21422, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM22_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM22_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM22_optical_bestfit.pdf used on
+ input line 1020.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS03_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS03_residual_bestfit.pdf
+<../Figures/modelfit/HXMM22_model_bestfit.pdf, id=21423, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM22_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM22_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM22_model_bestfit.pdf used on i
+nput line 1021.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS03_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS04_optical_bestfit.pdf
+<../Figures/modelfit/HXMM22_residual_bestfit.pdf, id=21424, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM22_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM22_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM22_residual_bestfit.pdf used o
+n input line 1022.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS04_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS04_model_bestfit.pdf
+<../Figures/modelfit/HXMM20_optical_bestfit.pdf, id=21425, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM20_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM20_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM20_optical_bestfit.pdf used on
+ input line 1023.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS04_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS04_residual_bestfit.pdf
+<../Figures/modelfit/HXMM20_model_bestfit.pdf, id=21426, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM20_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM20_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM20_model_bestfit.pdf used on i
+nput line 1024.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS04_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS05_optical_bestfit.pdf
+<../Figures/modelfit/HXMM20_residual_bestfit.pdf, id=21427, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM20_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM20_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM20_residual_bestfit.pdf used o
+n input line 1025.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS05_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS05_model_bestfit.pdf
+<../Figures/modelfit/HXMM07_optical_bestfit.pdf, id=21428, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM07_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM07_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM07_optical_bestfit.pdf used on
+ input line 1026.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS05_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS05_residual_bestfit.pdf
+<../Figures/modelfit/HXMM07_model_bestfit.pdf, id=21429, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM07_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM07_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM07_model_bestfit.pdf used on i
+nput line 1027.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS05_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS06_optical_bestfit.pdf
+<../Figures/modelfit/HXMM07_residual_bestfit.pdf, id=21430, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM07_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM07_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM07_residual_bestfit.pdf used o
+n input line 1028.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS06_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS06_model_bestfit.pdf
+<../Figures/modelfit/HXMM30_optical_bestfit.pdf, id=21431, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM30_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM30_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM30_optical_bestfit.pdf used on
+ input line 1029.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS06_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS06_residual_bestfit.pdf
+<../Figures/modelfit/HXMM30_model_bestfit.pdf, id=21432, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM30_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM30_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM30_model_bestfit.pdf used on i
+nput line 1030.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS06_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS07_optical_bestfit.pdf
+<../Figures/modelfit/HXMM30_residual_bestfit.pdf, id=21433, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM30_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM30_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM30_residual_bestfit.pdf used o
+n input line 1031.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS07_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS07_model_bestfit.pdf
+<../Figures/modelfit/HXMM31_optical_bestfit.pdf, id=21434, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM31_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM31_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM31_optical_bestfit.pdf used on
+ input line 1032.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS07_model_bestfit.pdf): P
-DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS07_residual_bestfit.pdf
+<../Figures/modelfit/HXMM31_model_bestfit.pdf, id=21435, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM31_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM31_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM31_model_bestfit.pdf used on i
+nput line 1033.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS07_residual_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS_M0_optical_bestfit.pdf
+<../Figures/modelfit/HXMM31_residual_bestfit.pdf, id=21436, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM31_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM31_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM31_residual_bestfit.pdf used o
+n input line 1034.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS_M0_optical_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS_M0_model_bestfit.pdf
+<../Figures/modelfit/HXMM04_optical_bestfit.pdf, id=21437, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM04_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM04_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM04_optical_bestfit.pdf used on
+ input line 1035.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS_M0_model_bestfit.pdf): 
+<../Figures/modelfit/HXMM04_model_bestfit.pdf, id=21438, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM04_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM04_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM04_model_bestfit.pdf used on i
+nput line 1036.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM04_residual_bestfit.pdf, id=21439, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM04_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM04_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM04_residual_bestfit.pdf used o
+n input line 1037.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM09_optical_bestfit.pdf, id=21440, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM09_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM09_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM09_optical_bestfit.pdf used on
+ input line 1038.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM09_model_bestfit.pdf, id=21441, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM09_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM09_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM09_model_bestfit.pdf used on i
+nput line 1039.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM09_residual_bestfit.pdf, id=21442, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM09_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM09_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM09_residual_bestfit.pdf used o
+n input line 1040.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM23_optical_bestfit.pdf, id=21443, 236.68425pt x 229.45
+726pt>
+File: ../Figures/modelfit/HXMM23_optical_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM23_optical_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM23_optical_bestfit.pdf used on
+ input line 1041.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM23_model_bestfit.pdf, id=21444, 236.68425pt x 229.4572
+6pt>
+File: ../Figures/modelfit/HXMM23_model_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM23_model_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM23_model_bestfit.pdf used on i
+nput line 1042.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+<../Figures/modelfit/HXMM23_residual_bestfit.pdf, id=21445, 236.68425pt x 229.4
+5726pt>
+File: ../Figures/modelfit/HXMM23_residual_bestfit.pdf Graphic file (type pdf)
+ <use ../Figures/modelfit/HXMM23_residual_bestfit.pdf>
+Package pdftex.def Info: ../Figures/modelfit/HXMM23_residual_bestfit.pdf used o
+n input line 1043.
+(pdftex.def)             Requested size: 83.12633pt x 80.58783pt.
+
+(./table_lenses.tex) (./table_intrinsic.tex [11] [12 <../Figures/modelfit/HADFS
+03_optical_bestfit.pdf> <../Figures/modelfit/HADFS03_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS03_model_bestfit.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ADFS_M0_residual_bestfit.pdf
+> <../Figures/modelfit/HADFS03_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ADFS_M0_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS03_residual_bestfit.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M0_optical_bestfit.pdf
+> <../Figures/modelfit/HADFS08_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M0_optical_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS08_optical_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M0_model_bestfit.pdf
+> <../Figures/modelfit/HADFS08_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M0_model_bestfit.pdf): 
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS08_model_bestfit.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M0_residual_bestfit.pdf
+> <../Figures/modelfit/HADFS08_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M0_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS08_residual_bestfit.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M1_optical_bestfit.pdf
+> <../Figures/modelfit/HADFS09_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M1_optical_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS09_optical_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M1_model_bestfit.pdf
+> <../Figures/modelfit/HADFS09_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M1_model_bestfit.pdf): 
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS09_model_bestfit.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/CDFS_M1_residual_bestfit.pdf
+> <../Figures/modelfit/HADFS09_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/CDFS_M1_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS09_residual_bestfit.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ECDFS02_optical_bestfit.pdf
+> <../Figures/modelfit/HADFS10_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ECDFS02_optical_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS10_optical_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ECDFS02_model_bestfit.pdf
+> <../Figures/modelfit/HADFS10_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ECDFS02_model_bestfit.pdf): 
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS10_model_bestfit.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ECDFS02_residual_bestfit.pdf
+> <../Figures/modelfit/HADFS10_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ECDFS02_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS10_residual_bestfit.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS01_optical_bestfit.pdf
+> <../Figures/modelfit/HADFS02_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS01_optical_bestfit.pdf): 
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS02_optical_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS02_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS02_model_bestfit.pdf): 
 PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS01_model_bestfit.pdf
+> <../Figures/modelfit/HADFS02_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS01_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS01_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS02_residual_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS04_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS01_residual_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS04_optical_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS04_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS04_model_bestfit.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS04_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS04_residual_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS01_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS01_optical_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS01_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS01_model_bestfit.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS01_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS01_residual_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS11_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS11_optical_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS11_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS11_model_bestfit.pdf): 
+PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HADFS11_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HADFS11_residual_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS12_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS12_optical_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS12_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS12_model_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS02_optical_bestfit.pdf
+> <../Figures/modelfit/HECDFS12_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS02_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS02_model_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS12_residual_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS04_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS02_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/COS02_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/COS02_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ElaisS1_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ElaisS1_optical_bestfit.pdf)
-: PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ElaisS1_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ElaisS1_model_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/ElaisS1_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/ElaisS1_residual_bestfit.pdf
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS04_optical_bestfit.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS04_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS04_model_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS04_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS04_residual_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS13_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS13_optical_bestfit.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS13_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS13_model_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HECDFS13_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HECDFS13_residual_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS01_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS01_optical_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS01_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS01_model_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS01_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS01_residual_bestfit.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS02_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS02_optical_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS02_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS02_model_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HCOSMOS02_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HCOSMOS02_residual_bestfit.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HELAISS02_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HELAISS02_optical_bestfit.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HELAISS02_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HELAISS02_model_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HELAISS02_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HELAISS02_residual_bestfit.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
 LaTeX Warning: A float is stuck (cannot be placed) on input line 3.
@@ -1632,267 +1662,267 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 3.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-[13 <../Figures/modelfit/XMM01_optical_bestfit.pdf> <../Figures/modelfit/XMM01_
-model_bestfit.pdf
+[13 <../Figures/modelfit/HXMM01_optical_bestfit.pdf> <../Figures/modelfit/HXMM0
+1_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM01_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM01_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM01_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM02_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM02_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM02_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM02_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM02_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM02_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM03_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM03_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM03_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM03_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM03_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM03_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM04_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM04_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM04_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM04_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM04_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM04_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM05_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM05_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM05_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM05_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM05_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM05_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM06_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM06_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM06_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM06_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM06_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM06_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM16_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM16_optical_bestfit.pdf): 
-PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM16_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM16_model_bestfit.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM16_residual_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM16_residual_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM101_optical_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM101_optical_bestfit.pdf):
- PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM101_model_bestfit.pdf
-
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM101_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM01_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM101_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM01_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM101_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM01_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM102_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM11_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM102_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM11_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM102_model_bestfit.pdf
+> <../Figures/modelfit/HXMM11_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM102_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM11_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM102_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM11_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM102_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM11_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM108_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM05_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM108_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM05_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM108_model_bestfit.pdf
+> <../Figures/modelfit/HXMM05_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM108_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM05_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM108_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM05_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM108_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM05_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM109_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM29_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM109_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM29_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM109_model_bestfit.pdf
+> <../Figures/modelfit/HXMM29_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM109_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM29_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM109_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM29_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM109_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM29_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM110_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM12_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM110_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM12_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM110_model_bestfit.pdf
+> <../Figures/modelfit/HXMM12_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM110_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM12_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM110_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM12_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM110_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM12_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM115_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM02_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM115_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM02_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM115_model_bestfit.pdf
+> <../Figures/modelfit/HXMM02_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM115_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM02_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM115_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM02_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM115_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM02_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM119_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM03_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM119_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM03_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM119_model_bestfit.pdf
+> <../Figures/modelfit/HXMM03_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM119_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM03_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM119_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM03_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM119_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM03_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM124_optical_bestfit.pdf
+> <../Figures/modelfit/HXMM22_optical_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM124_optical_bestfit.pdf):
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM22_optical_bestfit.pdf):
  PDF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM124_model_bestfit.pdf
+> <../Figures/modelfit/HXMM22_model_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM124_model_bestfit.pdf): P
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM22_model_bestfit.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
-> <../Figures/modelfit/XMM124_residual_bestfit.pdf
+> <../Figures/modelfit/HXMM22_residual_bestfit.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/modelfit/XMM124_residual_bestfit.pdf)
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM22_residual_bestfit.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
->]) <../Figures/CDFS_M1_rgb.pdf, id=22738, 216.81pt x 216.81pt>
-File: ../Figures/CDFS_M1_rgb.pdf Graphic file (type pdf)
+> <../Figures/modelfit/HXMM20_optical_bestfit.pdf
 
-<use ../Figures/CDFS_M1_rgb.pdf>
-Package pdftex.def Info: ../Figures/CDFS_M1_rgb.pdf used on input line 1057.
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM20_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM20_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM20_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM20_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM20_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM07_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM07_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM07_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM07_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM07_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM07_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM30_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM30_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM30_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM30_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM30_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM30_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM31_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM31_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM31_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM31_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM31_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM31_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM04_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM04_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM04_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM04_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM04_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM04_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM09_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM09_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM09_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM09_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM09_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM09_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM23_optical_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM23_optical_bestfit.pdf):
+ PDF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM23_model_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM23_model_bestfit.pdf): P
+DF inclusion: multiple pdfs with page group included in a single page
+> <../Figures/modelfit/HXMM23_residual_bestfit.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/modelfit/HXMM23_residual_bestfit.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+>]) <../Figures/HECDFS04_rgb.pdf, id=23581, 216.81pt x 216.81pt>
+File: ../Figures/HECDFS04_rgb.pdf Graphic file (type pdf)
+
+<use ../Figures/HECDFS04_rgb.pdf>
+Package pdftex.def Info: ../Figures/HECDFS04_rgb.pdf used on input line 1058.
 (pdftex.def)             Requested size: 100.06165pt x 100.06133pt.
 
-<../Figures/COS02_rgb.pdf, id=22739, 216.81pt x 216.81pt>
-File: ../Figures/COS02_rgb.pdf Graphic file (type pdf)
+<../Figures/HCOSMOS02_rgb.pdf, id=23582, 216.81pt x 216.81pt>
+File: ../Figures/HCOSMOS02_rgb.pdf Graphic file (type pdf)
 
-<use ../Figures/COS02_rgb.pdf>
-Package pdftex.def Info: ../Figures/COS02_rgb.pdf used on input line 1058.
+<use ../Figures/HCOSMOS02_rgb.pdf>
+Package pdftex.def Info: ../Figures/HCOSMOS02_rgb.pdf used on input line 1059.
 (pdftex.def)             Requested size: 100.06165pt x 100.06133pt.
 
-<../Figures/ElaisS1_rgb.pdf, id=22740, 216.81pt x 216.81pt>
-File: ../Figures/ElaisS1_rgb.pdf Graphic file (type pdf)
+<../Figures/HELAISS02_rgb.pdf, id=23583, 216.81pt x 216.81pt>
+File: ../Figures/HELAISS02_rgb.pdf Graphic file (type pdf)
 
-<use ../Figures/ElaisS1_rgb.pdf>
-Package pdftex.def Info: ../Figures/ElaisS1_rgb.pdf used on input line 1059.
+<use ../Figures/HELAISS02_rgb.pdf>
+Package pdftex.def Info: ../Figures/HELAISS02_rgb.pdf used on input line 1060.
 (pdftex.def)             Requested size: 100.06165pt x 100.06133pt.
 
-<../Figures/XMM02_rgb.pdf, id=22741, 216.81pt x 216.81pt>
-File: ../Figures/XMM02_rgb.pdf Graphic file (type pdf)
+<../Figures/HXMM11_rgb.pdf, id=23584, 216.81pt x 216.81pt>
+File: ../Figures/HXMM11_rgb.pdf Graphic file (type pdf)
 
-<use ../Figures/XMM02_rgb.pdf>
-Package pdftex.def Info: ../Figures/XMM02_rgb.pdf used on input line 1060.
+<use ../Figures/HXMM11_rgb.pdf>
+Package pdftex.def Info: ../Figures/HXMM11_rgb.pdf used on input line 1061.
 (pdftex.def)             Requested size: 100.06165pt x 100.06133pt.
 
-<../Figures/XMM102_rgb.pdf, id=22742, 216.81pt x 216.81pt>
-File: ../Figures/XMM102_rgb.pdf Graphic file (type pdf)
+<../Figures/HXMM20_rgb.pdf, id=23585, 216.81pt x 216.81pt>
+File: ../Figures/HXMM20_rgb.pdf Graphic file (type pdf)
 
-<use ../Figures/XMM102_rgb.pdf>
-Package pdftex.def Info: ../Figures/XMM102_rgb.pdf used on input line 1061.
+<use ../Figures/HXMM20_rgb.pdf>
+Package pdftex.def Info: ../Figures/HXMM20_rgb.pdf used on input line 1062.
 (pdftex.def)             Requested size: 100.06165pt x 100.06133pt.
  [14]
-<../Figures/f870_delens.pdf, id=22746, 361.35pt x 325.215pt>
+<../Figures/f870_delens.pdf, id=23589, 361.35pt x 325.215pt>
 File: ../Figures/f870_delens.pdf Graphic file (type pdf)
 
 <use ../Figures/f870_delens.pdf>
-Package pdftex.def Info: ../Figures/f870_delens.pdf used on input line 1233.
+Package pdftex.def Info: ../Figures/f870_delens.pdf used on input line 1234.
 (pdftex.def)             Requested size: 245.26653pt x 220.74132pt.
- [15 <../Figures/CDFS_M1_rgb.pdf> <../Figures/COS02_rgb.pdf
+ [15 <../Figures/HECDFS04_rgb.pdf> <../Figures/HCOSMOS02_rgb.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/COS02_rgb.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <../Figures/ElaisS1_rgb.pdf
+pdfTeX warning: pdflatex (file ../Figures/HCOSMOS02_rgb.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <../Figures/HELAISS02_rgb.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/ElaisS1_rgb.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
-> <../Figures/XMM02_rgb.pdf
+pdfTeX warning: pdflatex (file ../Figures/HELAISS02_rgb.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <../Figures/HXMM11_rgb.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/XMM02_rgb.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
-> <../Figures/XMM102_rgb.pdf
+pdfTeX warning: pdflatex (file ../Figures/HXMM11_rgb.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+> <../Figures/HXMM20_rgb.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/XMM102_rgb.pdf): PDF inclusion: multi
+pdfTeX warning: pdflatex (file ../Figures/HXMM20_rgb.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 > <../Figures/f870_delens.pdf
 
 pdfTeX warning: pdflatex (file ../Figures/f870_delens.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] <../Figures/fluxtotalcomponent.pdf, id=22939, 361.35pt x 325.215pt>
+>] <../Figures/fluxtotalcomponent.pdf, id=23785, 361.35pt x 325.215pt>
 File: ../Figures/fluxtotalcomponent.pdf Graphic file (type pdf)
 
 <use ../Figures/fluxtotalcomponent.pdf>
 Package pdftex.def Info: ../Figures/fluxtotalcomponent.pdf used on input line 1
-303.
+302.
 (pdftex.def)             Requested size: 245.26653pt x 220.74132pt.
 
-<../Figures/AllPositions.pdf, id=22940, 419.166pt x 325.215pt>
+<../Figures/AllPositions.pdf, id=23786, 419.166pt x 325.215pt>
 File: ../Figures/AllPositions.pdf Graphic file (type pdf)
 
 <use ../Figures/AllPositions.pdf>
-Package pdftex.def Info: ../Figures/AllPositions.pdf used on input line 1359.
+Package pdftex.def Info: ../Figures/AllPositions.pdf used on input line 1358.
 (pdftex.def)             Requested size: 279.45184pt x 216.81pt.
 
-<../Figures/dNdA.pdf, id=22941, 361.35pt x 325.215pt>
+<../Figures/dNdA.pdf, id=23787, 361.35pt x 325.215pt>
 File: ../Figures/dNdA.pdf Graphic file (type pdf)
 
 <use ../Figures/dNdA.pdf>
-Package pdftex.def Info: ../Figures/dNdA.pdf used on input line 1360.
+Package pdftex.def Info: ../Figures/dNdA.pdf used on input line 1359.
 (pdftex.def)             Requested size: 240.90675pt x 216.81pt.
 
-Overfull \hbox (9.13008pt too wide) in paragraph at lines 1359--1361
+Overfull \hbox (9.13008pt too wide) in paragraph at lines 1358--1360
 [][] [] 
  []
 
@@ -1902,29 +1932,29 @@ Figures/dNdA.pdf
 pdfTeX warning: pdflatex (file ../Figures/dNdA.pdf): PDF inclusion: multiple pd
 fs with page group included in a single page
 >] (./table_lf.tex) [18]
-<../Figures/DifferentialNumberCounts.pdf, id=23574, 361.35pt x 325.215pt>
+<../Figures/DifferentialNumberCounts.pdf, id=24420, 361.35pt x 325.215pt>
 File: ../Figures/DifferentialNumberCounts.pdf Graphic file (type pdf)
 
 <use ../Figures/DifferentialNumberCounts.pdf>
 Package pdftex.def Info: ../Figures/DifferentialNumberCounts.pdf used on input 
-line 1621.
+line 1620.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-<../Figures/s870_mu.pdf, id=23575, 361.35pt x 325.215pt>
+<../Figures/s870_mu.pdf, id=24421, 361.35pt x 325.215pt>
 File: ../Figures/s870_mu.pdf Graphic file (type pdf)
 
 <use ../Figures/s870_mu.pdf>
-Package pdftex.def Info: ../Figures/s870_mu.pdf used on input line 1622.
+Package pdftex.def Info: ../Figures/s870_mu.pdf used on input line 1621.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-<../Figures/Pmu_S870.pdf, id=23576, 361.35pt x 325.215pt>
+<../Figures/Pmu_S870.pdf, id=24422, 361.35pt x 325.215pt>
 File: ../Figures/Pmu_S870.pdf Graphic file (type pdf)
 
 <use ../Figures/Pmu_S870.pdf>
-Package pdftex.def Info: ../Figures/Pmu_S870.pdf used on input line 1623.
+Package pdftex.def Info: ../Figures/Pmu_S870.pdf used on input line 1622.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-Overfull \hbox (6.35374pt too wide) in paragraph at lines 1621--1624
+Overfull \hbox (6.35374pt too wide) in paragraph at lines 1620--1623
 [][] [] [] 
  []
 
@@ -1936,44 +1966,41 @@ pdfTeX warning: pdflatex (file ../Figures/s870_mu.pdf): PDF inclusion: multiple
 
 pdfTeX warning: pdflatex (file ../Figures/Pmu_S870.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->] (./ms.bbl [21]) [22] (./ms.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+>] (./ms.bbl [21]) [22] (./ms.aux) ) 
 Here is how much of TeX's memory you used:
- 5033 strings out of 493315
- 85638 string characters out of 6137904
- 210814 words of memory out of 5000000
- 8278 multiletter control sequences out of 15000+600000
+ 5035 strings out of 493315
+ 86243 string characters out of 6137904
+ 213099 words of memory out of 5000000
+ 8280 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,7n,29p,1530b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (22 pages, 11869457 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b>
+Output written on ms.pdf (22 pages, 12158459 bytes).
 PDF statistics:
- 24059 PDF objects out of 26593 (max. 8388607)
- 1007 compressed objects within 11 object streams
+ 24905 PDF objects out of 26593 (max. 8388607)
+ 1011 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
  646 words of extra memory for PDF output out of 10000 (max. 10000000)
 

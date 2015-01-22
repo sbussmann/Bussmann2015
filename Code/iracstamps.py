@@ -170,9 +170,10 @@ for itarget in range(ntarget):
 
     # get the appropriate image center and radial extent
     target = iractargetlist['target'][itarget]
-    match = goodfitdat['dataname'] == target
+    match = goodfitdat['shortname'] == target
     goodfit = goodfitdat['intrinsic'][match][0]
-    modfitloc = '../../../../ModelFits/' + target + '/' + goodfit
+    dataname = goodfitdat['dataname'][match][0]
+    modfitloc = '../../../../ModelFits/' + dataname + '/' + goodfit
     configloc = modfitloc + '/config.yaml'
     configfile = open(configloc)
     config = yaml.load(configfile)
@@ -182,7 +183,7 @@ for itarget in range(ntarget):
     radial_extent = 9.5#config['Region0']['RadialExtent']
 
     # Make the RGB image
-    imdir = '../../fitscutouts/' + target
+    imdir = '../../fitscutouts/' + dataname
     blueimloc = imdir + '_' + blue + '.fits'
     blueim = transform(blueimloc, ra_center, dec_center, radial_extent,
             vmax=0.7)
@@ -207,7 +208,7 @@ for itarget in range(ntarget):
 
     # load the corresponding ALMA image
     submm_band = '870'
-    ALMA_file = '../../fitscutouts/' + target + '_' + submm_band + '.fits'
+    ALMA_file = '../../fitscutouts/' + dataname + '_' + submm_band + '.fits'
     ALMA_hdu = fits.open(ALMA_file)
     ALMA_fullimage = ALMA_hdu[0].data
     ALMA_trimmed = transform(ALMA_file, ra_center, dec_center, radial_extent)

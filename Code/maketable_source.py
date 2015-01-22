@@ -17,6 +17,7 @@ from astropy.io import ascii
 
 goodfitloc = '../Data/uvfitlist.dat'
 goodfitdat = Table.read(goodfitloc, format='ascii')
+goodfitdat.sort('iauname')
 mu_estimate = False
 
 cwd = os.getcwd()
@@ -27,6 +28,7 @@ observed = ascii.read('../Data/table_observed.dat')
 anloc = '../../../../ModelFits/'
 dataphotloc = '../Data/targetlist.dat'
 dataphot = Table.read(dataphotloc, format='ascii')
+dataphot.sort('ra_250')
 dataname = dataphot['dataname']
 ntarg = dataname.size
 dataflag = numpy.zeros(ntarg)
@@ -39,6 +41,7 @@ dataflag = numpy.zeros(ntarg)
 #yesmodel = dataflag == 1
 #dataphot = dataphot[yesmodel]
 dataname = dataphot['dataname']
+shortname = dataphot['shortname']
 ntarg = len(dataphot)
 objname_previous = ''
 
@@ -104,7 +107,7 @@ for itarg in range(0, ntarg):
 
             # Lens RA
             sl = str(ilens)
-            datanamelens = dataname[itarg] + '.Lens' + sl
+            datanamelens = shortname[itarg] + '.Lens' + sl
             tag1 = 'DeltaRA_Lens' + sl + '_Region' + sr
             thisparam = 1
             if tag1 not in fitresults.keys():
@@ -332,10 +335,10 @@ for itarg in range(0, ntarg):
             phi_indiv = dist.mean()
             e_phi_indiv = dist.std()
 
-            #msg = '{0:15} & ${1:12}\pm{2:5.3f}$ & ${3:12}\pm{4:4.2f}$ & ${5:.3f}\pm{6:.3f}$ & ${7:.3f}\pm{8:0.3f}$ & ${9:3.0f}\pm{10:3.0f}$'
-            #msgfmt = msg.format(datanamelens, fullRA, eRA, fullDec, eDec, 
-            #        einstein_indiv, e_einstein_indiv, q_indiv, e_q_indiv,
-            #        phi_indiv, e_phi_indiv)
+            msg = '{0:15} & ${1:12}\pm{2:5.3f}$ & ${3:12}\pm{4:4.2f}$ & ${5:.3f}\pm{6:.3f}$ & ${7:.3f}\pm{8:0.3f}$ & ${9:3.0f}\pm{10:3.0f}$'
+            msgfmt = msg.format(datanamelens, fullRA, eRA, fullDec, eDec, 
+                    einstein_indiv, e_einstein_indiv, q_indiv, e_q_indiv,
+                    phi_indiv, e_phi_indiv)
             #msg = '{0:3.0f} {1:3.0f}'
             #msgfmt = msg.format(phi_indiv, e_phi_indiv)            
             #msg = '{0:.2f} {1:.2f}'
@@ -347,10 +350,13 @@ for itarg in range(0, ntarg):
             pbcorr = observed['pbcorr'][sourcecounter]
             remu = observed['remu'][sourcecounter]
             e_remu = observed['e_remu'][sourcecounter]
+            RA1 = observed['ra_alma'][sourcecounter]
+            Dec1 = observed['dec_alma'][sourcecounter]
+            fullRADec = RA1 + ' ' + Dec1
             sourcecounter += 1
 
             ss = str(isource)
-            datanamesource = dataname[itarg] + '.Source' + ss
+            datanamesource = shortname[itarg] + '.' + ss
             tag1 = 'IntrinsicFlux_Source' + ss + '_Region' + sr
             if tag1 not in fitresults.keys():
                 tag1 = 'Region' + sr + ' Source' + ss  + ' IntrinsicFlux'
@@ -458,7 +464,7 @@ for itarg in range(0, ntarg):
                     numpy.cos(decdeg_centroid) / 3600
             decdeg = decdeg_centroid + (ddecdeg_source) / 3600
             c = SkyCoord(ra=radeg*u.degree, dec=decdeg*u.degree)
-            fullRADec = c.to_string('hmsdms', sep=':')
+            #fullRADec = c.to_string('hmsdms', sep=':')
 
             # Effective Radius
             tag1 = 'Size_Source' + ss + '_Region' + sr
@@ -575,7 +581,7 @@ for itarg in range(0, ntarg):
             e_phi_indiv = dist.std()
 
             msg = '{0:15} ${1:6.3f}\pm{2:5.3f}$ & ${3:6.3f}\pm{4:5.3f}$ & ${5:5.2f}\pm{6:5.2f}$ & ${7:5.3f}\pm{8:5.3f}$ & ${9:5.2f}\pm{10:5.2f}$ & ${11:3.0f}\pm{12:3.0f}$ & ${13:5.2f}\pm{14:5.2f}$ \\\\'
-            msg = '{0:15} {1:6.3f} {2:5.3f} {3:6.3f} {4:5.3f}  {5:5.2f} {6:5.2f}  {7:5.3f} {8:5.3f}  {9:5.2f} {10:5.2f}  {11:3.0f} {12:3.0f}  {13:5.2f} {14:5.2f}'
+            #msg = '{0:15} {1:6.3f} {2:5.3f} {3:6.3f} {4:5.3f}  {5:5.2f} {6:5.2f}  {7:5.3f} {8:5.3f}  {9:5.2f} {10:5.2f}  {11:3.0f} {12:3.0f}  {13:5.2f} {14:5.2f}'
             msgfmt = msg.format(datanamesource, dradeg_source, e_dradeg_source,
                 ddecdeg_source, e_ddecdeg_source, 
                 flux_indiv, e_flux_indiv, size_indiv, e_size_indiv, q_indiv, 
@@ -584,8 +590,8 @@ for itarg in range(0, ntarg):
             #msgfmt = msg.format(phi_indiv, e_phi_indiv)            
             #msg = '{0:.2f} {1:.2f}'
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
-            #msg = '{0:15} {1:29} {2:.2f} {3:.2f}'
-            #msgfmt = msg.format(datanamesource, fullRADec, flux_indiv, e_flux_indiv)            
+            #msg = '{0:15} {1:29} {2:.2f} {3:.2f} {4:.2f} {5:.2f} {6:.2f}'
+            #msgfmt = msg.format(datanamesource, fullRADec, flux_indiv, e_flux_indiv, pbcorr, remu, e_remu)
             print(msgfmt)
         
     flux_measure = flux_target.mean()

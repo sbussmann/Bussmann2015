@@ -68,6 +68,7 @@ for targ in range(0, ntargets):
     plt.clf()
     # get the target name from the filename
     dataname = targets['dataname'][targ]
+    shortname = targets['shortname'][targ]
     iauname = targets['iauname'][targ]
     lensgrade = targets['lensgrade'][targ]
 
@@ -193,15 +194,15 @@ for targ in range(0, ntargets):
                       stretch='normal', #family='sans-serif', \
                       style='normal', variant='normal')
     gc.colorbar.set_axis_label_font(size='x-large', weight='bold')
-    rename = dataname.replace('.', '_')
-    gc.add_label(0.06, 0.9, dataname, relative=True, size='24', 
+    rename = shortname.replace('.', '_')
+    gc.add_label(0.06, 0.9, shortname, relative=True, size='24', 
             color='white', horizontalalignment='left')
     gc.add_label(0.94, 0.9, 'Lens Grade: '+lensgrade, relative=True, size='24', 
             color='white', horizontalalignment='right')
     gc.add_label(0.94, 0.1, 'SPIRE '+herschel_band, relative=True, size='24', 
             color='white', horizontalalignment='right')
     savefig('../Figures/overlays/' + rename + '_870_' + herschel_band + '.pdf')
-    print(dataname)
+    print(shortname)
     continue
 
     # compute the (x, y) center and pixel scale in the optical image

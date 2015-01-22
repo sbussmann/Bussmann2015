@@ -13,41 +13,55 @@ import glob
 import os
 
 
+# store the current directory
+cwd = os.getcwd()
+
 # the uvfit directory containing the best-fit model
-fitlist = Table.read('uvfitlist.dat', format='ascii')
+fitlist = Table.read('../Data/uvfitlist.dat', format='ascii')
 
 # identify ALMA targets
-targetloc = 'targetlist.dat'
+targetloc = '../Data/targetlist.dat'
 targets = Table.read(targetloc, format='ascii')
 ntargets = len(targets)
 
-for itarg in range(ntargets):
+i = 28
 
-    target = targets[itarg]['dataname']
+for itarg in range(i, i + 1):
+
+    dataname = targets[itarg]['dataname']
+    shortname = targets[itarg]['shortname']
 
     fitdir = fitlist['intrinsic'][itarg]
-    fitloc = '../../ModelFits/' + target + '/' + fitdir + '/'
+    fitloc = '../../../../ModelFits/' + dataname + '/' + fitdir + '/'
+
+    #print(dataname + '/' + fitdir + '/config.yaml')
+
+    # change into that directory and run visualize.bestFit()
+    os.chdir(fitloc)
+    import visualize
+    visualize.bestFit(interactive=False, showOptical=True)
+    os.chdir(cwd)
 
     pdfmap = 'LensedSBmap.optical.bestfit.pdf'
     origin = fitloc + pdfmap
-    destination = 'modelfit/' + target + '.optical.bestfit.pdf'
-    destination = destination.replace('.', '_', 2)
+    destination = '../Figures/modelfit/' + shortname + '.optical.bestfit.pdf'
+    #destination = destination.replace('.', '_', 2)
     cmd = 'cp ' + origin + ' ' + destination
     print(cmd)
     os.system(cmd)
 
     pdfmap = 'LensedSBmap.model.bestfit.pdf'
     origin = fitloc + pdfmap
-    destination = 'modelfit/' + target + '.model.bestfit.pdf'
-    destination = destination.replace('.', '_', 2)
+    destination = '../Figures/modelfit/' + shortname + '.model.bestfit.pdf'
+    #destination = destination.replace('.', '_', 2)
     cmd = 'cp ' + origin + ' ' + destination
     print(cmd)
     os.system(cmd)
 
     pdfmap = 'LensedSBmap.residual.bestfit.pdf'
     origin = fitloc + pdfmap
-    destination = 'modelfit/' + target + '.residual.bestfit.pdf'
-    destination = destination.replace('.', '_', 2)
+    destination = '../Figures/modelfit/' + shortname + '.residual.bestfit.pdf'
+    #destination = destination.replace('.', '_', 2)
     cmd = 'cp ' + origin + ' ' + destination
     print(cmd)
     os.system(cmd)

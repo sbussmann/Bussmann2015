@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{78}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -388,6 +388,16 @@
 
 \bibitem[{{Vieira} {et~al.}(2013)}]{Vieira:2013fk}
 {Vieira}, J.~D. {et~al.} 2013, \nat, 495, 344
+
+\bibitem[{{Wang} {et~al.}(2014){Wang}, {Viero}, {Clarke}, {Bock}, {Buat},
+  {Conley}, {Farrah}, {Guo}, {Heinis}, {Magdis}, {Marchetti}, {Marsden},
+  {Norberg}, {Oliver}, {Page}, {Roehlly}, {Roseboom}, {Schulz}, {Smith},
+  {Vaccari}, \& {Zemcov}}]{Wang:2014lr}
+{Wang}, L., {Viero}, M., {Clarke}, C., {Bock}, J., {Buat}, V., {Conley}, A.,
+  {Farrah}, D., {Guo}, K., {Heinis}, S., {Magdis}, G., {Marchetti}, L.,
+  {Marsden}, G., {Norberg}, P., {Oliver}, S.~J., {Page}, M.~J., {Roehlly}, Y.,
+  {Roseboom}, I.~G., {Schulz}, B., {Smith}, A.~J., {Vaccari}, M., \& {Zemcov},
+  M. 2014, \mnras, 444, 2870
 
 \bibitem[{{Wardlow} {et~al.}(2013)}]{Wardlow:2013lr}
 {Wardlow}, J.~L. {et~al.} 2013, \apj, 762, 59
