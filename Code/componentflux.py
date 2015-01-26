@@ -115,9 +115,9 @@ yyyerrbarger = fluxcomponent['S850'] / 10.
 # **********
 
 # Plotting parameters
-bargcolor = 'LightBlue'
+bargcolor = 'Black'
 bargms = 4
-bargfmt = 'o'
+bargfmt = '.'
 
 # Load the data
 #fluxcomponent_file = '../Data/barger2012.dat'
@@ -313,7 +313,7 @@ ax1.plot(xxxbarger, yyybarger, bargfmt, ms=bargms, color=bargcolor,
 
 ax1.errorbar(xxxalma, yyyalma, yerr=yyyerralma, xerr=xxxerralma, fmt=',',
         ecolor='gray', capsize=0)
-ax1.plot(xxxalma, yyyalma, afmt, ms=ams, color=acolor, label='Herschel DSFGs')
+ax1.plot(xxxalma, yyyalma, afmt, ms=ams, color=acolor, label='Herschel-ALMA')
 
 # customize plot
 #plt.xlabel(r'${\rm Total} \, S_{870}\,({\rm mJy}$)', fontsize='x-large')

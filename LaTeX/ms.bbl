@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{85}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -134,6 +134,10 @@
   {Scott}, D., {Seymour}, N., {Valtchanov}, I., {Vieira}, J.~D., {Viero}, M.,
   \& {Wardlow}, J. 2012{\natexlab{b}}, \apj, 761, 139
 
+\bibitem[{{Casey} {et~al.}(2014){Casey}, {Narayanan}, \&
+  {Cooray}}]{Casey:2014lr}
+{Casey}, C.~M., {Narayanan}, D., \& {Cooray}, A. 2014, \physrep, 541, 45
+
 \bibitem[{{Chapman} {et~al.}(2005){Chapman}, {Blain}, {Smail}, \&
   {Ivison}}]{2005ApJ...622..772C}
 {Chapman}, S.~C., {Blain}, A.~W., {Smail}, I., \& {Ivison}, R.~J. 2005, \apj,
@@ -166,14 +170,6 @@
 
 \bibitem[{{Daddi} {et~al.}(2009)}]{Daddi:2009qy}
 {Daddi}, E. {et~al.} 2009, \apj, 694, 1517
-
-\bibitem[{{Diolaiti} {et~al.}(2000){Diolaiti}, {Bendinelli}, {Bonaccini},
-  {Close}, {Currie}, \& {Parmeggiani}}]{Diolaiti:2000qy}
-{Diolaiti}, E., {Bendinelli}, O., {Bonaccini}, D., {Close}, L.~M., {Currie},
-  D.~G., \& {Parmeggiani}, G. 2000, in Society of Photo-Optical Instrumentation
-  Engineers (SPIE) Conference Series, Vol. 4007, Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series, ed. P.~L. {Wizinowich},
-  879--888
 
 \bibitem[{{Eales} {et~al.}(2010)}]{2010PASP..122..499E}
 {Eales}, S. {et~al.} 2010, \pasp, 122, 499
@@ -262,6 +258,9 @@
   {Kohno}, K., {Lagos}, C.~P., {Motohara}, K., {Nakanishi}, K., {Ohta}, K.,
   {Tamura}, Y., {Umehata}, H., {Wilson}, G., {Yabe}, K., \& {Yun}, M.~S. 2014,
   ArXiv e-prints
+
+\bibitem[{{Ikarashi} {et~al.}(2011)}]{Ikarashi:2011qy}
+{Ikarashi}, S. {et~al.} 2011, \mnras, 415, 3081
 
 \bibitem[{{Ivison} {et~al.}(2007){Ivison}, {Greve}, {Dunlop}, {Peacock},
   {Egami}, {Smail}, {Ibar}, {van Kampen}, {Aretxaga}, {Babbedge}, {Biggs},
@@ -390,8 +389,8 @@
   T., {Laporte}, N., {Oliver}, S.~J., {Omont}, A., {P{\'e}rez-Fournon}, I.,
   {Scott}, D., {Swinbank}, A.~M., \& {Wardlow}, J. 2014, \apj, 793, 11
 
-\bibitem[{{Roseboom} {et~al.}(2010)}]{Roseboom:2010lk}
-{Roseboom}, I.~G. {et~al.} 2010, \mnras, 409, 48
+\bibitem[{{Savage} \& {Oliver}(2007)}]{Savage:2007sf}
+{Savage}, R.~S. \& {Oliver}, S. 2007, \apj, 661, 1339
 
 \bibitem[{{Schechter}(1976)}]{Schechter:1976yq}
 {Schechter}, P. 1976, \apj, 203, 297
@@ -494,6 +493,11 @@
   H., {De Breuck}, C., {Gawiser}, E., {Ivison}, R.~J., {Lutz}, D., {Menten},
   K.~M., {Koekemoer}, A.~M., {Kreysa}, E., {Kurczynski}, P., {Rix}, H.-W.,
   {Schinnerer}, E., \& {van der Werf}, P.~P. 2009, \apj, 707, 1201
+
+\bibitem[{{Wyithe} {et~al.}(2011){Wyithe}, {Yan}, {Windhorst}, \&
+  {Mao}}]{Wyithe:2011rm}
+{Wyithe}, J.~S.~B., {Yan}, H., {Windhorst}, R.~A., \& {Mao}, S. 2011, \nat,
+  469, 181
 
 \bibitem[{{Younger} {et~al.}(2007){Younger}, {Fazio}, {Huang}, {Yun}, {Wilson},
   {Ashby}, {Gurwell}, {Lai}, {Peck}, {Petitpas}, {Wilner}, {Iono}, {Kohno},

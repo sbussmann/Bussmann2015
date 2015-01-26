@@ -43,14 +43,15 @@ fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
 fluxcomponent = sep_util.rmSingles(fluxcomponent, targetstring='lessid')
 nmultiples = len(fluxcomponent)
 
-sep_hodge = sep_util.getSeparation(fluxcomponent, targetstring='lessid')
+sep_hodge = sep_util.getSeparation(fluxcomponent, targetstring='lessid',
+        rastring='ra_alma', decstring='dec_alma')
 avgsep_hodge = sep_hodge[0]
 wmeansep_hodge = sep_hodge[1]
 ra_hodge = numpy.array(sep_hodge[2]) * 3600
 dec_hodge = numpy.array(sep_hodge[3]) * 3600
 
 plt.plot(ra_hodge, dec_hodge, hodgefmt, alpha=0.8, color=hodgecolor,
-        ms=hodgems, label='Hodge+13')
+        ms=hodgems, label='ALESS')
 
 # ***********
 # ALMA sample
@@ -62,21 +63,21 @@ asimcolor = 'green'
 ams = 5
 afmt = 's'
 
-fluxcomponent_file = '../Data/table_positions.dat'
+fluxcomponent_file = '../Data/table_intrinsic.dat'
 fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
 
 # filter out single source systems
 fluxcomponent = sep_util.rmSingles(fluxcomponent, targetstring='target')
 nmultiples = len(fluxcomponent)
 
-sep_alma = sep_util.getSeparation(fluxcomponent, fluxstring='S_870_observed')
+sep_alma = sep_util.getSeparation(fluxcomponent, fluxstring='f870')
 avgsep_alma = sep_alma[0]
 wmeansep_alma = sep_alma[1]
 ra_alma = numpy.array(sep_alma[2]) * 3600
 dec_alma = numpy.array(sep_alma[3]) * 3600
 
 plt.plot(ra_alma, dec_alma, afmt, alpha=0.8, color=acolor, ms=ams, 
-        label='ALMA Sample')
+        label='Herschel-ALMA')
 
 # add Hayward et al. simulated galaxies
 h13 = readsav('../Data/shane_data.sav')

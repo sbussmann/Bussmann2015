@@ -200,9 +200,9 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
             #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-4, alpha=0.3)
             #plt.fill_between(xx, y1, y2, facecolor='none', zorder=-4,
             #        edgecolor=color, hatch='\\\\')
-        #if addlabel:
-        #    plt.plot(xx, yy, color=color, linestyle=linestyle, 
-        #            label='Karim+ 2013', linewidth=1.5)
+        if addlabel:
+            plt.plot(xx, yy, color=color, linestyle=linestyle, 
+                    label='Karim+ 2013', linewidth=1.5)
 
         # predicted P(mu) for Steep LF
         yy = fractiondata['break15']
@@ -211,7 +211,7 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
         print(xx[find_nearest(yy, 0.5)])
         if addlabel:
             plt.plot(xx, yy, color=color, linestyle=linestyle, 
-                    label='Theoretical Prediction', linewidth=1.5)
+                    label=r'$S_\star = 15\,$mJy', linewidth=1.5)
 
         if fill:
             sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
@@ -271,18 +271,18 @@ fcolor = 'purple'
 # Schechter luminosity function
 #Pmu_model('../Data/Mu_1p1_30Sc.txt', linestyle='dotted', lf='Schechter')
 #Pmu_model('../Data/Mu_1p2_30Sc.txt', linestyle='--', lf='Schechter')
-#Pmu_model('../Data/Mu_2_30Sc.txt', linestyle='solid', lf='Schechter')
+Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
 
 # Broken power-law luminosity function
 #Pmu_model('../Data/Mu_1p1_30powerlaw.txt', linestyle='solid', fill=True)
-Pmu_model('../Data/Mu_PL_1p1_30_z1p5.txt', linestyle='solid', fill=True)
+Pmu_model('../Data/Mu_PL_2_30_z1p5.txt', linestyle='solid', fill=True)
 
 #Pmu_model('../Data/Mu_1p2_30powerlaw.txt', linestyle='--')
 #Pmu_model('../Data/Mu_2_30powerlaw.txt', linestyle='solid')
 
 # Schechter luminosity function
 #Pmu_model('../Data/Mu_1p1_30sh.txt', linestyle='solid', lf='Schechter', fill=True)
-Pmu_model('../Data/Mu_SH_1p1_30_z1p5.txt', linestyle='solid', lf='Schechter', fill=True)
+Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter', fill=True)
 #Pmu_model('../Data/Mu_1p2_30sh.txt', linestyle='--', lf='Schechter')
 #Pmu_model('../Data/Mu_2_30sh.txt', linestyle='solid', lf='Schechter')
 
@@ -351,7 +351,7 @@ xxxerr = mudat['e_f870']
 
 plt.errorbar(xxx, yyy, yerr=yyyerr, xerr=xxxerr, fmt=',', ecolor='0.5',
         capsize=0)
-plt.plot(xxx, yyy, afmt, color=acolor, ms=ams, label='ALMA data',
+plt.plot(xxx, yyy, afmt, color=acolor, ms=ams, label='Herschel-ALMA',
     mec='black')
 #plt.axhline(y=1.1)
 
@@ -362,7 +362,7 @@ xxxerr = smadat['e_fnu']
 
 plt.errorbar(xxx, yyy, fmt=',', yerr=yyyerr, xerr=xxxerr, ecolor='0.5',
         capsize=0)
-plt.plot(xxx, yyy, bfmt, color=bcolor, ms=bms, label='SMA data', mec='black')
+plt.plot(xxx, yyy, bfmt, color=bcolor, ms=bms, label='Herschel-SMA', mec='black')
 
 plt.loglog()
 
@@ -398,7 +398,7 @@ plt.clf()
 # Schechter luminosity function
 #Pmu_model('../Data/Fractions_SH_1p1_30_z1p5.txt', linestyle='solid', lf='Schechter')
 #Pmu_model('../Data/Fractions_1p2_30Sc.txt', linestyle='--', lf='Schechter')
-#Pmu_model('../Data/Fractions_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
+Pmu_model('../Data/Fractions_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
 
 # Broken power-law luminosity function
 #Pmu_model('../Data/Fractions_PL_1p1_30_z1p5.txt', linestyle='solid')
@@ -441,7 +441,7 @@ yyy = classified[1]
 xxxerr = e_Stot1
 #plt.errorbar(xxx, yyy, xerr=xxxerr, fmt=',', ecolor='0.5',
 #        capsize=0)
-plt.plot(xxx, yyy, afmt, color=acolor, ms=ams, label='ALMA data',
+plt.plot(xxx, yyy, afmt, color=acolor, ms=ams, label='Herschel-ALMA',
     mec='black')
 
 classified = TrimMu(Stot2, mutot2, thresh, norm = True)
@@ -449,12 +449,12 @@ xxx = classified[0]
 yyy = classified[1]
 #plt.errorbar(xxx, yyy, fmt=',', yerr=yyyerr, xerr=xxxerr, ecolor='0.5',
 #        capsize=0)
-plt.plot(xxx, yyy, bfmt, color=bcolor, ms=bms, label='SMA data', mec='black')
+plt.plot(xxx, yyy, bfmt, color=bcolor, ms=bms, label='Herschel-SMA', mec='black')
 
 plt.semilogx()
 
 plt.axis([1,150,-0.1,1.1])
-plt.legend(loc=(0.05,0.6), numpoints=1, handletextpad=0.35, borderpad=0.4,
+plt.legend(loc=(0.05,0.5), numpoints=1, handletextpad=0.35, borderpad=0.4,
         handlelength=1.0, labelspacing=0.18)
 leg = plt.gca().get_legend()
 ltext  = leg.get_texts()

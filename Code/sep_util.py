@@ -55,7 +55,7 @@ def setThresh(fluxcomponent, thresh, fluxstring='f880'):
     return fluxcomponent
 
 
-def getSeparation(fluxcomponent, rastring='ra_alma', decstring='dec_alma',
+def getSeparation(fluxcomponent, rastring='offra', decstring='offdec',
         targetstring='target', fluxstring='f880'):
 
     nindiv = len(fluxcomponent)
@@ -72,23 +72,31 @@ def getSeparation(fluxcomponent, rastring='ra_alma', decstring='dec_alma',
         decs = fluxcomponent[decstring][match]
         fluxs = fluxcomponent[fluxstring][match]
         nmatch = fluxcomponent[fluxstring][match].size
-        newra = numpy.zeros(nmatch)
-        newdec = numpy.zeros(nmatch)
-        for imatch in range(nmatch):
-            ira = ras[imatch]
-            idec = decs[imatch]
-            sc = SkyCoord(ira, idec, "icrs", unit=(u.hourangle, u.degree))
-            newra[imatch] = sc.ra.deg
-            newdec[imatch] = sc.dec.deg
+        try:
+            avgra = ras.mean() / 3600
+            avgdec = decs.mean() / 3600
+            ra = fluxcomponent[rastring][icomp] / 3600
+            dec = fluxcomponent[decstring][icomp] / 3600
+            newra = ras / 3600
+            newdec = decs / 3600
+        except:
+            newra = numpy.zeros(nmatch)
+            newdec = numpy.zeros(nmatch)
+            for imatch in range(nmatch):
+                ira = ras[imatch]
+                idec = decs[imatch]
+                sc = SkyCoord(ira, idec, "icrs", unit=(u.hourangle, u.degree))
+                newra[imatch] = sc.ra.deg
+                newdec[imatch] = sc.dec.deg
 
-        ra = fluxcomponent[rastring][icomp]
-        dec = fluxcomponent[decstring][icomp]
-        sc = SkyCoord(ra, dec, "icrs", unit=(u.hourangle, u.degree))
-        ra = sc.ra.deg
-        dec = sc.dec.deg
+            ra = fluxcomponent[rastring][icomp]
+            dec = fluxcomponent[decstring][icomp]
+            sc = SkyCoord(ra, dec, "icrs", unit=(u.hourangle, u.degree))
+            ra = sc.ra.deg
+            dec = sc.dec.deg
+            avgra = newra.mean()
+            avgdec = newdec.mean()
         
-        avgra = newra.mean()
-        avgdec = newdec.mean()
         raoffset = (ra - avgra) * numpy.cos(dec)
         decoffset = dec - avgdec
         offset = numpy.sqrt(raoffset ** 2 + decoffset ** 2) * 3600
@@ -110,8 +118,8 @@ def getSeparation(fluxcomponent, rastring='ra_alma', decstring='dec_alma',
     return numpy.array(separation), numpy.array(fluxweighted), ra_vector, \
             dec_vector
 
-def simPosition(fluxcomponent, distance=8.5, rastring='ra_alma',
-        decstring='dec_alma', targetstring='target'):
+def simPosition(fluxcomponent, distance=8.5, rastring='offra',
+        decstring='offdec', targetstring='target'):
 
     """
 
@@ -128,32 +136,58 @@ def simPosition(fluxcomponent, distance=8.5, rastring='ra_alma',
 
     for icomp in range(nindiv):
         target = fluxcomponent[targetstring][icomp]
-
         match = fluxcomponent[targetstring] == target
         ras = fluxcomponent[rastring][match]
         decs = fluxcomponent[decstring][match]
         nmatch = fluxcomponent[rastring][match].size
-        newra = numpy.zeros(nmatch)
-        newdec = numpy.zeros(nmatch)
-        for imatch in range(nmatch):
-            ira = ras[imatch]
-            idec = decs[imatch]
-            sc = SkyCoord(ira, idec, "icrs", unit=(u.hourangle, u.degree))
-            newra[imatch] = sc.ra.deg
-            newdec[imatch] = sc.dec.deg
+        try:
+            avgra = ras.mean() / 3600
+            avgdec = decs.mean() / 3600
+            ra = fluxcomponent[rastring][icomp] / 3600
+            dec = fluxcomponent[decstring][icomp] / 3600
+            newra = ras / 3600
+            newdec = decs / 3600
+            degflag = True
+        except:
+            degflag = False
+            newra = numpy.zeros(nmatch)
+            newdec = numpy.zeros(nmatch)
+            for imatch in range(nmatch):
+                ira = ras[imatch]
+                idec = decs[imatch]
+                sc = SkyCoord(ira, idec, "icrs", unit=(u.hourangle, u.degree))
+                newra[imatch] = sc.ra.deg
+                newdec[imatch] = sc.dec.deg
 
-        avgra = newra.mean()
-        avgdec = newdec.mean()
+            ra = fluxcomponent[rastring][icomp]
+            dec = fluxcomponent[decstring][icomp]
+            sc = SkyCoord(ra, dec, "icrs", unit=(u.hourangle, u.degree))
+            ra = sc.ra.deg
+            dec = sc.dec.deg
+            avgra = newra.mean()
+            avgdec = newdec.mean()
+
         lowra = avgra - distance / 3600 / numpy.cos(avgdec)
         highra = avgra + distance / 3600 / numpy.cos(avgdec)
-        randomra = uniform(low=lowra, high=highra)
         lowdec = avgdec - distance / 3600
         highdec = avgdec + distance / 3600
-        randomdec = uniform(low=lowdec, high=highdec)
+        if lowdec < -0.025:
+            lowdec = -0.025
+        if highdec > 0.025:
+            highdec = 0.025
+        if degflag:
+            randomra = uniform(low=lowra, high=highra) * 3600
+            randomdec = uniform(low=lowdec, high=highdec) * 3600
+        else:
+            randomra = uniform(low=lowra, high=highra)
+            randomdec = uniform(low=lowdec, high=highdec)
+        #print(randomra, randomdec)
         c = SkyCoord(ra=randomra * u.degree, dec=randomdec * u.degree)
 
-        fluxcomponent[rastring][icomp] = c.ra.to_string('hourangle', sep=':')
-        fluxcomponent[decstring][icomp] = c.dec.to_string(sep=':')
+        fluxcomponent[rastring][icomp] = randomra
+        fluxcomponent[decstring][icomp] = randomdec
+        #fluxcomponent[rastring][icomp] = c.ra.to_string('hourangle', sep=':')
+        #fluxcomponent[decstring][icomp] = c.dec.to_string(sep=':')
 
     return fluxcomponent
 

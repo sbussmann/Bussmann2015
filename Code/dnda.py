@@ -54,7 +54,8 @@ fluxcomponent = sep_util.rmSingles(fluxcomponent, targetstring='target')
 fluxcomponent = sep_util.setThresh(fluxcomponent, 1.4, fluxstring='peakflux')
 nmultiples = len(fluxcomponent)
 
-simalma = sep_util.getSeparation(fluxcomponent, fluxstring='peakflux')
+simalma = sep_util.getSeparation(fluxcomponent, rastring='ra_alma', \
+        decstring='dec_alma', fluxstring='peakflux')
 avgsep_simalma, wmeansep_simalma, ra_simalma, dec_simalma = simalma
 
 sep_util.histArea(avgsep_simalma, nbins, color=simcolor, fmt=simfmt, ms=simms,
@@ -77,8 +78,8 @@ fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
 fluxcomponent = sep_util.rmSingles(fluxcomponent, targetstring='lessid')
 nmultiples = len(fluxcomponent)
 
-hodge = sep_util.getSeparation(fluxcomponent, 
-        targetstring='lessid')
+hodge = sep_util.getSeparation(fluxcomponent, rastring='ra_alma', \
+        decstring = 'dec_alma', targetstring='lessid')
 avgsep_hodge, wmeansep_hodge, ra_hodge, dec_hodge = hodge
 
 deltasep = avgsep_hodge.max() - avgsep_hodge.min()
@@ -110,19 +111,19 @@ asimcolor = 'green'
 ams = 5
 afmt = 's'
 
-fluxcomponent_file = '../Data/table_positions.dat'
+fluxcomponent_file = '../Data/table_intrinsic.dat'
 fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
 
 # filter out single source systems
 fluxcomponent = sep_util.rmSingles(fluxcomponent, targetstring='target')
 nmultiples = len(fluxcomponent)
 
-alma = sep_util.getSeparation(fluxcomponent, fluxstring='S_870_observed')
+alma = sep_util.getSeparation(fluxcomponent, fluxstring='f870')
 avgsep_alma, wmeansep_alma, ra_alma, dec_alma = alma
 
 indexsort = numpy.argsort(avgsep_alma)
 avgsep_alma = avgsep_alma[indexsort]
-flux_alma = fluxcomponent['S_870_observed'][indexsort]
+flux_alma = fluxcomponent['f870'][indexsort]
 nflux = flux_alma.size
 sumflux_alma = numpy.zeros(nflux)
 for i in range(nflux):
@@ -135,7 +136,7 @@ for i in range(nflux):
 sep_util.histArea(avgsep_alma, nbins, color=acolor, fmt=afmt, ms=ams,
         norm=nmultiples)
 
-sep_util.simArea(fluxcomponent, nsim, bin_edges, fluxstring='S_870_observed',
+sep_util.simArea(fluxcomponent, nsim, bin_edges, fluxstring='f870',
         edgecolor=asimcolor, facecolor='none', hatch='\\', norm=nmultiples)
 
 hayward = Table.read('../Data/dNdA_40arcsec_bright.txt', format='ascii')
@@ -162,11 +163,11 @@ plt.tick_params(length=2, which='minor')
 plt.tick_params(length=4, which='major')
 
 fake = numpy.arange(2) + 1e5
-plt.plot(fake, color=hodgecolor, label='Hodge+13')
+plt.plot(fake, color=hodgecolor, label='ALESS')
 #plt.plot(fake, color=hodgesimcolor, linestyle='--', 
 #        label='Hodge+13 Random')
-plt.plot(fake, color=acolor, label='ALMA Sample Observed')
-plt.plot(fake, color=simcolor, label='ALMA Sample ALESS-Sim')
+plt.plot(fake, color=acolor, label='Herschel-ALMA')
+plt.plot(fake, color=simcolor, label='Herschel-ALMA ALESS-Sim')
 plt.plot(fake, color=asimcolor, linestyle='--', 
         label='Randomly Distributed')
 plt.legend(loc='upper right', numpoints=1, handletextpad=0.35, borderpad=0.4,
