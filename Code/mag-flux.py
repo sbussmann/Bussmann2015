@@ -154,11 +154,14 @@ def find_nearest(array, value):
     idx = (numpy.abs(array-value)).argmin()
     return idx
 
-def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
+def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False,
+        truncate=0):
 
     # read in Fialkov data
     fractiondata = Table.read(modloc, format='ascii')
+
     xx = fractiondata['S870']
+    min
 
     addlabel = True
     #if modloc[8:10] == 'Mu':
@@ -177,10 +180,11 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
         plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
         print(xx[find_nearest(yy, 0.5)])
         if fill:
-            sigmadata = Table.read('../Data/Sig_1p1_30sh.txt',
-                    format='ascii')
-            y1 = fractiondata['steep'] - sigmadata['steep']
-            y2 = fractiondata['steep'] + sigmadata['steep']
+            pass
+            #sigmadata = Table.read('../Data/Sig_1p1_30sh.txt',
+            #        format='ascii')
+            #y1 = fractiondata['steep'] - sigmadata['steep']
+            #y2 = fractiondata['steep'] + sigmadata['steep']
             #plt.fill_between(xx, y1, y2, facecolor='none', zorder=-3,
             #        hatch='/', edgecolor=color)
         if addlabel:
@@ -188,15 +192,19 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
                     label='Schechter', linewidth=1.5)
     else:
         key = 'karim'
+        ok = fractiondata['S870'] > truncate
+        fractiondata = fractiondata[ok]
+        xx = fractiondata['S870']
         yy = fractiondata[key]
         color = 'magenta'
         #plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
         #print(xx[find_nearest(yy, 0.5)])
         if fill:
-            sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
-                    format='ascii')
-            y1 = fractiondata['karim'] - sigmadata['karim']
-            y2 = fractiondata['karim'] + sigmadata['karim']
+            pass
+            #sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
+            #        format='ascii')
+            #y1 = fractiondata['karim'] - sigmadata['karim']
+            #y2 = fractiondata['karim'] + sigmadata['karim']
             #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-4, alpha=0.3)
             #plt.fill_between(xx, y1, y2, facecolor='none', zorder=-4,
             #        edgecolor=color, hatch='\\\\')
@@ -205,7 +213,11 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
                     label='Karim+ 2013', linewidth=1.5)
 
         # predicted P(mu) for Steep LF
-        yy = fractiondata['break15']
+        key = 'break15'
+        ok = fractiondata['S870'] > truncate
+        fractiondata = fractiondata[ok]
+        xx = fractiondata['S870']
+        yy = fractiondata[key]
         color = 'blue'
         plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
         print(xx[find_nearest(yy, 0.5)])
@@ -214,8 +226,9 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False):
                     label=r'$S_\star = 15\,$mJy', linewidth=1.5)
 
         if fill:
-            sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
-                    format='ascii')
+            pass
+            #sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
+            #        format='ascii')
             #y1 = fractiondata['break15'] - sigmadata['break15']
             #y2 = fractiondata['break15'] + sigmadata['break15']
             #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-5)
@@ -247,44 +260,6 @@ bfmt = 'o'
 
 # Fialkov plotting parameters
 fcolor = 'purple'
-
-# Fialkov lens predictions
-#mudata = Table.read('../Data/Mu_1_30.txt', format='ascii')
-#x = mudata['flux']
-#y1 = mudata['bestfit-meanmu'] - mudata['bestfit-std']
-#y2 = mudata['bestfit-meanmu'] + mudata['bestfit-std']
-##plt.fill_between(x, y1, y2, edgecolor=fcolor, hatch='//', facecolor='none')
-#plt.plot(x, mudata['bestfit-meanmu'], color=fcolor, label='Best-fit LF')
-
-#y1 = mudata['flat-meanmu'] - mudata['flat-std']
-#y2 = mudata['flat-meanmu'] + mudata['flat-std']
-##plt.fill_between(x, y1, y2, facecolor='orange', alpha=0.1)
-#plt.plot(x, mudata['flat-meanmu'], color='orange', label='Flat LF')
-
-#y1 = mudata['steep-meanmu'] - mudata['steep-std']
-#y2 = mudata['steep-meanmu'] + mudata['steep-std']
-#plt.fill_between(x, y1, y2, facecolor='blue', alpha=0.1)
-#plt.plot(x, mudata['steep-meanmu'], color='blue', label='Steep LF')
-
-# read in Fialkov data
-
-# Schechter luminosity function
-#Pmu_model('../Data/Mu_1p1_30Sc.txt', linestyle='dotted', lf='Schechter')
-#Pmu_model('../Data/Mu_1p2_30Sc.txt', linestyle='--', lf='Schechter')
-Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
-
-# Broken power-law luminosity function
-#Pmu_model('../Data/Mu_1p1_30powerlaw.txt', linestyle='solid', fill=True)
-Pmu_model('../Data/Mu_PL_2_30_z1p5.txt', linestyle='solid', fill=True)
-
-#Pmu_model('../Data/Mu_1p2_30powerlaw.txt', linestyle='--')
-#Pmu_model('../Data/Mu_2_30powerlaw.txt', linestyle='solid')
-
-# Schechter luminosity function
-#Pmu_model('../Data/Mu_1p1_30sh.txt', linestyle='solid', lf='Schechter', fill=True)
-Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter', fill=True)
-#Pmu_model('../Data/Mu_1p2_30sh.txt', linestyle='--', lf='Schechter')
-#Pmu_model('../Data/Mu_2_30sh.txt', linestyle='solid', lf='Schechter')
 
 mudat = Table.read('../Data/table_observed.dat', format='ascii')
 smadat = Table.read('../Data/bussmann2013_muflux.dat', format='ascii')
@@ -326,18 +301,66 @@ e_mutot = e_mutot[indxsort]
 notlensed = mutot == e_mutot
 e_mutot[notlensed] = 0.001
 
+ok = mutot > 2.0
+Shigh = Stot[ok]
+Smin = Shigh.min()
+
 # tack on mu=1, Stot=0 at beginning
 #Stot = numpy.append(-100+numpy.arange(100), Stot)
 #Stot = numpy.append(Stot, numpy.arange(100) + Stot.max())
 #mutot = numpy.append(numpy.zeros(100)+1.1, mutot)
 #mutot = numpy.append(mutot, numpy.zeros(100) + 15)
 
+# Fialkov lens predictions
+#mudata = Table.read('../Data/Mu_1_30.txt', format='ascii')
+#x = mudata['flux']
+#y1 = mudata['bestfit-meanmu'] - mudata['bestfit-std']
+#y2 = mudata['bestfit-meanmu'] + mudata['bestfit-std']
+##plt.fill_between(x, y1, y2, edgecolor=fcolor, hatch='//', facecolor='none')
+#plt.plot(x, mudata['bestfit-meanmu'], color=fcolor, label='Best-fit LF')
+
+#y1 = mudata['flat-meanmu'] - mudata['flat-std']
+#y2 = mudata['flat-meanmu'] + mudata['flat-std']
+##plt.fill_between(x, y1, y2, facecolor='orange', alpha=0.1)
+#plt.plot(x, mudata['flat-meanmu'], color='orange', label='Flat LF')
+
+#y1 = mudata['steep-meanmu'] - mudata['steep-std']
+#y2 = mudata['steep-meanmu'] + mudata['steep-std']
+#plt.fill_between(x, y1, y2, facecolor='blue', alpha=0.1)
+#plt.plot(x, mudata['steep-meanmu'], color='blue', label='Steep LF')
+
+# read in Fialkov data
+
+# Schechter luminosity function
+#Pmu_model('../Data/Mu_1p1_30Sc.txt', linestyle='dotted', lf='Schechter')
+#Pmu_model('../Data/Mu_1p2_30Sc.txt', linestyle='--', lf='Schechter')
+#Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
+
+# Broken power-law luminosity function
+#Pmu_model('../Data/Mu_1p1_30powerlaw.txt', linestyle='solid', fill=True)
+truncateval = Smin
+Pmu_model('../Data/Mu_PL_2_30_z1p5.txt', linestyle='solid', fill=True,
+        truncate=truncateval)
+
+#Pmu_model('../Data/Mu_1p2_30powerlaw.txt', linestyle='--')
+#Pmu_model('../Data/Mu_2_30powerlaw.txt', linestyle='solid')
+
+# Schechter luminosity function
+#Pmu_model('../Data/Mu_1p1_30sh.txt', linestyle='solid', lf='Schechter', fill=True)
+#Pmu_model('../Data/Mu_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter', fill=True)
+#Pmu_model('../Data/Mu_1p2_30sh.txt', linestyle='--', lf='Schechter')
+#Pmu_model('../Data/Mu_2_30sh.txt', linestyle='solid', lf='Schechter')
+
 #Stottmp = Stot.copy()
 #mutottmp = mutot.copy()
 #print('<mu>')
-thresh = 1.1
+thresh = 2.0
 smoothing = 30.0
 Sfull, mubest, mustd = MonteCarloMu(Stot, e_Stot, mutot, e_mutot, smoothing, norm=False)
+ok = Sfull > Smin
+Sfull = Sfull[ok]
+mubest = mubest[ok]
+mustd = mustd[ok]
 label = r'$\mu_{\rm min} = ' + str(thresh) + '$'
 plt.plot(Sfull, mubest, label=label, color='black', linewidth=2.0)
 y1 = mubest - mustd
@@ -398,7 +421,7 @@ plt.clf()
 # Schechter luminosity function
 #Pmu_model('../Data/Fractions_SH_1p1_30_z1p5.txt', linestyle='solid', lf='Schechter')
 #Pmu_model('../Data/Fractions_1p2_30Sc.txt', linestyle='--', lf='Schechter')
-Pmu_model('../Data/Fractions_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
+#Pmu_model('../Data/Fractions_SH_2_30_z1p5.txt', linestyle='solid', lf='Schechter')
 
 # Broken power-law luminosity function
 #Pmu_model('../Data/Fractions_PL_1p1_30_z1p5.txt', linestyle='solid')
@@ -415,7 +438,7 @@ Pmu_model('../Data/Fractions_PL_2_30_z1p5.txt', linestyle='solid')
 #plt.fill_between(Sfull, y1, y2=y2, color='gray', zorder=1)
 thresh = 2.0
 Sfull, mubest, mustd = MonteCarloMu(Stot, e_Stot, mutot, e_mutot, smoothing, norm=True)
-label = 'Logistic Regression'
+label = 'Logistic Fit to Data'
 plt.plot(Sfull, mubest, label=label, color='black', linewidth=2.0)
 y1 = mubest - mustd
 y2 = mubest + mustd

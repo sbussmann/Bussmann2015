@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 JAN 2015 12:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  16 MAR 2015 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1981,76 +1981,73 @@ Package pdftex.def Info: ../Figures/DifferentialNumberCounts.pdf used on input
 line 1618.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-<../Figures/s870_mu.pdf, id=25613, 361.35pt x 325.215pt>
-File: ../Figures/s870_mu.pdf Graphic file (type pdf)
+<../Figures/s870_mu_z1p5.pdf, id=25613, 361.35pt x 325.215pt>
+File: ../Figures/s870_mu_z1p5.pdf Graphic file (type pdf)
 
-<use ../Figures/s870_mu.pdf>
-Package pdftex.def Info: ../Figures/s870_mu.pdf used on input line 1619.
+<use ../Figures/s870_mu_z1p5.pdf>
+Package pdftex.def Info: ../Figures/s870_mu_z1p5.pdf used on input line 1619.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-<../Figures/Pmu_S870.pdf, id=25614, 361.35pt x 325.215pt>
-File: ../Figures/Pmu_S870.pdf Graphic file (type pdf)
+<../Figures/Pmu_S870_z1p5.pdf, id=25614, 361.35pt x 325.215pt>
+File: ../Figures/Pmu_S870_z1p5.pdf Graphic file (type pdf)
 
-<use ../Figures/Pmu_S870.pdf>
-Package pdftex.def Info: ../Figures/Pmu_S870.pdf used on input line 1620.
+<use ../Figures/Pmu_S870_z1p5.pdf>
+Package pdftex.def Info: ../Figures/Pmu_S870_z1p5.pdf used on input line 1620.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
 Overfull \hbox (6.35374pt too wide) in paragraph at lines 1618--1621
 [][] [] [] 
  []
 
-[20] [21 <../Figures/DifferentialNumberCounts.pdf> <../Figures/s870_mu.pdf
+[20] [21 <../Figures/DifferentialNumberCounts.pdf> <../Figures/s870_mu_z1p5.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/s870_mu.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <../Figures/Pmu_S870.pdf
 
-pdfTeX warning: pdflatex (file ../Figures/Pmu_S870.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
+pdfTeX warning: pdflatex (file ../Figures/s870_mu_z1p5.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <../Figures/Pmu_S870_z1p5.pdf
+
+pdfTeX warning: pdflatex (file ../Figures/Pmu_S870_z1p5.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
 >]
 Underfull \hbox (badness 2951) in paragraph at lines 1871--1873
 []\OT1/cmr/m/n/10 R.J.I. ac-knowl-edges sup-port from Eu-ro-pean Re-
  []
 
-(./ms.bbl [22] [23]) [24] (./ms.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+(./ms.bbl [22] [23]) [24] (./ms.aux) ) 
 Here is how much of TeX's memory you used:
  5041 strings out of 493315
- 86332 string characters out of 6137904
+ 86382 string characters out of 6137904
  213075 words of memory out of 5000000
  8286 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  39i,10n,29p,1530b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (24 pages, 12504120 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
+b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb>
+Output written on ms.pdf (24 pages, 12518394 bytes).
 PDF statistics:
- 26099 PDF objects out of 26593 (max. 8388607)
- 1015 compressed objects within 11 object streams
+ 26130 PDF objects out of 26593 (max. 8388607)
+ 1023 compressed objects within 11 object streams
  0 named destinations out of 1000 (max. 500000)
  646 words of extra memory for PDF output out of 10000 (max. 10000000)
 
