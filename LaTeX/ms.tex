@@ -55,6 +55,9 @@ I.~G.~Roseboom\altaffilmark{11,14},
 A.~J.~Smith\altaffilmark{11},
 L.~Wang\altaffilmark{11},
 J.~Wardlow\altaffilmark{15}}
+\altaffiltext{$\dagger$}{Herschel is an ESA space observatory with science
+instruments provided by European-led Principal Investigator consortia and with
+important participation from NASA.}
 \altaffiltext{1}{Department of Astronomy, Space Science Building, Cornell University, Ithaca, NY, 14853-6801}
 \altaffiltext{2}{Departement de Physique, Ecole Normale Sup erieure, CNRS, 24 rue Lhomond, Paris, 75005 France}
 \altaffiltext{3}{TAPIR 350-17, California Institute of Technology, 1200 E. California Boulevard, Pasadena, CA 91125}
@@ -82,29 +85,29 @@ J.~Wardlow\altaffilmark{15}}
     range in redshift.  A detailed understanding of these DSFGs is hampered by
     the poor spatial resolution of {\it Herschel}.  We present 870$\,\mu$m
     0$\farcs$45 imaging obtained in Cycle~0 with the Atacama Large
-    Millimeter/submillimeter Array (ALMA) of a sample of 29 HerMES DSFGs.  We
-    identify a total of 62 sources down to the $5\sigma$ limit in our ALMA
-    sample ($\sigma \approx 0.2\,$mJy).  Optical or near-infrared imaging
-    indicates that 36 of the ALMA sources experience a significant flux boost
-    from gravitational lensing ($\mu > 1.1$), but only 6 are strongly lensed
-    and show multiple images.  Combined with our previous work on brighter {\it
-    Herschel} sources, the lens models presented here constrain the shape of
-    the intrinsic luminosity function for DSFGs to have a break near 8$\,$mJy
-    at 880$\,\mu$m with a very steep fall off at higher flux densities.  We
-    introduce and make use of {\sc uvmcmcfit}, a general purpose and publicly
-    available Markov chain Monte Carlo visibility plane analysis tool to
-    analyze the source properties.  Nearly 70\% of the {\it Herschel} sources
-    break down into multiple ALMA counterparts, consistent with previous
-    research indicating that the multiplicity rate is high in bright sources
-    discovered in single-dish sub-mm or FIR surveys.  The ALMA counterparts to
-    our {\it Herschel} targets are located much closer to each other than ALMA
-    counterparts to sources found in the LABOCA ECDFS Submillimeter Survey.
-    Theoretical models underpredict the excess number of sources with small
-    separations seen in our ALMA sample.  The high multiplicity rate and low
-    projected separations between sources seen in our sample argue in favor of
-    interactions and mergers plausibly driving both the prodigious emission
-    from the brightest DSFGs as well as the sharp downturn above $S_{880} =
-    8\,$mJy.
+    Millimeter/submillimeter Array (ALMA) of a sample of 29 HerMES DSFGs.  The
+    ALMA imaging reveals that these DSFGs comprise a total of 62 sources (down
+    to the $5\sigma$ limit in our ALMA sample; $\sigma \approx 0.2\,$mJy).
+    Optical or near-infrared imaging indicates that 36 of the ALMA sources
+    experience a significant flux boost from gravitational lensing ($\mu >
+    1.1$), but only 6 are strongly lensed and show multiple images.  Combined
+    with our previous work on brighter {\it Herschel} sources, the lens models
+    presented here constrain the shape of the intrinsic luminosity function for
+    DSFGs to have a break near 8$\,$mJy at 880$\,\mu$m with a very steep fall
+    off at higher flux densities.  We introduce and make use of {\sc
+    uvmcmcfit}, a general purpose and publicly available Markov chain Monte
+    Carlo visibility plane analysis tool to analyze the source properties.
+    Nearly 70\% of the {\it Herschel} sources break down into multiple ALMA
+    counterparts, consistent with previous research indicating that the
+    multiplicity rate is high in bright sources discovered in single-dish
+    sub-mm or FIR surveys.  The ALMA counterparts to our {\it Herschel} targets
+    are located significantly closer to each other than ALMA counterparts to
+    sources found in the LABOCA ECDFS Submillimeter Survey.  Theoretical models
+    underpredict the excess number of sources with small separations seen in
+    our ALMA sample.  The high multiplicity rate and low projected separations
+    between sources seen in our sample argue in favor of interactions and
+    mergers plausibly driving both the prodigious emission from the brightest
+    DSFGs as well as the sharp downturn above $S_{880} = 8\,$mJy.
 
 \end{abstract}
 
@@ -140,27 +143,27 @@ Herschel} Astrophysical Terahertz Large Area Survey
 \citep[H-ATLAS;][]{2010PASP..122..499E} together have surveyed $\approx
 650\,$deg$^2$ at 250$\,\mu$m, 350$\,\mu$m, and 500$\,\mu$m to the confusion
 limit of {\it Herschel} \citep[$\sigma \approx 6-7\,$mJy in each
-band][]{Nguyen:2010fk}, plus an additional $\approx 350\,$deg$^2$ to a level
-approximately double the confusion limit.  A similar effort to survey large
-areas of the sky has been undertaken at longer wavelengths by the South Pole
-Telescope \citep[SPT;][]{Carlstrom:2011qy} and the Atacama Cosmology Telescope
-\citep{Swetz:2011qy}.
+band][]{Nguyen:2010fk}, plus an additional $\approx 350\,$deg$^2$ to a
+shallower level (approximately double the confusion limit).  A similar effort
+to survey large areas of the sky has been undertaken at longer wavelengths by
+the South Pole Telescope \citep[SPT;][]{Carlstrom:2011qy} and the Atacama
+Cosmology Telescope \citep{Swetz:2011qy}.
 
 Theoretical expectations based on the redshift distribution and luminosity
-function of DSFGs suggested that HerMES and H-ATLAS would be efficient tools for
-discovering strongly lensed DSFGs \citep[e.g.,][]{1996MNRAS.283.1340B,
+function of DSFGs suggested that HerMES and H-ATLAS would be efficient tools
+for discovering strongly lensed DSFGs \citep[e.g.,][]{1996MNRAS.283.1340B,
 2007MNRAS.377.1557N}.  Submillimeter Array \citep[SMA;][]{Ho:2004lr} imaging at
 870$\,\mu$m with sub-arcsecond resolution has confirmed this, with $\geq 85\%$
 of the brightest sources found by {\it Herschel} ($S_{500} > 100\,$mJy) being
-gravitationally lensed by an intevening galaxy or group of galaxies along the
+gravitationally lensed by an intervening galaxy or group of galaxies along the
 line of sight \citep{Negrello:2010fk, Conley:2011lr, Riechers:2011uq,
 Bussmann:2012lr, Wardlow:2013lr, Bussmann:2013lr}.  Sources discovered in SPT
-surveys have also been shown to have a high probability of being strongly lensed
-\citep{Vieira:2013fk, Hezaveh:2013fk}.  However, statistical models
-significantly over-predict the median magnification factor experienced by a {\it
-Herschel} DSFG of a given $S_{500}$ \citep{Bussmann:2013lr}.  This could
-indicate a deficiency in our understanding of the bright end of the intrinsic
-DSFG luminosity function.
+surveys have also been shown to have a high probability of being strongly
+lensed \citep{Vieira:2013fk, Hezaveh:2013fk}.  However, statistical models
+significantly over-predict the median magnification factor experienced by a
+{\it Herschel} DSFG of a given $S_{500}$ \citep{Bussmann:2013lr}.  This could
+indicate herald new insights in our understanding of the bright end of the
+intrinsic DSFG luminosity function or in the nature of the deflectors.
 
 We here present Atacama Large Millimeter/submillimeter Array (ALMA) Cycle~0
 imaging at 870$\,\mu$m of a sample of 29 HerMES DSFGs.
@@ -442,13 +445,15 @@ available), which were originally presented in \citet{Calanog:2014lr}.
 \includegraphics[width=0.331\textwidth]{../Figures/overlays/HXMM23_870_250.pdf}
 \end{centering}
 
-\caption{ ALMA 870$\,\mu$m images (color scale, units of mJy$\,$beam$^{-1}$) of HerMES
-DSFGs (images have not been corrected for primary beam attenuation).  Contours
-(black and white) trace 250$\,\mu$m emission from {\it Herschel}.  The FWHM
-size of the ALMA synthesized beam is shown in the lower left corner of each
-panel.  A solid white circle shows the FWHM size of the primary beam.  Dashed
-squares identify the regions of each image that are shown in greater detail in
-Fig.~\ref{fig:uvmodels}.  \label{fig:imaging}} \addtocounter{figure}{-1}
+\caption{ ALMA 870$\,\mu$m images (color scale, units of mJy$\,$beam$^{-1}$) of
+HerMES DSFGs (images have not been corrected for primary beam attenuation).
+Contours (black and white) trace 250$\,\mu$m emission from {\it Herschel}
+(starting at 4$\sigma$ and increasing by factors of 2, where $\sigma=7\,$mJy).
+The FWHM size of the ALMA synthesized beam is shown in the lower left corner of
+each panel.  A solid white circle shows the FWHM size of the primary beam.
+Dashed squares identify the regions of each image that are shown in greater
+detail in Fig.~\ref{fig:uvmodels}.  \label{fig:imaging}}
+\addtocounter{figure}{-1}
 
 \end{figure*}
 
@@ -563,13 +568,18 @@ position angle of the lens ($\phi_{\rm lens}$; degrees east of north).  Unless
 otherwise stated, when optical or near-IR imaging suggests the presence of
 additional lenses (see Figure~\ref{fig:uvmodels}), we estimate centroids for
 each lens by eye and fix the positions of the additional lenses with respect to
-the primary lens.  Each additional lens thus has three parameters:
-$\theta_{\rm E}$, $q_{\rm lens}$, and $\phi_{\rm lens}$.  We assume secondary,
-tertiary, etc., lenses are located at the same redshift as the primary lens.  
+the primary lens.  Each additional lens thus has three parameters: $\theta_{\rm
+E}$, $q_{\rm lens}$, and $\phi_{\rm lens}$.  
 
 The total number of free parameters for any given system is $N_{\rm free} = 5 +
 3 \times (N_{\rm lens} - 1) + 6 * N_{\rm source}$, where $N_{\rm source}$ is
 the number of Gaussian profiles used.
+
+We assume secondary, tertiary, etc., lenses are located at the same redshift as
+the primary lens.  If this assumption were incorrect, to first order only the
+conversion from an angular Einstein radius to a physical mass of the lensing
+galaxy would be affected.  As the physical masses of the lensing galaxies are
+not the focus of this work, this assumption is reasonable.
 
 We use uniform priors for all model parameters.  The prior on the position of
 the lenses covers $\pm0\farcs6$ ($1\farcs0$) in both RA and Dec, a value that
@@ -583,10 +593,10 @@ are restricted to be $q_{\rm lens} > 0.3$ and $q_{\rm s} > 0.2$. No prior is
 placed on the position angle of the lens or source.  The intrinsic flux density
 for any source is allowed to vary from 0.1$\,$mJy to the total flux density
 observed by ALMA (we ensure that the posterior PDF of the intrinsic flux
-density shows no signs of preferring a value lower than 0.1$\,$mJy).  The source
-position is allowed to vary over any reasonable range necessary to fit the data
-(typically, this is $\pm $1-2$\arcsec$).  The effective radius is allowed to vary
-from $0\farcs01 $-$ 1\farcs5$.
+density shows no signs of preferring a value lower than 0.1$\,$mJy).  The
+source position is allowed to vary over any reasonable range necessary to fit
+the data (typically, this is $\pm $1-2$\arcsec$).  The effective radius is
+allowed to vary from $0\farcs01 $-$ 1\farcs5$.
 
 The surface brightness map generated as part of {\sc uvmcmcfit} is then
 converted to a ``simulated visibility'' dataset ($V_{\rm model}$) in much the
@@ -782,26 +792,30 @@ an indication that either of our assumptions for the lens potential or source
 structure are oversimplifications.  Higher resolution imaging is needed to
 determine the most likely cause.
 
-{\bf HECDFS12:} This is a complex, well-constrained system.  Two sources are
-detected by ALMA: one is strongly lensed and the other is weakly lensed.  In
-addition, the lens is detected by ALMA (this is one of two sources in the
-entire {\it Herschel}-ALMA sample that is unresolved by ALMA).  These facts
-work together to provide very tight constraints on the system.  Since the lens
-is detected by ALMA, its position relative to the lensed images is unambiguous.
-Also, because there is a strongly lensed source with multiple images, the
-Einstein radius of the lens is unambiguous.  A byproduct of these two facts is
-that the magnification factor of the weakly lensed source is known to very high
-precision as well.  It experiences a magnification factor of $\mu_{870} =
-1.520\pm0.002$ despite being located $\approx4\arcsec$ north of the lens (which
-has an Einstein radius of $1.353\pm0.005$; it is the tight constraint on the
-Einstein radius that permits such a tight constraint on $\mu_{870}$ for the
-weakly lensed source).  We use these numbers to inform our estimates of the
-Einstein radius for weakly lensed sources without the excellent contraints
-provided by this system.  Finally, this source is detected (and unresolved) in
-the NRAO VLA Sky Survey \citep{Condon:1998uq}, having $S_{\rm 1.4\,GHz} = 21.8
-\pm 0.8\,$mJy.  Assuming all of this radio emission originates from the lens,
-this implies a spectral slope of $\alpha = -0.24$ and is consistent with
-non-thermal emission from the lens.
+{\bf HECDFS12:} This is a complex, well-constrained system.  Two background
+sources are detected by ALMA: one is multiply imaged and the other is singly
+imaged.  In addition, the lens is detected by ALMA (this is one of two sources
+in the entire {\it Herschel}-ALMA sample that is unresolved by ALMA).  These
+facts work together to provide very tight constraints on the system.  Since the
+lens is detected by ALMA, its position relative to the lensed images is
+unambiguous.  Also, because there is a strongly lensed source with multiple
+images, the Einstein radius of the lens is unambiguous.  A byproduct of these
+two facts is that the magnification factor of the weakly lensed source is known
+to very high precision as well.  It experiences a magnification factor of
+$\mu_{870} = 1.520\pm0.002$ (note that this error bar is valid under the
+assumptions of our model, most notably the assumption that the singly imaged
+source is located at the same redshift as the multiply imaged source; the true
+uncertainty is likely a factor of a few larger).  despite being located
+$\approx4\arcsec$ north of the lens (which has an Einstein radius of
+$1.353\pm0.005$; it is the tight constraint on the Einstein radius that permits
+such a tight constraint on $\mu_{870}$ for the weakly lensed source).  We use
+these numbers to inform our estimates of the Einstein radius for weakly lensed
+sources without the excellent contraints provided by this system.  Finally,
+this source is detected (and unresolved) in the NRAO VLA Sky Survey
+\citep{Condon:1998uq}, having $S_{\rm 1.4\,GHz} = 21.8 \pm 0.8\,$mJy.  Assuming
+all of this radio emission originates from the lens, this implies a spectral
+slope of $\alpha = -0.24$ and is consistent with non-thermal emission from the
+lens.
 
 {\bf HECDFS04:} Two sources are detected by ALMA, both of which are weakly
 lensed by a foreground galaxy seen in the {\it HST} image.  There is also a
@@ -853,12 +867,17 @@ potential of the group with a single SIE lens and an Einstein radius of
 $1\farcs0$.  Values larger than this produce additional counter images that are
 not seen in the ALMA imaging.
 
-{\bf HADFS10:} Three sources are detected by ALMA.  We 
-assume that all three are unlensed.  There is a group of three sources
-detected in our Gemini-S optical imaging located $\approx 7\arcsec$ east of the
-ALMA sources.  This distance is so large that plausible mass ranges for the
-Gemini-S sources would imply at most a factor of 1.1$-$1.2 boost in the apparent
-flux densities of the ALMA sources.
+{\bf HADFS10:} Three sources are detected by ALMA.  We assume that all three
+are unlensed.  There is a group of three sources detected in our Gemini-S
+optical imaging located $\approx 7\arcsec$ east of the ALMA sources.  This
+distance is so large that plausible mass ranges for the Gemini-S sources would
+imply at most a factor of 1.1$-$1.2 boost in the apparent flux densities of the
+ALMA sources.  We also tested a single-lens, single-source model in which the
+source is triply-imaged in the manner that is observed.  The lens in this case
+has an Einstein radius of $\approx 1\farcs2$, requiring a very high mass to
+light ratio or a very high lens redshift to be consistent with the
+non-detection in the Gemini-S data.  Deep near-IR imaging is needed to confirm
+that this target is unlensed.
 
 {\bf HADFS01:} This is a single source that is strongly lensed by a foreground
 galaxy seen in the {\it HST} image.  The lensed source is not detected by {\it
@@ -1179,12 +1198,14 @@ e.g.][]{Wyithe:2011rm} discovered in wide-field FIR or mm surveys, it is
 critical to consider the effects of lensing.
 
 For comparison, we also show the cumulative distribution of $S_{870}$ for the
-ALESS sample.  There is greater overlap in $S_{870}$ between our sample and
-ALESS than there is in $S_{500}$ (recall Figure~\ref{fig:sample}).  This is
-evidence that the DSFGs in our sample have higher $S_{500}/S_{870}$ ratios than
-the DSFGs in ALESS.  This difference is likely due to differences in dust
-temperature and/or redshift distributions of the two samples and probably arises
-from selection effects.
+ALESS sample.  ALESS is the only existing sample of DSFGs with interferometric
+follow-up of a sensitivity and angular resolution that is comparable to our
+ALMA data, so it is the best sample with which to compare our results.  There
+is greater overlap in $S_{870}$ between our sample and ALESS than there is in
+$S_{500}$ (recall Figure~\ref{fig:sample}).  This is evidence that the DSFGs in
+our sample have higher $S_{500}/S_{870}$ ratios than the DSFGs in ALESS.  This
+difference is likely due to differences in dust temperature and/or redshift
+distributions of the two samples and probably arises from selection effects.
 
 The effect on the other source parameters ($r_{\rm s}$, angular separation, and
 $q_{\rm s}$) is less pronounced.  The median source size decreases by a factor of 1.2
@@ -1544,8 +1565,12 @@ In Table~\ref{tab:models}, we provide information for two models tested in this
 paper: the \citet{Karim:2013lr} broken power-law that provides a good fit to
 ALESS number counts; and a broken power-law with a brighter break point
 ($S_\ast = 15\,$mJy) that provides a good fit to the COSMOS luminosity function
-from \citet{Miettinen:2015lr}.  The data and corresponding luminosity functions
-are shown in the left panel of Figure~\ref{fig:lensstats}.
+from \citet{Miettinen:2015lr}.  The interferometric observations in
+\citet{Miettinen:2015lr} show that all of the sources in their survey are
+either unlensed or lensed by magnification factors $<2$.  Therefore, the ALESS
+and COSMOS luminosity functions bracket the plausible range of intrinsic
+luminosity functions for DSFGs.  The data and corresponding luminosity
+functions are shown in the left panel of Figure~\ref{fig:lensstats}.
 
 \input{table_lf}
 
