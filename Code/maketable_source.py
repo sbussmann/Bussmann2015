@@ -54,6 +54,15 @@ for itarg in range(0, ntarg):
     iauname = dataphot['iauname'][itarg]
     goodfit = goodfitdat['intrinsic'][itarg]
     #goodfit = goodfitdat['observed'][itarg]
+    s250 = dataphot['f250'][itarg]
+    s350 = dataphot['f350'][itarg]
+    s500 = dataphot['f500'][itarg]
+    e250 = dataphot['e250'][itarg]
+    e350 = dataphot['e350'][itarg]
+    e500 = dataphot['e500'][itarg]
+    strfmt = '{0:12} ${1:4.0f} \pm {2:2.0f}$ & ${3:4.0f} \pm {4:2.0f}$ & ' \
+            + '${5:4.0f} \pm {6:2.0f}$'
+    print(strfmt.format(objname, s250, e250, s350, e350, s500, e500))
     fitdir = anloc + dataname[itarg] + '/' + goodfit + '/'
     os.chdir(fitdir)
 
@@ -343,7 +352,7 @@ for itarg in range(0, ntarg):
             #msgfmt = msg.format(phi_indiv, e_phi_indiv)            
             #msg = '{0:.2f} {1:.2f}'
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
-            print(msgfmt)
+            #print(msgfmt)
 
         for isource in range(nsource):
 
@@ -586,8 +595,8 @@ for itarg in range(0, ntarg):
                 ddecdeg_source, e_ddecdeg_source, 
                 flux_indiv, e_flux_indiv, size_indiv, e_size_indiv, q_indiv, 
                 e_q_indiv, phi_indiv, e_phi_indiv, mu_indiv, e_mu_indiv)
-            #msg = '{0:3.0f} {1:3.0f}'
-            #msgfmt = msg.format(phi_indiv, e_phi_indiv)            
+            if nsource > 1:
+                print('             --- & --- & --- ')
             #msg = '{0:.2f} {1:.2f}'
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
             #msg = '{0:15} {1:29} {2:.2f} {3:.2f} {4:.2f} {5:.2f} {6:.2f}'

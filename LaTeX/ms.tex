@@ -1003,7 +1003,7 @@ model are represented by magenta ellipses.  If a lens is present, its location
 is given by a black circle and its critical curve is traced by an orange line.
 The FWHM size of the ALMA synthesized beam is shown in the lower left corner of
 each panel.  {\it Middle}: Same as {\it left}, but showing best-fit model in
-grayscale.  {\it Right}: Same as {\it left}, but showing resdiual image
+grayscale.  {\it Right}: Same as {\it left}, but showing residual image
 obtained from subtracting best-fit model from the data.  \label{fig:uvmodels}}
 \addtocounter{figure}{-1}
 
@@ -1200,12 +1200,13 @@ critical to consider the effects of lensing.
 For comparison, we also show the cumulative distribution of $S_{870}$ for the
 ALESS sample.  ALESS is the only existing sample of DSFGs with interferometric
 follow-up of a sensitivity and angular resolution that is comparable to our
-ALMA data, so it is the best sample with which to compare our results.  There
-is greater overlap in $S_{870}$ between our sample and ALESS than there is in
-$S_{500}$ (recall Figure~\ref{fig:sample}).  This is evidence that the DSFGs in
-our sample have higher $S_{500}/S_{870}$ ratios than the DSFGs in ALESS.  This
-difference is likely due to differences in dust temperature and/or redshift
-distributions of the two samples and probably arises from selection effects.
+ALMA data, so it is the best sample with which to compare our results.  The
+significant overlap in $S_{870}$ between our sample and ALESS is evidence that
+the DSFGs in our sample have higher $S_{500}/S_{870}$ ratios than the DSFGs in
+ALESS (recall Figure~\ref{fig:sample}, which shows that ALESS sources have much
+lower $S_{500}$ than our targets).  This difference is likely due to
+differences in dust temperature and/or redshift distributions of the two
+samples and probably arises from selection effects.
 
 The effect on the other source parameters ($r_{\rm s}$, angular separation, and
 $q_{\rm s}$) is less pronounced.  The median source size decreases by a factor of 1.2
@@ -1709,7 +1710,7 @@ varies with  $\mu_{\rm min}$, but the overall results are qualitatively the
 same.  The models we consider are the same as those used in the left panel of
 Figure~\ref{fig:lensstats}.  Instead of computing a running average of the
 data, we show a logistic regression fit to the data \citep[obtained with the
-{\sc Scikit-learn package;][]{scikit-learn}.
+{\sc Scikit-learn} package;][]{scikitlearn}.
 
 In the low flux density regime ($S_{870} < 10\,$mJy), each model predicts that
 10\% of sources experience a magnification satisfying $\mu_{870} > 1.1$.  This
@@ -1899,6 +1900,53 @@ Facilities: ALMA, Gemini-S.
 
 \bibliography{rbussman}
 
-%\appendix
+\appendix
+
+\section{{\it Herschel}/SPIRE Photometry}
+
+We present in Table~\ref{tab:photometry} SPIRE photometry ($S_{250}$,
+$S_{350}$, and $S_{500}$) for each {\it Herschel} source in our sample using as
+priors the ALMA and {\it Spitzer} 24$\,\mu$m counterpart positions.  Many of
+the {\it Herschel} sources in our sample have multiple 24$\,\mu$m counterparts
+close enough to the ALMA counterparts that they can make a significant
+contribution to the SPIRE flux at the position of the ALMA counterparts.  For
+this reason, it is critical to include the 24$\,\mu$m data when estimating {\it
+Herschel}/SPIRE photometry.  In cases where the {\it Spitzer} 24$\,\mu$m and
+ALMA counterparts spatially overlap (defined here as having a separation
+smaller than $2\farcs5$), we exclude the {\it Spitzer} counterpart from the
+calculations.  
+
+Note that in the case of HELAISS02, we exclude a 24$\,\mu$m source associated
+with the lensing galaxy, despite being more than $2\farcs5$ away from the
+nearest ALMA counterpart.  This is because the ALMA counterparts are arranged
+so that they surround the 24$\mu$m source completely.  The extended emission
+seen in the SPIRE maps is therefore most likely attributable to the ALMA
+counterparts rather than the 24$\,\mu$m source.
+
+One of the key results from this analysis is that the use of StarFinder to
+deconvolve the SPIRE beam will lead to the removal of a portion of the targets
+with extended emission from a flux-limited sample.  This is by design, as the
+goal outlined in \citet{Wardlow:2013lr} was to develop the purest sample of
+lens candidates as possible from HerMES data.  Blends were considered by these
+authors to be unlikely to be lensed.  This method is effective for lenses where
+the Einstein radius is smaller than $\approx 2\arcsec$.  However, it selects
+against deeper potential wells, such as those of groups or clusters
+\citep[e.g., HLock01][]{Gavazzi:2011lr}, that produce images separated by
+scales that comprise a significant fraction of the SPIRE PSF.
+
+It is worth emphasizing that blends likely constitute an interesting path of
+study for future work, as they potentially represent proto-groups or
+proto-clusters during a particular active stage of their evolution.  They are
+also prime examples of systems of sources that are poorly reproduced in
+simulations, as evidenced by the investigations in
+Section~\ref{sec:spatialdist} in this paper.  Table~\ref{tab:photometry} shows
+that one possible means of selecting candidate blends is by comparing the
+SUSSEXtractor and StarFinder flux densities, particularly at 500$\,\mu$m.  A
+large difference between these two measurements likely indicates multiple
+components separated by scales that are a significant fraction of the SPIRE
+beam (e.g., HELAISS02, HXMM20, and HCOSMOS02).
+
+\clearpage
+\input{table_photometry}
 
 \end{document}

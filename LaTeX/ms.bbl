@@ -1,4 +1,4 @@
-\begin{thebibliography}{85}
+\begin{thebibliography}{89}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -189,6 +189,9 @@
 \bibitem[{{Fu} {et~al.}(2013)}]{Fu:2013lr}
 {Fu}, H. {et~al.} 2013, \nat, 498, 338
 
+\bibitem[{{Gavazzi} {et~al.}(2011)}]{Gavazzi:2011lr}
+{Gavazzi}, R. {et~al.} 2011, \apj, 738, 125
+
 \bibitem[{{Goodman} \& {Weare}(2010)}]{goodmanweare}
 {Goodman}, J. \& {Weare}, J. 2010, Communications in Applied Mathematics and
   Computational Science, 5, 65
@@ -332,6 +335,16 @@
   {Nguyen}, H.~T., {Omont}, A., {Rowlands}, K., {Smith}, D., {Smith}, M.,
   {Valiante}, E., \& {Vieira}, J.~D. 2014, \aap, 568, A92
 
+\bibitem[{{Miettinen} {et~al.}(2015){Miettinen}, {Smol{\v c}i{\'c}}, {Novak},
+  {Aravena}, {Karim}, {Masters}, {Riechers}, {Bussmann}, {McCracken}, {Ilbert},
+  {Bertoldi}, {Capak}, {Feruglio}, {Halliday}, {Kartaltepe}, {Navarrete},
+  {Salvato}, {Sanders}, {Schinnerer}, \& {Sheth}}]{Miettinen:2015lr}
+{Miettinen}, O., {Smol{\v c}i{\'c}}, V., {Novak}, M., {Aravena}, M., {Karim},
+  A., {Masters}, D., {Riechers}, D.~A., {Bussmann}, R.~S., {McCracken}, H.~J.,
+  {Ilbert}, O., {Bertoldi}, F., {Capak}, P., {Feruglio}, C., {Halliday}, C.,
+  {Kartaltepe}, J.~S., {Navarrete}, F., {Salvato}, M., {Sanders}, D.,
+  {Schinnerer}, E., \& {Sheth}, K. 2015, ArXiv e-prints
+
 \bibitem[{{Narayanan} {et~al.}(2010){Narayanan}, {Hayward}, {Cox}, {Hernquist},
   {Jonsson}, {Younger}, \& {Groves}}]{Narayanan:2010lr}
 {Narayanan}, D., {Hayward}, C.~C., {Cox}, T.~J., {Hernquist}, L., {Jonsson},
@@ -362,6 +375,9 @@
 {Patton}, D.~R., {Torrey}, P., {Ellison}, S.~L., {Mendel}, J.~T., \& {Scudder},
   J.~M. 2013, \mnras, 433, L59
 
+\bibitem[{{Pedregosa} {et~al.}(2011)}]{scikitlearn}
+{Pedregosa}, F. {et~al.} 2011, {Journal of Machine Learning Research}, 12, 2825
+
 \bibitem[{{Pilbratt} {et~al.}(2010)}]{Pilbratt:2010fk}
 {Pilbratt}, G.~L. {et~al.} 2010, \aap, 518, L1
 
@@ -388,6 +404,11 @@
   {Cooray}, A., {Dunlop}, J.~S., {Farrah}, D., {Fich}, M., {Fu}, H., {Jenness},
   T., {Laporte}, N., {Oliver}, S.~J., {Omont}, A., {P{\'e}rez-Fournon}, I.,
   {Scott}, D., {Swinbank}, A.~M., \& {Wardlow}, J. 2014, \apj, 793, 11
+
+\bibitem[{{Rybak} {et~al.}(2015){Rybak}, {McKean}, {Vegetti}, {Andreani}, \&
+  {White}}]{Rybak:2015fk}
+{Rybak}, M., {McKean}, J.~P., {Vegetti}, S., {Andreani}, P., \& {White},
+  S.~D.~M. 2015, ArXiv e-prints
 
 \bibitem[{{Savage} \& {Oliver}(2007)}]{Savage:2007sf}
 {Savage}, R.~S. \& {Oliver}, S. 2007, \apj, 661, 1339
