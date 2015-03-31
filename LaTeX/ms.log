@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  31 MAR 2015 14:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  31 MAR 2015 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1919,7 +1919,7 @@ Package pdftex.def Info: ../Figures/HXMM20_rgb.pdf used on input line 1070.
 File: ../Figures/f870_delens.pdf Graphic file (type pdf)
 
 <use ../Figures/f870_delens.pdf>
-Package pdftex.def Info: ../Figures/f870_delens.pdf used on input line 1247.
+Package pdftex.def Info: ../Figures/f870_delens.pdf used on input line 1248.
 (pdftex.def)             Requested size: 245.26653pt x 220.74132pt.
  [16 <../Figures/HECDFS04_rgb.pdf> <../Figures/HCOSMOS02_rgb.pdf
 
@@ -1946,24 +1946,24 @@ File: ../Figures/fluxtotalcomponent.pdf Graphic file (type pdf)
 
 <use ../Figures/fluxtotalcomponent.pdf>
 Package pdftex.def Info: ../Figures/fluxtotalcomponent.pdf used on input line 1
-316.
+317.
 (pdftex.def)             Requested size: 245.26653pt x 220.74132pt.
 
 <../Figures/AllPositions.pdf, id=24984, 419.166pt x 325.215pt>
 File: ../Figures/AllPositions.pdf Graphic file (type pdf)
 
 <use ../Figures/AllPositions.pdf>
-Package pdftex.def Info: ../Figures/AllPositions.pdf used on input line 1374.
+Package pdftex.def Info: ../Figures/AllPositions.pdf used on input line 1375.
 (pdftex.def)             Requested size: 279.45184pt x 216.81pt.
 
 <../Figures/dNdA.pdf, id=24985, 361.35pt x 325.215pt>
 File: ../Figures/dNdA.pdf Graphic file (type pdf)
 
 <use ../Figures/dNdA.pdf>
-Package pdftex.def Info: ../Figures/dNdA.pdf used on input line 1375.
+Package pdftex.def Info: ../Figures/dNdA.pdf used on input line 1376.
 (pdftex.def)             Requested size: 240.90675pt x 216.81pt.
 
-Overfull \hbox (9.13008pt too wide) in paragraph at lines 1374--1376
+Overfull \hbox (9.13008pt too wide) in paragraph at lines 1375--1377
 [][] [] 
  []
 
@@ -1978,24 +1978,24 @@ File: ../Figures/DifferentialNumberCounts.pdf Graphic file (type pdf)
 
 <use ../Figures/DifferentialNumberCounts.pdf>
 Package pdftex.def Info: ../Figures/DifferentialNumberCounts.pdf used on input 
-line 1642.
+line 1643.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
 <../Figures/s870_mu_z1p5.pdf, id=25613, 361.35pt x 325.215pt>
 File: ../Figures/s870_mu_z1p5.pdf Graphic file (type pdf)
 
 <use ../Figures/s870_mu_z1p5.pdf>
-Package pdftex.def Info: ../Figures/s870_mu_z1p5.pdf used on input line 1643.
+Package pdftex.def Info: ../Figures/s870_mu_z1p5.pdf used on input line 1644.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
 <../Figures/Pmu_S870_z1p5.pdf, id=25614, 361.35pt x 325.215pt>
 File: ../Figures/Pmu_S870_z1p5.pdf Graphic file (type pdf)
 
 <use ../Figures/Pmu_S870_z1p5.pdf>
-Package pdftex.def Info: ../Figures/Pmu_S870_z1p5.pdf used on input line 1644.
+Package pdftex.def Info: ../Figures/Pmu_S870_z1p5.pdf used on input line 1645.
 (pdftex.def)             Requested size: 171.89778pt x 154.70699pt.
 
-Overfull \hbox (6.35374pt too wide) in paragraph at lines 1642--1645
+Overfull \hbox (6.35374pt too wide) in paragraph at lines 1643--1646
 [][] [] [] 
  []
 
@@ -2009,7 +2009,7 @@ tiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../Figures/Pmu_S870_z1p5.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 2951) in paragraph at lines 1891--1893
+Underfull \hbox (badness 2951) in paragraph at lines 1892--1894
 []\OT1/cmr/m/n/10 R.J.I. ac-knowl-edges sup-port from Eu-ro-pean Re-
  []
 
@@ -2017,11 +2017,11 @@ Underfull \hbox (badness 2951) in paragraph at lines 1891--1893
 Here is how much of TeX's memory you used:
  5050 strings out of 493315
  86521 string characters out of 6137904
- 213353 words of memory out of 5000000
+ 213464 words of memory out of 5000000
  8292 multiletter control sequences out of 15000+600000
  13484 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 39i,10n,34p,1732b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,34p,1732b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/te
@@ -2044,7 +2044,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb>
-Output written on ms.pdf (25 pages, 12527130 bytes).
+Output written on ms.pdf (25 pages, 12526970 bytes).
 PDF statistics:
  26134 PDF objects out of 26593 (max. 8388607)
  1026 compressed objects within 11 object streams
