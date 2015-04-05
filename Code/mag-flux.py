@@ -198,7 +198,7 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False,
         yy = fractiondata[key]
         color = 'magenta'
         #plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
-        #print(xx[find_nearest(yy, 0.5)])
+        #print(key, xx[find_nearest(yy, 0.5)])
         if fill:
             pass
             #sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
@@ -220,7 +220,7 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False,
         yy = fractiondata[key]
         color = 'blue'
         plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
-        print(xx[find_nearest(yy, 0.5)])
+        print(key, xx[find_nearest(yy, 0.5)])
         if addlabel:
             plt.plot(xx, yy, color=color, linestyle=linestyle, 
                     label=r'$S_\star = 15\,$mJy', linewidth=1.5)

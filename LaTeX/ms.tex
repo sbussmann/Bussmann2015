@@ -222,22 +222,33 @@ channels using the SUSSEXtractor peak finder algorithm \citep{Savage:2007sf}.
 Our sample includes 29 DSFGs drawn from five independent, confusion-limited
 fields in HerMES with declinations $> 2 ^\circ$ and totaling $55\,$deg$^2$.
 
-The sample was selected to be a complete, flux-limited set of objects
-satisfying $S_{500} > 95\,$mJy that are not known radio AGN, nearby late-type
-galaxies, or Galactic emission. The selection was designed to assemble a large
-sample of lensed galaxies in the ALMA-accesible HerMES fields, and was
-constructed from the SUSSEXtractor catalogs, which were available prior to the
-ALMA Cycle~0 deadline.  Subsequently, improved efforts to deblend SPIRE
-photometry at 500$\,\mu$m using StarFinder \citep{Wang:2014lr} were introduced
-that formed the basis of the lens selection criteria used in
-\citet{Wardlow:2013lr}.  As a result of the improved deblending algorithms in
-the StarFinder catalogues and \citet{Wardlow:2013lr} a number of objects in our
-sample have significantly lower $S_{500}$ values in the StarFinder catalog than
-in the original SUSSEXtractor catalogs.  This and further investigation into
-the StarFinder catalogs shows that their original flux was boosted by blending
-with nearby sources rather than by gravitational lensing.  For this reason, the
-objects in this sample comprise a combination of lenses and blends of multiple
-sources.
+The sample was selected to be the 29 brightest DSFGs in the Southern sky that
+are not known radio AGN, nearby late-type galaxies, or Galactic emission. The
+selection was designed to assemble a large sample of lensed galaxies in the
+ALMA-accesible HerMES fields, and was constructed from the SUSSEXtractor
+catalogs, which were available prior to the ALMA Cycle~0 deadline.
+Subsequently, improved efforts to deblend SPIRE photometry at 500$\,\mu$m using
+StarFinder \citep{Wang:2014lr} were introduced that formed the basis of the
+lens selection criteria used in \citet{Wardlow:2013lr}.  As a result of the
+improved deblending algorithms in the StarFinder catalogues and
+\citet{Wardlow:2013lr} a number of objects in our sample have significantly
+lower $S_{500}$ values in the StarFinder catalog than in the original
+SUSSEXtractor catalogs.  This and further investigation into the StarFinder
+catalogs shows that their original flux was boosted by blending with nearby
+sources rather than by gravitational lensing.  For this reason, the objects in
+this sample comprise a combination of lenses and blends of multiple sources.
+
+We used positional priors based on the ALMA data presented in this paper to
+obtain the best possible estimates of the total SPIRE flux densities for each
+{\it Herschel} source.  We also used {\it Spitzer}/MIPS
+\citep{2004ApJS..154...25R} imaging to take into consideration the presence of
+nearby 24$\,\mu$m sources that are not detected by ALMA but may still
+contribute to the 250$\,\mu$m emission detected by {\it Herschel}.  Additional
+details on our methodology are provided in Section~\ref{sec:photometry}.  The
+SPIRE flux densities measured in this way represent our ``fiducial'' flux
+densities and are presented in Table~\ref{tab:positions}.  Interested readers
+may refer to Table~\ref{tab:photometry} for a comparison of the fiducial,
+StarFinder and SUSSEXtractor flux densities in tabular form. 
 
 %selected primarily on the
 %basis of $S_{500}$ and covers a range of $20 < S_{500}/{\rm (mJy)} \lesssim
@@ -259,15 +270,14 @@ Figure~\ref{fig:sample} shows that the {\it Herschel}-ALMA sample is set
 clearly apart from the very bright {\it Herschel} DSFGs that are selected to
 have $S_{500} > 100 \, $mJy and have been shown to be almost entirely lensed
 DSFGs \citep{Negrello:2010fk, Wardlow:2013lr, Bussmann:2013lr}.  In contrast,
-the sample in this paper should include a more diverse mix of lensed and
-unlensed DSFGs.  On the other hand, this sample is selected from a survey with
-an area that is 200 times larger than that of the Large Apex Bolometer Camera
-Extended Chandra Deep Field Survey \citep[LESS][]{Weis:2009ly}.  It is no
-surprise then, that the median $S_{500}$ in our sample is $\sim3.5$ times
-brighter than the median $S_{500}$ in the sample of ALMA-detected sources in
-LESS, known as ALESS \citep{Hodge:2013qy}.  Our {\it Herschel}-ALMA sample
-opens a new window of discovery space on the bright end of the DSFG luminosity
-function.
+the sample in this paper is expected to include a mix of lensed and unlensed
+DSFGs.  On the other hand, the HerMES survey area is 200 times larger than that
+of the Large Apex Bolometer Camera Extended Chandra Deep Field Survey
+\citep[LESS][]{Weis:2009ly}.  This explains why the median $S_{500}$ in our
+sample is $\sim4$ times brighter than the median $S_{500}$ in the sample of
+ALMA-detected sources in LESS, known as ALESS \citep{Hodge:2013qy}.  Our {\it
+Herschel}-ALMA sample opens a new window of discovery space on the bright end
+of the DSFG luminosity function.
 
 \begin{figure}[!tbp] 
 %\epsscale{1.00} 
@@ -314,9 +324,9 @@ The remainder have $S_{500} < 80\,$mJy and thus do not appear in
 %confirm the lensing hypothesis and begin analysis of the source and lens
 %properties.  
 
-Table~\ref{tab:position} provides reference data for the {\it Herschel}-ALMA sample, including
-centroid positions measured from the ALMA 870$\, \mu$m imaging (see
-Section~\ref{sec:almaobs}).
+Table~\ref{tab:position} provides reference data for the {\it Herschel}-ALMA
+sample, including centroid positions measured from the ALMA 870$\, \mu$m
+imaging (see Section~\ref{sec:almaobs}).
 
 \subsection{ALMA Observations}\label{sec:almaobs}
 
@@ -1495,9 +1505,9 @@ this as it pertains to DSFGs.
 
 Our methodology follows the procedures outlined in previous efforts to predict
 magnification factors for DSFGs with a given apparent flux density
-\citep[chiefly,][]{Lima:2010fk, Wardlow:2013lr}.  We summarize the essential
-elements here and highlight significant differences where appropriate.
-Additional details may be found in Fialkov et al. (in prep.).  
+\citep[chiefly,][]{Lima:2010fk, Wardlow:2013lr, Fialkov:2015eu}.  We summarize
+the essential elements here and highlight significant differences where
+appropriate.  
 
 The key components of the model are the mass density profile of the lenses,
 $\rho_{\rm lens}\,(r)$, the number density of lenses as a function of mass and
@@ -1522,37 +1532,34 @@ lens}\,(M, \, z)$, we generate the abundance of halos at each mass and redshift
 using the \citet{Sheth:1999kx} formalism.  To describe $dN_{\rm source}/dz$, we
 adopt the following redshift distribution which is based on photometric
 redshifts of optical counterparts to ALMA sources identified in ALESS
-\citep{Simpson:2014lr} and has been modified to a lower redshift to reflect the
-relatively blue SPIRE colors of the sample:
+\citep{Simpson:2014lr}:
 
 \begin{equation}
     dN/dz \propto \frac{1}{a_z\sigma_z \sqrt{2\pi}}
     \exp\left( \frac{-[\ln(a_z) - \ln(1 + z_\mu)]^2} {2\sigma_z^2 a_z} \right),
 \end{equation}
 
-\noindent where $a_z = 1 + z$, $z_\mu = 1.5$, and $\sigma_z = 0.2$. 
+\noindent where $a_z = 1 + z$, $z_\mu = 1.5$ (to reflect the relatively blue
+SPIRE colors of the sample), and $\sigma_z = 0.2$.  Alternative
+values for $z_\mu$ and $\sigma_z$ yield second-order perturbations which are
+not significant at the level of our current analysis.
 
-We explore a variety of intrinsic luminosity functions that are described by
-either a single Schechter function or a broken-power law.  These luminosity
-functions are selected to represent the range of observed instrinsic luminosity
-functions for DSFGs, which are shown in the left panel of
-Figure~\ref{fig:lensstats} and are drawn from the ALESS survey
-\citep{Karim:2013lr} and from interferometric follow-up of the first AzTEC
-survey in COSMOS \citep{Scott:2008qy} using the SMA \citep{Younger:2007fk,
-Younger:2009lr} and PdBI \citep{Miettinen:2015lr}.  Interferometric follow-up
-data in COSMOS \citep{Smolcic:2012zl} and GOODS-N \citep{Barger:2012yg} are
-published, but unknown completeness corrections in the single-dish surveys on
-which these follow-up datasets are based precludes their use here.
+We explore two intrinsic luminosity functions that are intended to bracket the
+plausible range of values for DSFGs based on two interferometric surveys.  One
+is the luminosity function measured in ALESS \citep{Karim:2013lr}, and the
+other is from interferometric follow-up of the first AzTEC survey in COSMOS
+\citep{Scott:2008qy} using the SMA \citep{Younger:2007fk, Younger:2009lr} and
+PdBI \citep{Miettinen:2015lr}.  These interferometric observations have shown
+show that all of the sources in their surveys are either unlensed or lensed by
+magnification factors $<2$.  This is why the ALESS and COSMOS luminosity
+functions represent a plausible range of intrinsic luminosity functions for
+DSFGs.  These luminosity functions are shown in the left panel of
+Figure~\ref{fig:lensstats}.  Interferometric follow-up data in COSMOS
+\citep{Smolcic:2012zl} and GOODS-N \citep{Barger:2012yg} are published, but
+unknown completeness corrections in the single-dish surveys on which these
+follow-up datasets are based precludes their use here.
 
-The Shechter function we adopt has the usual form \citep{Schechter:1976yq}
-
-\begin{equation}
-\frac{dn}{dS^\prime} = \frac{n_\ast}{S_\ast}
-\left(\frac{S^\prime}{S_\ast}\right)^{-\alpha}
-\exp\left(\frac{-S^\prime}{S_\ast}\right),
-\end{equation}
-
-\noindent while the broken power-law has the form
+In detail, we use a broken power-law of the form
 
 \begin{equation}
 \frac{dn}{dS^\prime} = N_\ast\left(\frac{S^\prime}{S_\ast}\right)^{-\beta_1},~~~~\textrm{for}~S<S_\ast,
@@ -1562,34 +1569,26 @@ The Shechter function we adopt has the usual form \citep{Schechter:1976yq}
 \frac{dn}{dS^\prime} = N_\ast\left(\frac{S^\prime}{S_\ast}\right)^{-\beta_2},~~~~\textrm{for}~S>S_\ast.
 \end{displaymath}
 
-In Table~\ref{tab:models}, we provide information for two models tested in this
-paper: the \citet{Karim:2013lr} broken power-law that provides a good fit to
-ALESS number counts; and a broken power-law with a brighter break point
-($S_\ast = 15\,$mJy) that provides a good fit to the COSMOS luminosity function
-from \citet{Miettinen:2015lr}.  The interferometric observations in
-\citet{Miettinen:2015lr} show that all of the sources in their survey are
-either unlensed or lensed by magnification factors $<2$.  Therefore, the ALESS
-and COSMOS luminosity functions bracket the plausible range of intrinsic
-luminosity functions for DSFGs.  The data and corresponding luminosity
-functions are shown in the left panel of Figure~\ref{fig:lensstats}.
+Table~\ref{tab:models} provides values for the parameters of the broken
+power-law for the ALESS and COSMOS luminosity functions.  The data and
+corresponding luminosity functions are shown in the left panel of
+Figure~\ref{fig:lensstats}.
 
 \input{table_lf}
 
-The product of the model is the lensing optical depth for a given lensing galaxy
-and source galaxy. The sum over the distribution of source redshifts and lens
-masses and redshifts yields the total optical depth for lensing,  $f_\mu$. The
-lensing probability with magnification larger than $\mu$ is then calculated via
-$P(>\mu) = 1-\exp(-f_\mu)$ and the differential probability distribution is
-$P(\mu) = -dP(>\mu)/d\mu$.  The sum over the distribution of source redshifts
-and lens masses and redshifts yields the total probability distribution
-function.
+The product of the model is the lensing optical depth for a given lensing
+galaxy and source galaxy,  $f_\mu$. The lensing probability with magnification
+larger than $\mu$ is then calculated via $P(>\mu) = 1-\exp(-f_\mu)$ and the
+differential probability distribution is $P(\mu) = -dP(>\mu)/d\mu$.  The sum
+over the distribution of source redshifts and lens masses and redshifts yields
+the total probability distribution function.
 
 The fundamental measurement provided by the spatially resolved SMA and ALMA
 imaging and associated lens models is the magnification factor of a source with
-a given apparent $S_{870}$.  Due to the large size of the combined sample, we
-can compute the average magnification as a function of $S_{870}$ from the data:
-$\langle\mu_{870}\rangle$.  The same quantity can also be directly computed from our
-model as 
+a given apparent $S_{870}$.  We use the combined sample to compute the average
+magnification as a function of $S_{870}$ from the data:
+$\langle\mu_{870}\rangle$.  The same quantity can also be directly computed
+from our model as 
 
 \begin{equation}
     \langle\mu_{870}\rangle = \int_0^\infty \mu P(\mu|S_{870})  d\mu,
@@ -1693,11 +1692,11 @@ the intrinsic sizes of the lensed galaxies and hence under-predict the
 magnification factors.  For example, the half-light sizes of unlensed DSFGs
 have been found recently to be $\approx 0.8 \,$kpc \citep{Ikarashi:2014nr} and
 $\approx1.2\,$kpc \citep{Simpson:2015ty}.  In contrast, we reported a median
-half-light radius of $1.53\,$kpc in \citet{Bussmann:2013lr}.  Early lens models
-from higher resolution data with ALMA suggest that magnification factors could
-increase by a factor of $\approx 1.5$ \citep{Rybak:2015fk}.  Therefore, it is
-plausible that both of the intrinsic luminosity functions tested here provide
-statistically consistent fits to the data.
+half-light radius of $1.53\,$kpc in \citet{Bussmann:2013lr}.  Lens models from
+higher resolution data with ALMA suggest that magnification factors could
+increase by a factor of $\approx 1.5-2$ \citep{Rybak:2015fk, Tamura:2015lq,
+Dye:2015fp}.  Therefore, it is plausible that both of the intrinsic luminosity
+functions tested here provide statistically consistent fits to the data.
 
 A related but distinct test of the intrinsic luminosity functions for DSFGs
 comes from the probability of a given source experiencing a magnification above
@@ -1712,47 +1711,43 @@ Figure~\ref{fig:lensstats}.  Instead of computing a running average of the
 data, we show a logistic regression fit to the data \citep[obtained with the
 {\sc Scikit-learn} package;][]{scikitlearn}.
 
-In the low flux density regime ($S_{870} < 10\,$mJy), each model predicts that
-10\% of sources experience a magnification satisfying $\mu_{870} > 1.1$.  This
-is in disagreement with the data, which show that $\sim 30\%$ of sources in
-this flux density regime experience $\mu_{870} > 1.1$.  The cause of this
-discrepancy is unclear.  One possibility is simply that we are dealing with
-small number statistics.  We speculate that an alternative explanation might be
-related to the excess number of sources $dN/dA$ found in our ALMA maps with
-small separations from each other (reported in Section~\ref{sec:spatialdist}).
-Essentially, if the {\it Herschel} sources have a high multiplicity rate, with
-ALMA counterparts located close to each other, then adding a lens in front of
-the {\it Herschel} source will magnify {\it all} of the ALMA counterparts.  If,
-on the other hand, the ALMA counterparts were located far away from each other,
-then adding a lens in front of the {\it Herschel} source would not necessarily
-cause all ALMA counterparts to be magnified significantly.  For this reason, it
-is plausible that the observed values reported in this figure are biased
-upwards relative to the simulations outlined in Section~\ref{sec:statpredict}.
+%In the low flux density regime ($S_{870} < 10\,$mJy), each model predicts that
+%10\% of sources experience a magnification satisfying $\mu_{870} > 1.1$.  This
+%is in disagreement with the data, which show that $\sim 30\%$ of sources in
+%this flux density regime experience $\mu_{870} > 1.1$.  The cause of this
+%discrepancy is unclear.  One possibility is simply that we are dealing with
+%small number statistics.  We speculate that an alternative explanation might be
+%related to the excess number of sources $dN/dA$ found in our ALMA maps with
+%small separations from each other (reported in Section~\ref{sec:spatialdist}).
+%Essentially, if the {\it Herschel} sources have a high multiplicity rate, with
+%ALMA counterparts located close to each other, then adding a lens in front of
+%the {\it Herschel} source will magnify {\it all} of the ALMA counterparts.  If,
+%on the other hand, the ALMA counterparts were located far away from each other,
+%then adding a lens in front of the {\it Herschel} source would not necessarily
+%cause all ALMA counterparts to be magnified significantly.  For this reason, it
+%is plausible that the observed values reported in this figure are biased
+%upwards relative to the simulations outlined in Section~\ref{sec:statpredict}.
 
-In the high flux density regime ($S_{870} > 10\,$mJy), all
-three models as well as the running average in the data show a sharp transition
-from low probability to high probability of being lensed (for either $\mu_{\rm
-min} = 1.1$ or $\mu_{\rm min} = 2.0$).  However, there are major differences in
-where this transition occurs.  For example, the steep Schechter function
-predicts that 50\% of sources with $S_{870} = 50\,$mJy have $\mu_{870} < 1.1$.
-This is inconsistent with the data, which show that all sources with $S_{870} >
-50\,$mJy have $\mu_{870} > 1.1$.  The discrepancy is similar, albeit less
-severe, for the luminosity function from \citet{Karim:2013lr}, where 50\% of
-$S_{870} = 28\,$mJy sources are unlensed.  In contrast, the very steep broken
-power-law luminosity function yields a model in which 50\% of sources with
-$S_{870} = 10\,$mJy experience $\mu_{870} > 1.1$.  This is reasonably
-consistent with the running average from the data.  These results are
-qualitatively similar if the magnification threshold is increased from
-$\mu_{\rm min} = 1.1$ to $\mu_{\rm min} = 2.0$.
+Both models tested in this paper exhibit a sharp transition from low
+probability to high probability of being lensed, consistent with the data.
+However, there are significant differences in where this transition flux
+density, $S_{\rm trans}$, occurs --- i.e., where $P(\mu>\mu_{870}$ > 2).  In
+the data, the logistic regression fit yields $S_{\rm trans} = 24\,$mJy,
+whereas the models based on the ALESS and COSMOS luminosity functions yield
+$S_{\rm trans} = 37\,$mJy $S_{\rm trans} = 69\,$mJy, respectively. 
 
-If the steep power-law luminosity function is correct, the implications are
-significant.  We should then expect to find $\approx 1$ source satisfying
-$S_{870} > 10\,$mJy in a 1$\,$deg$^2$ survey.  This is about a factor of 3
-lower than the best-fit model in \citet{Karim:2013lr} and a factor of 7 lower
-than our steep Schechter function.  Moreover, it is a factor of 20 lower than
+Note caveats.
+
+This analysis highlights the difficulty encountered with the luminosity
+function based on the COSMOS data: unlensed sources with $S_{870} > 50\,$mJy
+are over-predicted and lensed sources with $S_{870} < 50\,$mJy are
+under-predicted.  If the ALESS luminosity function continues to be supported by
+the evidence as additional data are obtained, the implications are significant.
+We should then expect to find $\approx 3$ sources satisfying $S_{870} >
+10\,$mJy in a 1$\,$deg$^2$ survey.  This is about a factor of 7 lower than
 typical measurements from single-dish, broad-beam studies
-\citep[e.g.,][]{Weis:2009ly}.  This suggests that very luminous galaxies such as
-GN20 and HFLS3 may be much more rare than previously thought.
+\citep[e.g.,][]{Weis:2009ly}.  This suggests that very luminous galaxies such
+as GN20 and HFLS3 may be much more rare than previously thought.
 
 %The Schechter function used here is the steepest plausible given the observed
 %luminosity function in \citet{Karim:2013lr}.  This model best matches the
@@ -1805,36 +1800,37 @@ galaxy.  Our results from this effort are summarized as follows:
 
     \item When a {\it Herschel} source comprises multiple ALMA counterparts,
         these counterparts are typically located within 2$\arcsec$ of each
-        other.  Their separations are much smaller than ALMA counterparts to
-        ALESS sources as well as simulated sources from \citet{HB13}.  This
-        conclusion remains true even when we degrade our ALMA observations to
-        match the spatial resolution, sensitivity, and {\it uv} coverage of the
-        ALESS observations.
+        other.  Their separations are significantly smaller than ALMA
+        counterparts to ALESS sources as well as simulated sources from
+        \citet{HB13}.  This conclusion remains true even when we degrade our
+        ALMA observations to match the spatial resolution, sensitivity, and
+        {\it uv} coverage of the ALESS observations.
 
-    \item Model predictions for the range of magnifications experienced by
-        DSFGs in our sample indicate that a single Schechter function
-        under-predicts the number of lensed sources with apparent $S_{870} >
-        10\,$mJy.  Intrinsic luminosity functions with a broken power-law and a
-        very steep decrease above 8$\,$mJy make better predictions for the
-        fraction of lensed sources with $S_{870} > 10\,$mJy, but they also
-        predict somewhat higher average magnification factors than are seen in
-        combined sample of ALMA and SMA lens models.  This latter result could
-        be explained by limitations in the spatial resolution of the ALMA and
-        SMA imaging, which might lead to the lens models underestimating the
-        magnification factors.  
+    \item An intrinsic luminosity function for DSFGs with a form that matches
+        observations in COSMOS \citep{Miettinen:2015lr} under-predicts the
+        number of lensed sources with apparent $S_{870} > 10\,$mJy.  A
+        luminosity function based on ALESS observations provides a better match
+        to our magnification measurements.  The interpretation of these results
+        is complicated by the fact that our sample is likely biased towards
+        blends of multiple sources within a {\it Herschel} beam.  Our primary
+        goal is to draw attention to this analysis method as a means to test
+        luminosity functions of DSFGs using wide-field {\it Herschel} data. 
 
 \end{enumerate}
 
-Our findings suggest that galaxies with intrinsic flux densities above
-$S_{870}^\prime \approx 10\,$mJy are extremely rare.  One possible explanation
-for their rarity is that they are simply the tip of the mass function among
-starbursts.  An alternative is that they represent a very short phase in galaxy
-evolution.  Consistent with this idea is the high multiplicity rate in our ALMA
+If the ALESS luminosity function continues to provide the best predicted
+magnification factors in larger samples with weaker biases, this suggests that
+galaxies with intrinsic flux densities above $S_{870}^\prime \approx 10\,$mJy
+are extremely rare.  One possible explanation for their rarity is that they are
+simply the tip of the mass function among starbursts.  An alternative is that
+they represent a very short phase in galaxy evolution.  It is interesting to
+note that consistent with this idea is the high multiplicity rate in our ALMA
 sample as well as the small projected separations between multiple ALMA
 counterparts.  The inability of numerical simulations to reproduce the small
-projected separations seen in the data might reflect an incomplete theoretical
-understanding of the enhancement in star-formation by interactions and mergers
-of galaxies which are already forming stars at a very high rate.
+projected separations seen in the data might highlight a productive path
+forward to improve our theoretical understanding of the enhancement in
+star-formation by interactions and mergers of galaxies which are already
+forming stars at a very high rate.
 
 In the future, higher spatial resolution imaging is needed to investigate the
 morphologies of individual ALMA sources.  Tidal tails, multiple nuclei, and
@@ -1903,7 +1899,7 @@ Facilities: ALMA, Gemini-S.
 
 \appendix
 
-\section{{\it Herschel}/SPIRE Photometry}
+\section{{\it Herschel}/SPIRE Photometry}\label{sec:photometry}
 
 We present in Table~\ref{tab:photometry} SPIRE photometry ($S_{250}$,
 $S_{350}$, and $S_{500}$) for each {\it Herschel} source in our sample using as
