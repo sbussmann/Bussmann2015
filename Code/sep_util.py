@@ -56,7 +56,7 @@ def setThresh(fluxcomponent, thresh, fluxstring='f880'):
 
 
 def getSeparation(fluxcomponent, rastring='offra', decstring='offdec',
-        targetstring='target', fluxstring='f880'):
+        targetstring='target', fluxstring='f880', degrees=False):
 
     nindiv = len(fluxcomponent)
 
@@ -73,12 +73,16 @@ def getSeparation(fluxcomponent, rastring='offra', decstring='offdec',
         fluxs = fluxcomponent[fluxstring][match]
         nmatch = fluxcomponent[fluxstring][match].size
         try:
-            avgra = ras.mean() / 3600
-            avgdec = decs.mean() / 3600
-            ra = fluxcomponent[rastring][icomp] / 3600
-            dec = fluxcomponent[decstring][icomp] / 3600
-            newra = ras / 3600
-            newdec = decs / 3600
+            if degrees:
+                factor = 1.
+            else:
+                factor = 3600.
+            avgra = ras.mean() / factor
+            avgdec = decs.mean() / factor
+            ra = fluxcomponent[rastring][icomp] / factor
+            dec = fluxcomponent[decstring][icomp] / factor
+            newra = ras / factor
+            newdec = decs / factor
         except:
             newra = numpy.zeros(nmatch)
             newdec = numpy.zeros(nmatch)
@@ -182,7 +186,7 @@ def simPosition(fluxcomponent, distance=8.5, rastring='offra',
             randomra = uniform(low=lowra, high=highra)
             randomdec = uniform(low=lowdec, high=highdec)
         #print(randomra, randomdec)
-        c = SkyCoord(ra=randomra * u.degree, dec=randomdec * u.degree)
+        #c = SkyCoord(ra=randomra * u.degree, dec=randomdec * u.degree)
 
         fluxcomponent[rastring][icomp] = randomra
         fluxcomponent[decstring][icomp] = randomdec
@@ -193,7 +197,7 @@ def simPosition(fluxcomponent, distance=8.5, rastring='offra',
 
 def simArea(fluxcomponent, nsim, bin_edges, targetstring='target', 
         edgecolor='black', facecolor='none', hatch='', fluxstring='f880',
-        norm=1.0):
+        norm=1.0, label=''):
     nbins = bin_edges.size - 1
     supersep = numpy.zeros([nsim, nbins])
     for isim in range(nsim):
@@ -215,14 +219,14 @@ def simArea(fluxcomponent, nsim, bin_edges, targetstring='target',
     uppersep = mediansep + stdsep
     lowersep = mediansep - stdsep
 
-    plt.plot(xhist, mediansep, linestyle='--', color=edgecolor)
+    plt.plot(xhist, mediansep, linestyle='--', color=edgecolor, label=label)
     plt.fill_between(xhist, lowersep, y2=uppersep, hatch=hatch,
             facecolor=facecolor, edgecolor=edgecolor)
 
     return mediansep, stdsep, uppersep, lowersep
 
 def histArea(values, nbins, color='', norm=1.0, fmt='s', ms=6, linestyle='-',
-        drawstyle='default'):
+        drawstyle='default', showerror=True, mew=0.5, label=''):
     hist, bin_edges = numpy.histogram(values, bins=nbins)
     area1 = numpy.pi * bin_edges ** 2
     area2 = numpy.pi * numpy.roll(bin_edges, -1) ** 2
@@ -230,9 +234,11 @@ def histArea(values, nbins, color='', norm=1.0, fmt='s', ms=6, linestyle='-',
     area = area[0:-1]
     xhist = (bin_edges + numpy.roll(bin_edges, -1)) / 2.
     xhist = xhist[0:-1]
-    plt.plot(xhist, hist / area / norm, color=color, linestyle=linestyle,
-            linewidth=2, drawstyle=drawstyle)
+    plt.plot(xhist, hist / area / norm, fmt, color=color, linestyle=linestyle,
+            linewidth=2, drawstyle=drawstyle, ms=ms, mew=mew, label=label)
     #plt.fill_between(xhist, hist / area / norm, facecolor=color, alpha=0.2)
-    plt.plot(xhist, hist / area / norm, fmt, ms=ms, color=color)
-    plt.errorbar(xhist, hist / area / norm, yerr=numpy.sqrt(hist) / area / norm, fmt=fmt, ms=ms,
-            color=color, ecolor='gray', capsize=0)
+    #plt.plot(xhist, hist / area / norm, fmt, ms=ms, mew=mew, color=color)
+    if showerror:
+        plt.errorbar(xhist, hist / area / norm, yerr=numpy.sqrt(hist) / 
+                area / norm, fmt=fmt, ms=ms, color=color, ecolor='gray', 
+                capsize=0, mew=mew)

@@ -11,6 +11,7 @@ and radius 2.
 """
 
 from astropy.table import Table
+from astropy.io import ascii
 import matplotlib
 import matplotlib.pyplot as plt
 from pylab import savefig
@@ -19,6 +20,8 @@ import sep_util
 from scipy.io import readsav
 
 
+model = 'Hayward'
+
 # set font properties
 font = {'family' : 'Arial',
         'weight' : 'normal',
@@ -26,7 +29,7 @@ font = {'family' : 'Arial',
 matplotlib.rc('font', **font)
 matplotlib.rcParams['axes.linewidth'] = 1.2
 
-fig = plt.figure(figsize=(5.8, 4.5))
+fig = plt.figure(figsize=(4.5, 4.5))
 plt.clf()
 
 # Plotting parameters
@@ -79,17 +82,46 @@ dec_alma = numpy.array(sep_alma[3]) * 3600
 plt.plot(ra_alma, dec_alma, afmt, alpha=0.8, color=acolor, ms=ams, 
         label='Herschel-ALMA')
 
+#if model == 'Hayward':
 # add Hayward et al. simulated galaxies
-h13 = readsav('../Data/shane_data.sav')
+h13 = readsav('../Data/100_brightest_shane_data.sav')
 flux_h13 = h13['s850']
 #hithresh = flux_h13 > 2
-flux_h13 = h13['s850']#[hithresh]
-ra_h13 = h13['dra']#[hithresh]
-dec_h13 = h13['ddec']#[hithresh]
+flux_h13 = h13['bright_s850']#[hithresh]
+ra_h13 = h13['bright_dra']#[hithresh]
+dec_h13 = h13['bright_ddec']#[hithresh]
+smod = 'HB13'
+#else:
+c15 = ascii.read('../Data/SPIRE_ALMA_Cat_v4.txt')
+s500_c15 = c15['SourceS500']
+zc = c15['z']
+hithresh = (s500_c15 > 50) & (zc > 1)
+c15 = c15[hithresh]
+c15 = sep_util.rmSingles(c15, targetstring='SurveyID')
+nmultiples = len(c15)
 
-plt.hexbin(ra_h13, dec_h13, cmap='rainbow')
-cbar = plt.colorbar()
-cbar.set_label(r'$N_{\rm HB13}$')
+simc15 = sep_util.getSeparation(c15, degrees=True, rastring='GalaxyX', \
+        decstring='GalaxyY', fluxstring='GalaxyS850', targetstring='SurveyID')
+avgsep_c15, wmeansep_c15, ra_c15, dec_c15 = simc15
+
+ra_c15 = numpy.array(ra_c15) * 3600
+dec_c15 = numpy.array(dec_c15) * 3600
+
+#flux_c15 = c15['GalaxyS850']
+#ra_c15 = c15['GalaxyX']
+#dec_c15 = c15['GalaxyY']
+#smod = 'C15'
+
+#if model == 'Hayward':
+plt.plot(ra_h13, dec_h13, '+', color='blue', label='HB13')
+#else:
+plt.plot(ra_c15, dec_c15, 'x', color='orange', label='C15')
+#plt.hexbin(ra_c15, dec_c15, cmap='rainbow', gridsize=15)
+#cbar = plt.colorbar()
+#if model == 'Hayward':
+#    cbar.set_label(r'$N_{\rm HB13}$')
+#else:
+#cbar.set_label(r'$N_{\rm C15}$')
 
 xmin = -6
 ymin = -6

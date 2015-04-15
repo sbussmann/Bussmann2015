@@ -115,9 +115,9 @@ yyyerrbarger = fluxcomponent['S850'] / 10.
 # **********
 
 # Plotting parameters
-bargcolor = 'Black'
-bargms = 4
-bargfmt = '.'
+bargcolor = 'orange'
+bargms = 6
+bargfmt = 'x'
 
 # Load the data
 #fluxcomponent_file = '../Data/barger2012.dat'
@@ -302,8 +302,8 @@ ax1.plot(xxxhodge, yyyhodge, hodgefmt, ms=hodgems, mfc=hodgecolor,
 #        capsize=0)
 #ax1.plot(xxxbarger, yyybarger, bargfmt, ms=bargms, color=bargcolor, label='Barger+12')
 
-ax1.plot(xxxbarger, yyybarger, bargfmt, ms=bargms, color=bargcolor,
-        label='Cowley+2014 SAM')
+#ax1.plot(xxxbarger, yyybarger, bargfmt, ms=bargms, color=bargcolor,
+#        label='C15 Simulation', mew=1.2)
 #ax1.plot(xxxbarger, yyybarger, bargfmt, ms=bargms, color=bargcolor,
 #        mec='none', label='Cowley+2014')
 

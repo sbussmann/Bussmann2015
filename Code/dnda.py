@@ -11,6 +11,7 @@ and radius 2.
 """
 
 from astropy.table import Table
+from astropy.io import ascii
 import matplotlib
 import matplotlib.pyplot as plt
 from pylab import savefig
@@ -40,9 +41,9 @@ bin_edges = numpy.arange(0, nbins + 1, binwidth)
 # Herschel source and each LESS source.  So far, the factor of 3 was meant to
 # reproduce the median S500 flux density ratio, but S870 will be more accurate.
 
-simcolor = 'orange'
+simcolor = 'MediumSpringGreen'
 simms = 4
-simfmt = 's'
+simfmt = 's-'
 
 fluxcomponent_file = '../Data/table_ALESSsim.dat'
 fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
@@ -59,16 +60,44 @@ simalma = sep_util.getSeparation(fluxcomponent, rastring='ra_alma', \
 avgsep_simalma, wmeansep_simalma, ra_simalma, dec_simalma = simalma
 
 sep_util.histArea(avgsep_simalma, nbins, color=simcolor, fmt=simfmt, ms=simms,
-        norm=nmultiples)
+        norm=nmultiples, label='Herschel-ALMA ALESS-Sim')
 
 #sep_util.simArea(fluxcomponent, nsim, bin_edges, fluxstring='S_870_observed',
 #        edgecolor=asimcolor, facecolor='none', hatch='\\', norm=nmultiples)
+
+# *********
+# Cowley simulation
+# *********
+
+c15color = 'Orange'
+c15ms = 6
+c15fmt = 'x-'
+c15mew = 1.5
+
+c15 = ascii.read('../Data/SPIRE_ALMA_Cat_v4.txt')
+s500_c15 = c15['SourceS500']
+zc = c15['z']
+hithresh = (s500_c15 > 50) & (zc > 1)
+c15 = c15[hithresh]
+c15 = sep_util.rmSingles(c15, targetstring='SurveyID')
+nmultiples = len(c15)
+
+simc15 = sep_util.getSeparation(c15, degrees=True, rastring='GalaxyX', \
+        decstring='GalaxyY', fluxstring='GalaxyS850', targetstring='SurveyID')
+avgsep_c15, wmeansep_c15, ra_c15, dec_c15 = simc15
+sep_util.histArea(avgsep_c15, nbins, color=c15color, fmt=c15fmt,
+        ms=c15ms, norm=nmultiples, showerror=False, label='C15 Simulation',
+        mew=c15mew)
+
+# *********
+# ALESS
+# *********
 
 # Plotting parameters
 hodgecolor = 'LightPink'
 hodgesimcolor = 'LightPink'
 hodgems = 4
-hodgefmt = 'D'
+hodgefmt = 'D-'
 
 # Load the data
 fluxcomponent_file = '../Data/hodge2013.dat'
@@ -85,7 +114,7 @@ avgsep_hodge, wmeansep_hodge, ra_hodge, dec_hodge = hodge
 deltasep = avgsep_hodge.max() - avgsep_hodge.min()
 #nbins = deltasep / binwidth
 sep_util.histArea(avgsep_hodge, nbins, color=hodgecolor, fmt=hodgefmt,
-        ms=hodgems, norm=nmultiples)
+        ms=hodgems, norm=nmultiples, label='ALESS')
 
 indexsort = numpy.argsort(avgsep_hodge)
 avgsep_hodge = avgsep_hodge[indexsort]
@@ -97,7 +126,7 @@ for i in range(nflux):
 #plt.plot(avgsep_hodge, sumflux_hodge)
 
 # plot simulated positions
-nsim = 100
+nsim = 1000
 #sep_util.simArea(fluxcomponent, nsim, bin_edges, targetstring='lessid',
 #        edgecolor=hodgesimcolor, facecolor='none', hatch='//', norm=nmultiples)
 
@@ -107,9 +136,9 @@ nsim = 100
 
 # plotting parameters
 acolor = 'green'
-asimcolor = 'green'
+asimcolor = '0.2'
 ams = 5
-afmt = 's'
+afmt = 's-'
 
 fluxcomponent_file = '../Data/table_intrinsic.dat'
 fluxcomponent = Table.read(fluxcomponent_file, format='ascii')
@@ -134,16 +163,18 @@ for i in range(nflux):
 #import pdb; pdb.set_trace()
 
 sep_util.histArea(avgsep_alma, nbins, color=acolor, fmt=afmt, ms=ams,
-        norm=nmultiples)
+        norm=nmultiples, label='Herschel-ALMA')
 
 sep_util.simArea(fluxcomponent, nsim, bin_edges, fluxstring='f870',
-        edgecolor=asimcolor, facecolor='none', hatch='\\', norm=nmultiples)
+        edgecolor=asimcolor, facecolor='none', hatch='\\', norm=nmultiples,
+        label='Randomly Distributed')
 
 hayward = Table.read('../Data/dNdA_40arcsec_bright.txt', format='ascii')
 xxx = hayward['separation']
 yyy = hayward['dNdA']
 
-plt.plot(xxx, yyy, color='blue', linewidth=2, label='HB13 Simulation')
+plt.plot(xxx, yyy, '+-', ms=8, mew=1.5, color='blue', linewidth=1.5, 
+        label='HB13 Simulation')
 
 #import pdb; pdb.set_trace()
 
@@ -155,7 +186,7 @@ xmax = 6
 ymax = 0.15
 plt.axis([xmin, xmax, ymin, ymax])
 
-plt.xlabel(r'${\rm Angular\,Separation\,from\,Centroid\,(arcsec)}$', fontsize='large')
+plt.xlabel(r'${\rm Radial\,Offset\,from\,Centroid\,(arcsec)}$', fontsize='large')
 plt.ylabel(r'$dN/dA \, ({\rm arcsec}^{-2}$)', fontsize='large')
 plt.minorticks_on()
 plt.tick_params(width=1.2, which='both')
@@ -163,13 +194,14 @@ plt.tick_params(length=2, which='minor')
 plt.tick_params(length=4, which='major')
 
 fake = numpy.arange(2) + 1e5
-plt.plot(fake, color=hodgecolor, label='ALESS')
-#plt.plot(fake, color=hodgesimcolor, linestyle='--', 
-#        label='Hodge+13 Random')
-plt.plot(fake, color=acolor, label='Herschel-ALMA')
-plt.plot(fake, color=simcolor, label='Herschel-ALMA ALESS-Sim')
-plt.plot(fake, color=asimcolor, linestyle='--', 
-        label='Randomly Distributed')
+#plt.plot(fake, color=hodgecolor, label='ALESS')
+#plt.plot(fake, 'x-', ms=6, mew=2, linewidth=1.5, color=c15color, label='C15 Simulation')
+##plt.plot(fake, color=hodgesimcolor, linestyle='--', 
+##        label='Hodge+13 Random')
+#plt.plot(fake, color=acolor, label='Herschel-ALMA')
+#plt.plot(fake, color=simcolor, label='Herschel-ALMA ALESS-Sim')
+#plt.plot(fake, color=asimcolor, linestyle='--', 
+#        label='Randomly Distributed')
 plt.legend(loc='upper right', numpoints=1, handletextpad=0.35, borderpad=0.4,
         labelspacing=0.18, handlelength=1.0)
 leg = plt.gca().get_legend()

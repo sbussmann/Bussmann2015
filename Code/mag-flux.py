@@ -200,17 +200,18 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False,
         #plt.plot(xx, yy, color=color, linestyle=linestyle, linewidth=1.5)
         #print(key, xx[find_nearest(yy, 0.5)])
         if fill:
-            pass
-            #sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
-            #        format='ascii')
-            #y1 = fractiondata['karim'] - sigmadata['karim']
-            #y2 = fractiondata['karim'] + sigmadata['karim']
+            #pass
+            sigmadata = Table.read('../Data/Sig_2_30powerlaw.txt',
+                    format='ascii')
+            sigmadata = sigmadata[ok]
+            y1 = fractiondata['karim'] - sigmadata['karim']
+            y2 = fractiondata['karim'] + sigmadata['karim']
             #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-4, alpha=0.3)
-            #plt.fill_between(xx, y1, y2, facecolor='none', zorder=-4,
-            #        edgecolor=color, hatch='\\\\')
+            plt.fill_between(xx, y1, y2, facecolor='none', zorder=-4,
+                    edgecolor=color, hatch='\\\\')
         if addlabel:
             plt.plot(xx, yy, color=color, linestyle=linestyle, 
-                    label='Karim+ 2013', linewidth=1.5)
+                    label='ALESS', linewidth=1.5)
 
         # predicted P(mu) for Steep LF
         key = 'break15'
@@ -223,16 +224,17 @@ def Pmu_model(modloc, linestyle='solid', lf='Powerlaw', fill=False,
         print(key, xx[find_nearest(yy, 0.5)])
         if addlabel:
             plt.plot(xx, yy, color=color, linestyle=linestyle, 
-                    label=r'$S_\star = 15\,$mJy', linewidth=1.5)
+                    label='COSMOS', linewidth=1.5)
 
         if fill:
-            pass
-            #sigmadata = Table.read('../Data/Sig_1p1_30powerlaw.txt',
-            #        format='ascii')
-            #y1 = fractiondata['break15'] - sigmadata['break15']
-            #y2 = fractiondata['break15'] + sigmadata['break15']
-            #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-5)
-            #plt.fill_between(xx, y1, y2, facecolor=color, zorder=-5)
+            #pass
+            sigmadata = Table.read('../Data/Sig_2_30powerlaw.txt',
+                    format='ascii')
+            sigmadata = sigmadata[ok]
+            y1 = fractiondata['break15'] - sigmadata['break15']
+            y2 = fractiondata['break15'] + sigmadata['break15']
+            plt.fill_between(xx, y1, y2, facecolor='none', zorder=-5, 
+                    edgecolor=color, hatch='//')
 
         # predicted P(mu) for Flat LF
         #yy = fractiondata['flat']
@@ -426,7 +428,7 @@ plt.clf()
 # Broken power-law luminosity function
 #Pmu_model('../Data/Fractions_PL_1p1_30_z1p5.txt', linestyle='solid')
 #Pmu_model('../Data/Fractions_1p2_30powerlaw.txt', linestyle='--')
-Pmu_model('../Data/Fractions_PL_2_30_z1p5.txt', linestyle='solid')
+Pmu_model('../Data/Fractions_PL_2_30_z1p5.txt', linestyle='solid', fill=False)
 
 #Pmu(Stot, mutot, 1.0, linestyle='-.')
 #thresh = 1.1
