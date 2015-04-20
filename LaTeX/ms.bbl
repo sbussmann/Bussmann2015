@@ -1,4 +1,4 @@
-\begin{thebibliography}{105}
+\begin{thebibliography}{106}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -537,6 +537,24 @@
   {Hodge}, J.~A., {Ivison}, R.~J., {Karim}, A., {Knudsen}, K.~K., {Poggianti},
   B.~M., {Schinnerer}, E., {Thomson}, A.~P., {Walter}, F., {Wardlow}, J.~L.,
   {Wei{\ss}}, A., \& {van der Werf}, P.~P. 2014, \apj, 788, 125
+
+\bibitem[{{Smith} {et~al.}(2012){Smith}, {Wang}, {Oliver}, {Auld}, {Bock},
+  {Brisbin}, {Burgarella}, {Chanial}, {Chapin}, {Clements}, {Conversi},
+  {Cooray}, {Dowell}, {Eales}, {Farrah}, {Franceschini}, {Glenn}, {Griffin},
+  {Ivison}, {Mortier}, {Page}, {Papageorgiou}, {Pearson}, {P{\'e}rez-Fournon},
+  {Pohlen}, {Rawlings}, {Raymond}, {Rodighiero}, {Roseboom}, {Rowan-Robinson},
+  {Savage}, {Scott}, {Seymour}, {Symeonidis}, {Tugwell}, {Vaccari},
+  {Valtchanov}, {Vigroux}, {Ward}, {Wright}, \& {Zemcov}}]{Smith:2012uq}
+{Smith}, A.~J., {Wang}, L., {Oliver}, S.~J., {Auld}, R., {Bock}, J., {Brisbin},
+  D., {Burgarella}, D., {Chanial}, P., {Chapin}, E., {Clements}, D.~L.,
+  {Conversi}, L., {Cooray}, A., {Dowell}, C.~D., {Eales}, S., {Farrah}, D.,
+  {Franceschini}, A., {Glenn}, J., {Griffin}, M., {Ivison}, R.~J., {Mortier},
+  A.~M.~J., {Page}, M.~J., {Papageorgiou}, A., {Pearson}, C.~P.,
+  {P{\'e}rez-Fournon}, I., {Pohlen}, M., {Rawlings}, J.~I., {Raymond}, G.,
+  {Rodighiero}, G., {Roseboom}, I.~G., {Rowan-Robinson}, M., {Savage}, R.,
+  {Scott}, D., {Seymour}, N., {Symeonidis}, M., {Tugwell}, K.~E., {Vaccari},
+  M., {Valtchanov}, I., {Vigroux}, L., {Ward}, R., {Wright}, G., \& {Zemcov},
+  M. 2012, \mnras, 419, 377
 
 \bibitem[{{Smol{\v c}i{\'c}} {et~al.}(2012){Smol{\v c}i{\'c}}, {Aravena},
   {Navarrete}, {Schinnerer}, {Riechers}, {Bertoldi}, {Feruglio}, {Finoguenov},
