@@ -38,7 +38,7 @@ Star-forming Galaxies}
 \author{R.~S.~Bussmann\altaffilmark{1},
 D.~Riechers\altaffilmark{1},
 A.~Fialkov\altaffilmark{2},
-J.~M.~Scudder\altaffilmark{3},
+J.~Scudders\altaffilmark{3},
 C.~C.~Hayward\altaffilmark{4,5},
 W.~Cowley\altaffilmark{6},
 J.~Bock\altaffilmark{7,8},
@@ -67,7 +67,7 @@ J.~Wardlow\altaffilmark{24}}
 instruments provided by European-led Principal Investigator consortia and with
 important participation from NASA.}
 \altaffiltext{1}{Department of Astronomy, Space Science Building, Cornell University, Ithaca, NY, 14853-6801}
-\altaffiltext{2}{Departement de Physique, Ecole Normale Sup erieure, CNRS, 24 rue Lhomond, Paris, 75005 France}
+\altaffiltext{2}{Departement de Physique, Ecole Normale Superieure, CNRS, 24 rue Lhomond, 75005 Paris, France}
 \altaffiltext{3}{Astronomy Centre, Dept. of Physics \& Astronomy, University of Sussex, Brighton BN1 9QH, UK}
 \altaffiltext{4}{TAPIR 350-17, California Institute of Technology, 1200 E. California Boulevard, Pasadena, CA 91125}
 \altaffiltext{5}{Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge, MA 02138}
@@ -89,8 +89,8 @@ important participation from NASA.}
 \altaffiltext{21}{Department of Astrophysics, Denys Wilkinson Building, University of Oxford, Keble Road, Oxford OX1 3RH, UK}
 \altaffiltext{22}{Department of Physics \& Astronomy, University of British Columbia, 6224 Agricultural Road, Vancouver, BC V6T~1Z1, Canada}
 \altaffiltext{23}{Department of Astronomy and Department of Physics, University of Illinois, 1002 West Green Street, Urbana, IL 61801}
-\altaffiltext{24}{Dark Cosmology Centre, Niels Bohr Institute, University of Copenhagen, Juliane Maries Vej 30, 2100 Copenhagen, Denmark}
-
+\altaffiltext{24}{Dark Cosmology Centre, Niels Bohr Institute, University of
+Copenhagen, Juliane Maries Vej 30, 2100 Copenhagen, Denmark}
 
 %\newpage
 
@@ -317,7 +317,7 @@ Herschel}-ALMA sample fills the gap in 500$\,\mu$m flux density space between
 In detail, two of the sources in the {\it Herschel}-ALMA sample (HXMM01 and
 HXMM02) overlap with the ``confirmed lensed'' sample in \citet{Wardlow:2013lr}
 as well as with the {\it Herschel}-SMA sample in \citet{Bussmann:2013lr}.  A
-further eght appear in the ``Supplementary sample'' of \citet{Wardlow:2013lr}.
+further eight appear in the ``Supplementary sample'' of \citet{Wardlow:2013lr}.
 The remainder have $S_{500} < 80\,$mJy and thus do not appear in
 \citet{Wardlow:2013lr}.
 
@@ -1608,15 +1608,15 @@ factors consistent with our ALMA and SMA observations.
 To describe $\rho_{\rm lens}\,(r)$, we use a superposition of a singular
 isothermal sphere (SIS) and a Navarro-Frenk-White (NFW) profile
 \citep{Navarro:1997ys} that is truncated at the virial radius.  The NFW profile
-describes the outskirts of dark matter halos better, while the SIS profile is
-preferred on smaller scales because it correctly fits the observed flat
-rotational curves in galaxies.  We make sure that the resulting probability
-density of lensing, $P\,(\mu)$, is normalized to unity.  To describe $n_{\rm
-lens}\,(M, \, z)$, we generate the abundance of halos at each mass and redshift
-using the \citet{Sheth:1999kx} formalism.  To describe $dN_{\rm source}/dz$, we
-adopt the following redshift distribution which is based on photometric
-redshifts of optical counterparts to ALMA sources identified in ALESS
-\citep{Simpson:2014lr}:
+describes the outskirts of dark matter halos better \citep{Mandelbaum:2005lr},
+while the SIS profile is preferred on smaller scales because it correctly fits
+the observed flat rotational curves in galaxies \citep{Kochanek:1994fk}.  We
+make sure that the resulting probability density of lensing, $P\,(\mu)$, is
+normalized to unity.  To describe $n_{\rm lens}\,(M, \, z)$, we generate the
+abundance of halos at each mass and redshift using the \citet{Sheth:1999kx}
+formalism.  To describe $dN_{\rm source}/dz$, we adopt the following redshift
+distribution which is based on photometric redshifts of optical counterparts to
+ALMA sources identified in ALESS \citep{Simpson:2014lr}:
 
 \begin{equation}
     dN/dz \propto \frac{1}{a_z\sigma_z \sqrt{2\pi}}
@@ -1634,7 +1634,7 @@ is the luminosity function measured in ALESS \citep{Karim:2013lr}, and the
 other is from interferometric follow-up of the first AzTEC survey in COSMOS
 \citep{Scott:2008qy} using the SMA \citep{Younger:2007fk, Younger:2009lr} and
 PdBI \citep{Miettinen:2015lr}.  These interferometric observations have shown
-show that all of the sources in their surveys are either unlensed or lensed by
+that all of the sources in their surveys are either unlensed or lensed by
 magnification factors $<2$.  This is why the ALESS and COSMOS luminosity
 functions represent a plausible range of intrinsic luminosity functions for
 DSFGs.  These luminosity functions are shown in the left panel of
@@ -1815,13 +1815,11 @@ data, we show a logistic regression fit to the data \citep[obtained with the
 Both models tested in this paper exhibit a sharp transition from low
 probability to high probability of being lensed, consistent with the data.
 However, there are significant differences in where this transition flux
-density, $S_{\rm trans}$, occurs --- i.e., where $P(\mu>\mu_{870}$ > 2).  In
+density, $S_{\rm trans}$, occurs --- i.e., where $P(\mu>\mu_{870}) > 2$.  In
 the data, the logistic regression fit yields $S_{\rm trans} = 24\pm3\,$mJy
 (error accounts only for statistical uncertainty in $S_{870}$ and $\mu_{870}$),
 whereas the models based on the ALESS and COSMOS luminosity functions yield
 $S_{\rm trans} = 37\,$mJy $S_{\rm trans} = 69\,$mJy, respectively. 
-
-Note caveats.
 
 This analysis highlights the difficulty encountered with the luminosity
 function based on the COSMOS data: unlensed sources with $S_{870} > 50\,$mJy

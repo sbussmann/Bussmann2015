@@ -1,4 +1,4 @@
-\begin{thebibliography}{101}
+\begin{thebibliography}{104}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -331,6 +331,9 @@
   {Primack}}]{Klypin11}
 {Klypin}, A.~A., {Trujillo-Gomez}, S., \& {Primack}, J. 2011, \apj, 740, 102
 
+\bibitem[{{Kochanek}(1994)}]{Kochanek:1994fk}
+{Kochanek}, C.~S. 1994, \apj, 436, 56
+
 \bibitem[{{Komatsu} {et~al.}(2011){Komatsu}, {Smith}, {Dunkley}, {Bennett},
   {Gold}, {Hinshaw}, {Jarosik}, {Larson}, {Nolta}, {Page}, {Spergel},
   {Halpern}, {Hill}, {Kogut}, {Limon}, {Meyer}, {Odegard}, {Tucker}, {Weiland},
@@ -358,6 +361,11 @@
   {Le Borgne}, {Frayer}, \& {Willmer}}]{Magnelli:2011ul}
 {Magnelli}, B., {Elbaz}, D., {Chary}, R.~R., {Dickinson}, M., {Le Borgne}, D.,
   {Frayer}, D.~T., \& {Willmer}, C.~N.~A. 2011, \aap, 528, A35+
+
+\bibitem[{{Mandelbaum} {et~al.}(2005){Mandelbaum}, {Tasitsiomi}, {Seljak},
+  {Kravtsov}, \& {Wechsler}}]{Mandelbaum:2005lr}
+{Mandelbaum}, R., {Tasitsiomi}, A., {Seljak}, U., {Kravtsov}, A.~V., \&
+  {Wechsler}, R.~H. 2005, \mnras, 362, 1451
 
 \bibitem[{{Merson} {et~al.}(2013){Merson}, {Baugh}, {Helly}, {Gonzalez-Perez},
   {Cole}, {Bielby}, {Norberg}, {Frenk}, {Benson}, {Bower}, {Lacey}, \&
@@ -392,6 +400,11 @@
   {Ilbert}, O., {Bertoldi}, F., {Capak}, P., {Feruglio}, C., {Halliday}, C.,
   {Kartaltepe}, J.~S., {Navarrete}, F., {Salvato}, M., {Sanders}, D.,
   {Schinnerer}, E., \& {Sheth}, K. 2015, ArXiv e-prints
+
+\bibitem[{{Miller} {et~al.}(2015){Miller}, {Hayward}, {Chapman}, \&
+  {Behroozi}}]{Miller:2015lr}
+{Miller}, T.~B., {Hayward}, C.~C., {Chapman}, S.~C., \& {Behroozi}, P.~S. 2015,
+  ArXiv e-prints
 
 \bibitem[{{Narayanan} {et~al.}(2010){Narayanan}, {Hayward}, {Cox}, {Hernquist},
   {Jonsson}, {Younger}, \& {Groves}}]{Narayanan:2010lr}
