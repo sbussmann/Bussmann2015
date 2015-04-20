@@ -4,44 +4,44 @@ The top-level auxiliary file: ms.aux
 The style file: apj.bst
 Database file #1: msNotes.bib
 Database file #2: rbussman.bib
-You've used 104 entries,
+You've used 105 entries,
             2948 wiz_defined-function locations,
-            1261 strings with 34695 characters,
-and the built_in function-call counts, 74118 in all, are:
-= -- 5294
-> -- 8046
+            1266 strings with 35021 characters,
+and the built_in function-call counts, 74751 in all, are:
+= -- 5342
+> -- 8106
 < -- 35
-+ -- 2981
-- -- 2865
-* -- 7611
-:= -- 14523
-add.period$ -- 104
-call.type$ -- 104
-change.case$ -- 1345
-chr.to.int$ -- 98
-cite$ -- 104
-duplicate$ -- 1954
-empty$ -- 2764
-format.name$ -- 3201
-if$ -- 13436
++ -- 3003
+- -- 2886
+* -- 7674
+:= -- 14644
+add.period$ -- 105
+call.type$ -- 105
+change.case$ -- 1356
+chr.to.int$ -- 99
+cite$ -- 105
+duplicate$ -- 1973
+empty$ -- 2792
+format.name$ -- 3225
+if$ -- 13554
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 104
-newline$ -- 316
-num.names$ -- 416
-pop$ -- 1363
+missing$ -- 105
+newline$ -- 319
+num.names$ -- 420
+pop$ -- 1375
 preamble$ -- 1
-purify$ -- 1345
+purify$ -- 1356
 quote$ -- 0
-skip$ -- 1643
+skip$ -- 1659
 stack$ -- 0
-substring$ -- 2076
+substring$ -- 2100
 swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 933
+type$ -- 942
 warning$ -- 0
-while$ -- 404
+while$ -- 408
 width$ -- 0
-write$ -- 1033
+write$ -- 1043

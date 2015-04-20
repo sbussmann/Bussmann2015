@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{105}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -405,6 +405,13 @@
   {Behroozi}}]{Miller:2015lr}
 {Miller}, T.~B., {Hayward}, C.~C., {Chapman}, S.~C., \& {Behroozi}, P.~S. 2015,
   ArXiv e-prints
+
+\bibitem[{{Mu{\~n}oz Arancibia} {et~al.}(2015){Mu{\~n}oz Arancibia},
+  {Navarrete}, {Padilla}, {Cora}, {Gawiser}, {Kurczynski}, \&
+  {Ruiz}}]{Munoz-Arancibia:2015qy}
+{Mu{\~n}oz Arancibia}, A.~M., {Navarrete}, F.~P., {Padilla}, N.~D., {Cora},
+  S.~A., {Gawiser}, E., {Kurczynski}, P., \& {Ruiz}, A.~N. 2015, \mnras, 446,
+  2291
 
 \bibitem[{{Narayanan} {et~al.}(2010){Narayanan}, {Hayward}, {Cox}, {Hernquist},
   {Jonsson}, {Younger}, \& {Groves}}]{Narayanan:2010lr}
