@@ -23,6 +23,7 @@ mu_estimate = False
 cwd = os.getcwd()
 
 observed = ascii.read('../Data/table_observed.dat')
+#observed.sort('target')
 
 # read in the sample targets
 anloc = '../../../../ModelFits/'
@@ -62,7 +63,7 @@ for itarg in range(0, ntarg):
     e500 = dataphot['e500'][itarg]
     strfmt = '{0:12} ${1:4.0f} \pm {2:2.0f}$ & ${3:4.0f} \pm {4:2.0f}$ & ' \
             + '${5:4.0f} \pm {6:2.0f}$'
-    print(strfmt.format(objname, s250, e250, s350, e350, s500, e500))
+    #print(strfmt.format(objname, s250, e250, s350, e350, s500, e500))
     fitdir = anloc + dataname[itarg] + '/' + goodfit + '/'
     os.chdir(fitdir)
 
@@ -354,6 +355,8 @@ for itarg in range(0, ntarg):
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
             #print(msgfmt)
 
+        #if nsource > 1:
+        #    print(' ')
         for isource in range(nsource):
 
             pbcorr = observed['pbcorr'][sourcecounter]
@@ -386,7 +389,7 @@ for itarg in range(0, ntarg):
             if tag2 in fitresults.keys():
                 if fitresultsgood[tag2].mean() == 100:
                     continue
-                observedflux = fluxdist / pbcorr * fitresultsgood[tag2] / remu
+                observedflux = fluxdist / pbcorr * fitresultsgood[tag2]# / remu
                 mu_indiv = remu#fitresultsgood[tag2].mean()
                 e_mu_indiv = e_remu#fitresultsgood[tag2].std()
             else:
@@ -473,7 +476,7 @@ for itarg in range(0, ntarg):
                     numpy.cos(decdeg_centroid) / 3600
             decdeg = decdeg_centroid + (ddecdeg_source) / 3600
             c = SkyCoord(ra=radeg*u.degree, dec=decdeg*u.degree)
-            #fullRADec = c.to_string('hmsdms', sep=':')
+            fullRADec = c.to_string('hmsdms', sep=':')
 
             # Effective Radius
             tag1 = 'Size_Source' + ss + '_Region' + sr
@@ -591,14 +594,16 @@ for itarg in range(0, ntarg):
 
             msg = '{0:15} ${1:6.3f}\pm{2:5.3f}$ & ${3:6.3f}\pm{4:5.3f}$ & ${5:5.2f}\pm{6:5.2f}$ & ${7:5.3f}\pm{8:5.3f}$ & ${9:5.2f}\pm{10:5.2f}$ & ${11:3.0f}\pm{12:3.0f}$ & ${13:5.2f}\pm{14:5.2f}$ \\\\'
             #msg = '{0:15} {1:6.3f} {2:5.3f} {3:6.3f} {4:5.3f}  {5:5.2f} {6:5.2f}  {7:5.3f} {8:5.3f}  {9:5.2f} {10:5.2f}  {11:3.0f} {12:3.0f}  {13:5.2f} {14:5.2f}'
-            msgfmt = msg.format(datanamesource, dradeg_source, e_dradeg_source,
-                ddecdeg_source, e_ddecdeg_source, 
-                flux_indiv, e_flux_indiv, size_indiv, e_size_indiv, q_indiv, 
-                e_q_indiv, phi_indiv, e_phi_indiv, mu_indiv, e_mu_indiv)
-            if nsource > 1:
-                print('             --- & --- & --- ')
+            #msgfmt = msg.format(datanamesource, dradeg_source, e_dradeg_source,
+            #    ddecdeg_source, e_ddecdeg_source, 
+            #    flux_indiv, e_flux_indiv, size_indiv, e_size_indiv, q_indiv, 
+            #    e_q_indiv, phi_indiv, e_phi_indiv, mu_indiv, e_mu_indiv)
+            #if nsource > 1:
+            #    print('             --- & --- & --- ')
             #msg = '{0:.2f} {1:.2f}'
             #msgfmt = msg.format(mu_indiv, e_mu_indiv)            
+            msg = '{0:15} {1:29} ${2:5.2f}\pm{3:5.2f}$ {4:5.2f} {5:.2f} {6:.2f}'
+            msgfmt = msg.format(datanamesource, fullRADec, flux_indiv, e_flux_indiv, pbcorr, remu, e_remu)
             #msg = '{0:15} {1:29} {2:.2f} {3:.2f} {4:.2f} {5:.2f} {6:.2f}'
             #msgfmt = msg.format(datanamesource, fullRADec, flux_indiv, e_flux_indiv, pbcorr, remu, e_remu)
             #print(msgfmt)
@@ -613,7 +618,10 @@ for itarg in range(0, ntarg):
     #decdeg = decdeg_centroid
     #c = SkyCoord(ra=radeg*u.degree, dec=decdeg*u.degree)
     #fullRADec = c.to_string('hmsdms', sep=':')
-    msg = '{0:20} {1:.2f} {2:.2f}'
+    msg = '{0:20} ${1:5.2f}\pm{2:5.2f}$'
     msgfmt = msg.format(objname, flux_measure, flux_error)
-    #print(msgfmt)
+    print(msgfmt)
+    for i in range(nsource):
+        if nsource > 1:
+            print(' ')
 

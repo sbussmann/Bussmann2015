@@ -1,0 +1,21 @@
+Dear Fabian (Scientific Editor),
+
+In reviewing our manuscript post-submission, we noticed three errors that we wish to correct prior to receiving the referee report.  We describe these errors below and have uploaded a revised text which corrects them.  None of the errors affect our conclusions in any way, but it is nevertheless important to correct them as early as possible.
+
+1. The 870um flux densities reported in Table 1 were not corrected for primary beam attentuation effects.  In the revised text, this correction factor has been applied appropriately.
+
+2. In Table 3, the flux densities were computed using an incorrect primary beam attenuation factor related to different sorting criteria in the table containing the primary beam correction factors and the table containing the intrinsic source flux densities from the lens models.  The following sources were affected: HELAISS02, HXMM29, HXMM01, HXMM20, HXMM09, HXMM03, HECDFS12, HECDFS04, HADFS02, HADFS04, HADFS10, HADFS09, HADFS03, and HCOSMOS02.  This has been corrected in the revised text.  Note that the magnification factors listed in this table were listed out of order as well, and this has been corrected in the revised text as well.
+
+The flux densities used to make figures 5, 6, and 8 were affected by this bug, so these figures are updated in the revised text as well (although the differences are so slight that it is difficult to observe them when comparing the two versions of the text).
+
+3. In Figure 2, the rotation of some of the HST images is incorrect. The following objects were affected: HADFS08, HADFS04, HECDFS04, HXMM05, HXMM12, HADFS11, HADFS09, and HADFS03.  This has been corrected in the revised text.
+
+There are two other very minor changes in the revised text:
+
+a. the affiliation of M. Jarvis has been updated.
+
+b. the plotting color for the COSMOS luminosity function in the left panel has been changed from "black" to "light blue", purely for cosmetic reasons.
+
+c. in table 1: two targets had mislabeled "short names" ("HHADFS09" and "HHXMM12").  These are corrected now.
+
+d. added an ESO acknowledgement.

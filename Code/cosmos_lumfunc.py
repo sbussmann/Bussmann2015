@@ -230,9 +230,9 @@ dndS[high] = dndS2[high]
 line3, = plt.plot(Svector, dndS, color='blue', lw=1.5,
         label=r'PL, $S_\star = 15\,{\rm mJy}$')
 
-data1, = plt.plot(bin_centers, diff890, 'o', label='COSMOS', color='black')
+data1, = plt.plot(bin_centers, diff890, 'o', label='COSMOS', color='#A9D0F5')
 plt.errorbar(bin_centers, diff890, yerr=e_diff890, fmt='o',
-        ecolor='gray', capsize=0, color='black')
+        ecolor='gray', capsize=0, color='#A9D0F5')
 data2, = plt.plot(alessfluxes, alesscounts, 'D', label='ALESS', color='pink')
 plt.errorbar(alessfluxes, alesscounts, yerr=e_alesscounts, fmt='D',
         ecolor='gray', capsize=0, color='pink')

@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{107}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Aravena} {et~al.}(2010){Aravena}, {Bertoldi}, {Carilli},
@@ -217,7 +217,7 @@
 {Goodman}, J. \& {Weare}, J. 2010, Communications in Applied Mathematics and
   Computational Science, 5, 65
 
-\bibitem[{{Griffin} {et~al.}(2010)}]{2010A&A...518L...3G}
+\bibitem[{{Griffin} {et~al.}(2010)}]{Griffin:2010lr}
 {Griffin}, M.~J. {et~al.} 2010, \aap, 518, L3+
 
 \bibitem[{{Guo} {et~al.}(2013){Guo}, {White}, {Angulo}, {Henriques}, {Lemson},
@@ -315,6 +315,19 @@
 
 \bibitem[{{Ivison} {et~al.}(2013)}]{Ivison:2013fk}
 {Ivison}, R.~J. {et~al.} 2013, \apj, 772, 137
+
+\bibitem[{{Jarvis} {et~al.}(2013){Jarvis}, {Bonfield}, {Bruce}, {Geach},
+  {McAlpine}, {McLure}, {Gonz{\'a}lez-Solares}, {Irwin}, {Lewis}, {Yoldas},
+  {Andreon}, {Cross}, {Emerson}, {Dalton}, {Dunlop}, {Hodgkin}, {Le},
+  {Karouzos}, {Meisenheimer}, {Oliver}, {Rawlings}, {Simpson}, {Smail},
+  {Smith}, {Sullivan}, {Sutherland}, {White}, \& {Zwart}}]{Jarvis:2013lr}
+{Jarvis}, M.~J., {Bonfield}, D.~G., {Bruce}, V.~A., {Geach}, J.~E., {McAlpine},
+  K., {McLure}, R.~J., {Gonz{\'a}lez-Solares}, E., {Irwin}, M., {Lewis}, J.,
+  {Yoldas}, A.~K., {Andreon}, S., {Cross}, N.~J.~G., {Emerson}, J.~P.,
+  {Dalton}, G., {Dunlop}, J.~S., {Hodgkin}, S.~T., {Le}, F.~O., {Karouzos}, M.,
+  {Meisenheimer}, K., {Oliver}, S., {Rawlings}, S., {Simpson}, C., {Smail}, I.,
+  {Smith}, D.~J.~B., {Sullivan}, M., {Sutherland}, W., {White}, S.~V., \&
+  {Zwart}, J.~T.~L. 2013, \mnras, 428, 1281
 
 \bibitem[{{Jiang} {et~al.}(2014){Jiang}, {Helly}, {Cole}, \&
   {Frenk}}]{Jiang:2014lr}
